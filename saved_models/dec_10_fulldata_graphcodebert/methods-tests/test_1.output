@@ -1,0 +1,88 @@
+@Test    public void testSetValue()    {        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void testIsAllSet() {        for (int i = 0; i < 10; i++) {            bitField.getValue(i);        }    }
+@Test    public void testIsSet() {        for (int i = 0; i < 10; i++) {            bitField.isSet(i);        }    }
+@Test    public void testIsSet() {        for (int i = 0; i < 10; i++) {            bitField.isSet(i);        }    }
+@Test    public void testSetValue()    {        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShortValue() {        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void setShortValue() {        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void setShortBoolean() {        assertEquals((short) 0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void setShortBoolean() {        assertEquals((short) 0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void setByteBoolean() {        assertEquals((byte) 0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void setByteBoolean() {        assertEquals((byte) 0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setBoolean() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test	public void testGetValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test	public void testGetValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test    public void testGetShortValue() {        for (int i = 0; i < 10; i++) {            bitField.getShortValue(i);        }    }
+@Test    public void testGetShortValue() {        for (int i = 0; i < 10; i++) {            bitField.getShortValue(i);        }    }
+@Test    public void testGetShortRawValue() {        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));    }
+@Test    public void testGetShortRawValue() {        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));    }
+@Test	public void testGetRawValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test	public void testGetRawValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testClearShort() {        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testClearShort() {        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test  public void testClearByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test  public void testClearByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test  public void testClearByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test	public void testGetValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void testSetValue()    {        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );        assertEquals( 0, bitField.getValue( 0, 0 ) );    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void testClear() {        for (int i = 0; i < 10; i++) {            bitField.clear(i);        }    }
+@Test    public void testClearShort() {        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test	public void testGetRawValue() {		Assert.assertEquals(0, bitField.getValue(0));		Assert.assertEquals(1, bitField.getValue(1));	}
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setBoolean() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setBoolean() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void testIsAllSet() {        for (int i = 0; i < 10; i++) {            bitField.getValue(i);        }    }
+@Test    public void testIsAllSet() {        for (int i = 0; i < 10; i++) {            bitField.getValue(i);        }    }
+@Test    public void testIsSet() {        for (int i = 0; i < 10; i++) {            bitField.isSet(i);        }    }
+@Test    public void testGetShortRawValue() {        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));        assertEquals((short) 0, bitField.getShortRawValue((short) 0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test    public void setShortBoolean() {        assertEquals((short) 0, bitField.getShortValue(0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test  public void setByte() {    assertEquals((byte) 0, bitField.getValue((byte) 0));    assertEquals((byte) 0, bitField.getValue((byte) 0));  }
+@Test    public void setByteBoolean() {        assertEquals((byte) 0, bitField.getShortValue(0));    }
+@Test    public void testGetShortValue() {        for (int i = 0; i < 10; i++) {            bitField.getShortValue(i);        }    }
+@Test    public void setShortValue() {        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));        assertEquals((short) 0, bitField.getShortValue((short) 0));    }
+@Test    public void testSet() {        for (int i = 0; i < 10; i++) {            bitField.set(i);        }    }
+@Test    public void setShort() {        assertEquals(0, bitField.getShortValue(0));    }
+@Test(expected = IllegalArgumentException.class)    public void testIllegalArgumentException() throws Exception {        new Expectations() {            {                new Expectations() {                      {                           result = true;                      }                }           };        }
