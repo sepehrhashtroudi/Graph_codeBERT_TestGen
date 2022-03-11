@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --gres=gpu:4       # Request GPU "generic resources"
-#SBATCH --cpus-per-task=8  # Refer to cluster's documentation for the right CPU/GPU ratio
-#SBATCH --mem=32000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
+#SBATCH --cpus-per-task=10  # Refer to cluster's documentation for the right CPU/GPU ratio
+#SBATCH --mem=80000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
 #SBATCH --time=3-03:00     # DD-HH:MM:SS
 
 source ./Env/bin/activate
@@ -11,14 +11,16 @@ source ./Env/bin/activate
 source=methods
 target=tests
 lr=1e-4
-batch_size=32
+batch_size=16
 beam_size=10
-source_length=320
-target_length=256
-output_dir=saved_models/dec_10_fulldata_graphcodebert/$source-$target/
-train_file=dataset/train.$source,dataset/train.$target
-dev_file=dataset/eval.$source,dataset/eval.$target
-epochs=100
+source_length=512
+target_length=512
+output_dir=saved_models/dec_6_fulldata_contex_graphcodebert_512_512/$source-$target/
+train_file=dataset/train_final.$source,dataset/train_final.$target
+dev_file=dataset/eval_final.$source,dataset/eval_final.$target
+# train_file=dataset/small/train_final_500.$source,dataset/small/train_final_500.$target
+# dev_file=dataset/small/eval_final_500.$source,dataset/small/eval_final_500.$target
+epochs=40
 pretrained_model=graphcodebert-base
 
 mkdir -p $output_dir

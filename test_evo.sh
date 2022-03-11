@@ -14,11 +14,13 @@ beam_size=10
 source_length=512
 target_length=320
 batch_size=64
-output_dir=saved_models/dec_6_evosuit_graphcodebert_512_320/$source-$target/
+output_dir=saved_models/dec_10_fulldata_graphcodebert/$source-$target/
 # dev_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
 # test_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
-dev_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
-test_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
+# test_file=dataset/combined/eval_combined.$source,dataset/combined/eval_combined.$target
+test_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
+
+# test_file=dataset/combined/Evosuit_train.$source,dataset/combined/Evosuit_train.$target
 load_model_path=$output_dir/checkpoint-best-bleu/pytorch_model.bin #checkpoint for test
 #change above line idiot EDfadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
@@ -31,7 +33,6 @@ python run.py \
 --tokenizer_name graphcodebert-base \
 --config_name graphcodebert-base \
 --load_model_path $load_model_path \
---dev_filename $dev_file \
 --test_filename $test_file \
 --output_dir $output_dir \
 --max_source_length $source_length \
