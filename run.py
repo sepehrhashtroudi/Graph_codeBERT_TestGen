@@ -604,12 +604,15 @@ def main():
                 with torch.no_grad():
                     preds = model(source_ids,source_mask,position_idx,att_mask)  
                     for pred in preds:
-                        t=pred[0].cpu().numpy()
-                        t=list(t)
-                        if 0 in t:
-                            t=t[:t.index(0)]
-                        text = tokenizer.decode(t,clean_up_tokenization_spaces=False)
-                        p.append(text)
+                        beams = []  #added by sepehr
+                        for beam in pred[0:5]:
+                            t=beam.cpu().numpy()
+                            t=list(t)
+                            if 0 in t:
+                                t=t[:t.index(0)]
+                            text = tokenizer.decode(t,clean_up_tokenization_spaces=False)
+                            beams.append(text)
+                        p.append(beams)
             model.train()
             predictions=[]
             accs=[]
@@ -619,11 +622,11 @@ def main():
                     f.write(ref+'\n')
                     f1.write(gold.target+'\n')    
                     accs.append(ref==gold.target)
-            dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 
-                                 os.path.join(args.output_dir, "test_{}.output".format(str(idx))).format(file)),2)
-            logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
+            #dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 
+            #                    os.path.join(args.output_dir, "test_{}.output".format(str(idx))).format(file)),2)
+            #logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
             logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
-            logger.info("  "+"*"*20)   
+            #logger.info("  "+"*"*20)   
             
 if __name__ == "__main__":
     main()
