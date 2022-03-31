@@ -1,3 +1,4 @@
+
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
 # Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
@@ -604,14 +605,14 @@ def main():
                 with torch.no_grad():
                     preds = model(source_ids,source_mask,position_idx,att_mask)  
                     for pred in preds:
-                        beams = []  #added by sepehr
+                        beams = ""  #added by sepehr
                         for beam in pred[0:5]:
                             t=beam.cpu().numpy()
                             t=list(t)
                             if 0 in t:
                                 t=t[:t.index(0)]
                             text = tokenizer.decode(t,clean_up_tokenization_spaces=False)
-                            beams.append(text)
+                            beams = beams + " ########## " + text
                         p.append(beams)
             model.train()
             predictions=[]
@@ -619,7 +620,7 @@ def main():
             with open(os.path.join(args.output_dir,"test_{}.output".format(str(idx))),'w') as f, open(os.path.join(args.output_dir,"test_{}.gold".format(str(idx))),'w') as f1:
                 for ref,gold in zip(p,eval_examples):
                     predictions.append(ref)
-                    f.write(ref+'\n')
+                    f.write(ref+"\n")
                     f1.write(gold.target+'\n')    
                     accs.append(ref==gold.target)
             #dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 

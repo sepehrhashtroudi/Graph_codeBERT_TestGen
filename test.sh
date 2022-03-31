@@ -4,7 +4,7 @@
 #SBATCH --mem=32000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
 #SBATCH --time=1-8:00     # DD-HH:MM:SS
 
-source ./Env/bin/activate
+source ./ENV/bin/activate
 
 
 source=methods
@@ -12,11 +12,11 @@ target=tests
 lr=1e-4
 beam_size=10
 source_length=512
-target_length=320
+target_length=512
 batch_size=32
-output_dir=saved_models/dec_6_combined_contex_graphcodebert_512_320/$source-$target/
-dev_file=dataset/small/eval_evo_80.$source,dataset/evosuit/eval_evo_80.$target
-test_file=dataset/small/eval_evo_80.$source,dataset/evosuit/eval_evo_80.$target
+output_dir=saved_models/dec_6_combined_contex_graphcodebert_512_512/$source-$target/
+dev_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
+test_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
 # dev_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
 # test_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
 load_model_path=$output_dir/checkpoint-best-bleu/pytorch_model.bin #checkpoint for test
