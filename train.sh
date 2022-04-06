@@ -2,7 +2,7 @@
 #SBATCH --gres=gpu:4       # Request GPU "generic resources"
 #SBATCH --cpus-per-task=10  # Refer to cluster's documentation for the right CPU/GPU ratio
 #SBATCH --mem=100000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
-#SBATCH --time=4-03:00     # DD-HH:MM:SS
+#SBATCH --time=2-03:00     # DD-HH:MM:SS
 
 source ./Env/bin/activate
 source ./ENV/bin/activate
@@ -13,14 +13,14 @@ target=tests
 lr=1e-4
 batch_size=16
 beam_size=10
-source_length=512
+source_length=510
 target_length=240
-output_dir=saved_models/dec_6_eval_test_data_contex_Assert_graphcodebert_511_240/$source-$target/
+output_dir=saved_models/dec_6_eval_test_data_contex_Assert_graphcodebert_510_240/$source-$target/
 train_file=dataset/eval_Assert.$source,dataset/eval_Assert.$target
 dev_file=dataset/test_Assert.$source,dataset/test_Assert.$target
-# train_file=dataset/small/train_final_500.$source,dataset/small/train_final_500.$target
-# dev_file=dataset/small/eval_final_500.$source,dataset/small/eval_final_500.$target
-epochs=40
+# train_file=dataset/small/train_evo_80.$source,dataset/small/train_evo_80.$target
+# dev_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
+epochs=10
 pretrained_model=graphcodebert-base
 
 mkdir -p $output_dir
@@ -41,4 +41,6 @@ python run.py \
 --train_batch_size $batch_size \
 --eval_batch_size $batch_size \
 --learning_rate $lr \
---num_train_epochs $epochs 2>&1| tee $output_dir/train.log
+--cal_blue 0 \
+--num_train_epochs $epochs 2>&1| tee $output_dir/train.log 
+

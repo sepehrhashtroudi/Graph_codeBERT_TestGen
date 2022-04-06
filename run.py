@@ -62,6 +62,7 @@ dfg_function={
 
 logger = logging.getLogger(__name__)
 #load parsers
+
 parsers={}        
 for lang in dfg_function:
     LANGUAGE = Language('parser/my-languages.so', lang)
@@ -376,10 +377,13 @@ def main():
                         help="For distributed training: local_rank")   
     parser.add_argument('--seed', type=int, default=42,
                         help="random seed for initialization")
+    parser.add_argument("--cal_blue", type=int, default=1,
+    help="calculate the blue score")
+    
     # print arguments
     args = parser.parse_args()
     logger.info(args)
-
+    logger.info(args.cal_blue)
     # Setup CUDA, GPU
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.n_gpu = torch.cuda.device_count()
@@ -562,23 +566,42 @@ def main():
                         f.write(ref+'\n')
                         f1.write(gold.target+'\n')     
                         accs.append(ref==gold.target)
+                if args.cal_blue == 1:
+                    dev_bleu=round(_bleu(os.path.join(args.output_dir, "dev.gold"), os.path.join(args.output_dir, "dev.output")),2)
+                    xmatch=round(np.mean(accs)*100,4)
+                    logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
+                    logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
+                    logger.info("  "+"*"*20)    
+                    if dev_bleu+xmatch>best_bleu:
+                        logger.info("  Best BLEU+xMatch:%s",dev_bleu+xmatch)
+                        logger.info("  "+"*"*20)
+                        best_bleu=dev_bleu+xmatch
+                        # Save best checkpoint for best bleu
+                        output_dir = os.path.join(args.output_dir, 'checkpoint-best-bleu')
+                        if not os.path.exists(output_dir):
+                            os.makedirs(output_dir)
+                        model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
+                        output_model_file = os.path.join(output_dir, "pytorch_model.bin")
+                        torch.save(model_to_save.state_dict(), output_model_file)
+                elif args.cal_blue == 0: 
+                    #dev_bleu=round(_bleu(os.path.join(args.output_dir, "dev.gold"), os.path.join(args.output_dir, "dev.output")),2)
+                    dev_bleu = 0
+                    xmatch=round(np.mean(accs)*100,4)
+                    #logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
+                    logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
+                    logger.info("  "+"*"*20)    
+                    if dev_bleu+xmatch>best_bleu:
+                        logger.info("  Best BLEU+xMatch:%s",dev_bleu+xmatch)
+                        logger.info("  "+"*"*20)
+                        best_bleu=dev_bleu+xmatch
+                        # Save best checkpoint for best bleu
+                        output_dir = os.path.join(args.output_dir, 'checkpoint-best-bleu')
+                        if not os.path.exists(output_dir):
+                            os.makedirs(output_dir)
+                        model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
+                        output_model_file = os.path.join(output_dir, "pytorch_model.bin")
+                        torch.save(model_to_save.state_dict(), output_model_file)
 
-                dev_bleu=round(_bleu(os.path.join(args.output_dir, "dev.gold"), os.path.join(args.output_dir, "dev.output")),2)
-                xmatch=round(np.mean(accs)*100,4)
-                logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
-                logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
-                logger.info("  "+"*"*20)    
-                if dev_bleu+xmatch>best_bleu:
-                    logger.info("  Best BLEU+xMatch:%s",dev_bleu+xmatch)
-                    logger.info("  "+"*"*20)
-                    best_bleu=dev_bleu+xmatch
-                    # Save best checkpoint for best bleu
-                    output_dir = os.path.join(args.output_dir, 'checkpoint-best-bleu')
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)
-                    model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
-                    output_model_file = os.path.join(output_dir, "pytorch_model.bin")
-                    torch.save(model_to_save.state_dict(), output_model_file)
                
     if args.do_test:
         files=[]
@@ -619,11 +642,19 @@ def main():
                     f.write(ref+'\n')
                     f1.write(gold.target+'\n')    
                     accs.append(ref==gold.target)
-            dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 
-                                 os.path.join(args.output_dir, "test_{}.output".format(str(idx))).format(file)),2)
-            logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
-            logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
-            logger.info("  "+"*"*20)   
+            if args.cal_blue == 1: 
+                dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 
+                                    os.path.join(args.output_dir, "test_{}.output".format(str(idx))).format(file)),2)
+                logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
+                logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
+                logger.info("  "+"*"*20)  
+            elif args.cal_blue == 0: 
+                #dev_bleu=round(_bleu(os.path.join(args.output_dir, "test_{}.gold".format(str(idx))).format(file), 
+                                    #os.path.join(args.output_dir, "test_{}.output".format(str(idx))).format(file)),2)
+                dev_bleu = 0
+                logger.info("  %s = %s "%("bleu-4",str(dev_bleu)))
+                logger.info("  %s = %s "%("xMatch",str(round(np.mean(accs)*100,4))))
+                logger.info("  "+"*"*20)  
             
 if __name__ == "__main__":
     main()

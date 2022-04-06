@@ -1,0 +1,1000 @@
+
+
+
+
+[EOL] assertEquals(expectedJson, actualJson)
+[EOL] assertEquals(0, numEntries.length)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] [EOL] assertNotNull(jsonObject)
+
+
+
+
+
+[EOL] assertEquals(expected, actualItems)
+
+
+
+[EOL] assertNotNull(actualJson)
+
+[EOL] assertNotNull(exception)
+
+
+
+
+
+[EOL] assertTrue(result.isPresent())
+[EOL] assertNotNull(result)
+
+[EOL] assertNotNull(privateKey)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, result)
+
+
+[EOL] assertEquals(0, wrapper.getDate())
+
+
+
+[EOL] assertEquals(expResult, result)
+
+
+[EOL] assertNotNull(builder)
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+[EOL] Assert.assertEquals(out, out)
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expResult, result)
+[EOL] assertNotNull(result)
+
+
+[EOL] assertNotNull(builder.build())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, filterA)
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+[EOL] [EOL] assertEquals("foo", resolvedHeader)
+
+
+
+
+[EOL] assertTrue(file.exists())
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(id1, id2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, retrieved)
+
+
+[EOL] assertFalse(entity.isValid())
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(info)
+
+
+
+
+
+[EOL] assertNotNull(value)
+[EOL] assertThat(result).isPresent()
+
+
+
+
+
+[EOL] assertNotNull(resource)
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(seed)
+
+
+[EOL] assertEquals(distance, distance)
+
+
+
+
+
+
+
+
+[EOL] [EOL] assertNotNull(prefix)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+[EOL] assertNotNull(exception)
+
+
+[EOL] assertNotNull(readInt)
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(error)
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+[EOL] assertEquals(expected, result)
+[EOL] Assert.assertEquals(1, hosts.size())
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(events)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(1, actualSize)
+
+
+
+
+
+
+[EOL] assertEquals(HttpStatus.OK, responseEntity.getStatusCode()); [EOL] assertEquals(responseEntityExpected, responseEntity)
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] Assert.assertEquals(2, regions.size())
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(1, ancestors.size())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expectedValue, result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(token)
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(id1, id2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] [EOL] assertEquals(0, result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] [EOL] assertEquals(0, values.length)
+
+
+
+
+
+[EOL] assertEquals(expected, cf.getParameters())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(name)
+
+
+
+
+
+
+
+
+[EOL] assertFalse(s.isEmpty())
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+
+
+@Test [EOL] void getCount() { [EOL] assertEquals(1, instance.getCount())
+
+
+
+
+[EOL] assertNotNull(t)
+[EOL] assertFalse(event.isConnected())
+
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+[EOL] assertNotNull(output)
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(c)
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertEquals(expectedResult, actualResult)
+
+[EOL] [EOL] assertNotNull(message)
+
+
+
+
+
+
+[EOL] assertNotNull(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] Assert.assertEquals(expected, buffer)
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+[EOL] assertNotNull(response)
+[EOL] assertEquals(expected, results)
+[EOL] Assert.assertEquals(expected, actual)
+[EOL] assertNotNull(version)
+[EOL] assertEquals(expected, header)
+@Test [EOL] public void testGetToken() { [EOL] assertEquals("token", configuration.getToken())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(3, result)
+
+[EOL] assertNotNull(objects)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+
+[EOL] assertNotNull(token)
+
+
+
+
+
+
+
+
+[EOL] assertEquals(id, builder.id())
+
+
+
+[EOL] assertNotNull(result)
+
+
+
+
+
+
+[EOL] assertEquals(1, values.size())
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertNotNull(componentName)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(3, result)
+
+
+
+[EOL] assertNotNull(adapter)
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+
+
+[EOL] assertEquals(1, count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(0, result.size())
+
+
+[EOL] [EOL] assertEquals(0, task.get())
+
+
+
+
+
+
+
+[EOL] assertNotNull(privateKey)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(element)
+[EOL] [EOL] assertNotNull(request)
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(bytes)
+
+
+
+[EOL] assertNotNull(error)
+[EOL] Assert.assertEquals(expected, prefix)
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+[EOL] assertEquals(1, array.toString())
+
+
+
+
+[EOL] assertNotNull(md.getColumn())
+
+
+[EOL] assertNotNull(result)
+[EOL] assertNotNull(oldValue)
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, expected)
+
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+
+[EOL] assertNotNull(created)
+
+
+
+
+
+
+[EOL] assertEquals(expectedJson, actualJson)
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertEquals(1, instance.getSize())
+
+
+
+
+
+[EOL] assertFalse(valid)
+
+
+
+[EOL] assertEquals(0, url.getPath())
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertNotNull(result)
+
+
+[EOL] assertNotNull(lines)
+
+
+
+
+[EOL] [EOL] assertNotNull(context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Test [EOL] void getSymbol() { [EOL] assertNotNull(SymbolUtil.getSymbol())
+
+[EOL] assertFalse(t.hasAttributes())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(provider)
+
+
+
+[EOL] [EOL] assertEquals(1, items.size())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[EOL] Assert.assertEquals(1, builder.size())
+
+
+
+
+[EOL] assertEquals(fromId, fromId)
+
+
+
+
+
+[EOL] [EOL] assertFalse(map.isEmpty())
+
+
+
+
+
+
+
+
+
+
+[EOL] assertEquals(expected, actual)
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+
+
+
+
+
+
+
+[EOL] assertNotNull(decrypted)
+
+
+
+
+
+
+[EOL] assertNotNull(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
