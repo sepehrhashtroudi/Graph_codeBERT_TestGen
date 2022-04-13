@@ -1,0 +1,1000 @@
+[EOL]       assertEquals((-1), mutableFloat0.intValue())
+assertTrue(cmp.compare(v1)); [EOL] assertTrue(cmp.compare(v2));
+assertEquals(Arrays.asList(Tuple.class));
+assertTrue(true);
+assertThat(b.getCondition(), is(nullValue())); [EOL] assertThat(res.getConditions(), is(true));
+assertEquals(0, state.getState(i)); [EOL] assertEquals(0, state.getState(i)); [EOL] assertEquals(0.0, state.getState(i)); [EOL] assertEquals(0, state.getState(i)); [EOL] assertEquals(0, state.getState(i)); [EOL] assertEquals(0, state.getState(i));
+assertNotNull(cache); [EOL] assertEquals(1, timer.getTimer().size());
+assertThrows(InvalidArgumentException.class, () -> {
+[EOL]       assertEquals(0, list0.size())
+assertThat(blocks.size()).isEqualTo(1); [EOL] assertThat(blocks.size()).isEqualTo(1);
+[EOL]       assertTrue(equalsBuilder1.build())
+Assert.assertEquals(1, entries.size()); [EOL] Assert.assertEquals(2, entries.size());
+assertNotNull(retrieved);
+assertThat(bytes).isNotNull();
+assertFalse(client.isEnabled());
+assertThat(nodes.size()).isEqualTo(1);
+assertFalse(result);
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertTrue(file.exists());
+[EOL]       assertEquals(1, charSequenceArray0.length)
+assertEquals(3, [EOL] assertEquals(3, [EOL] assertTrue(fileList.length);
+[EOL]       assertTrue(object1.equals((Object)string0))  [EOL]       assertTrue(object2.equals((Object)string1))  [EOL]       assertTrue(object2.equals((Object)string0))  [EOL]       assertTrue(object2.equals((Object)string1))  [EOL]       assertTrue(object2.equals((Object)string2))  [EOL]       assertTrue(object2.equals((Object)string2
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))
+Assert.assertEquals( [EOL] Assert.assertEquals(
+assertThat(mUnit.getValue()).isEqualTo(1); [EOL] assertThat(mUnit.getValue()).isEqualTo(1);
+Assertions.assertThat(file.getFile()).isEqualTo(0); [EOL] Assertions.assertThat(file1.getFileName()).isEqualTo(1); [EOL] Assertions.assertThat(file1.getFileName()).isEqualTo(1); [EOL] Assertions.assertThat(file1.getFileName()).isEqualTo(1);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+Assert.assertEquals(1, source.getName());
+assertTrue(s.exists(context));
+assertEquals(0, count);
+assertThat(l.toString()).isEqualTo("a"); [EOL] assertThat(l.toString()).isEqualTo("b");
+assertFalse(hl7.isTemplate());
+assertEquals(scenarioCodes.size(), 2);
+assertArrayEquals(new String[] {
+assertThat(metacard.getDeg(), is(30));
+assertThat(actual).isEqualTo(mock);
+assertThat(logger.getLoggerName()).isEqualTo(0);
+assertThrows(AuthenticationException.class, () -> delegate.handle(request));
+assertNotNull(commands); [EOL] 		assertTrue(commands.isEmpty());
+assertThat(testValue).isFalse();
+assertEquals(200, [EOL] assertEquals(1, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, params.length);
+assertTrue(converter.toString(null));
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertTrue(class.getName() );
+assertFalse(cut.isDone());
+assertEquals(accessController.getName(), "1");
+[EOL]       assertEquals("]", standardToStringStyle0.getEnd())
+Assert.assertArrayEquals(new String[] {
+assertThat(expected.get()).isEqualTo(0);
+assertEquals(3, mappings.size()); [EOL] assertEquals(3, mappings.size()); [EOL] assertEquals(3, mappings.size());
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertTrue(t.equals(tuple));
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertThat(e.getMessage())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertEquals(3, count); [EOL] assertEquals(3, count); [EOL] assertEquals(3, count); [EOL] assertEquals(3, count);
+assertThat(matches).isEqualTo("1");
+assertEquals(1, count);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())
+assertEquals(URL, result);
+assertNotNull(obj); [EOL] assertEquals(1, [EOL] assertEquals(0.0, (int)c); [EOL] assertEquals(0.0, (int)c); [EOL] assertEquals(1, (int)c); [EOL] assertEquals(1, (int)c);
+Assertions.assertTrue(v1.equals(v1)); [EOL] Assertions.assertTrue(v2.equals(v2));
+Assert.assertEquals("first", second.getFirstName()); [EOL] Assert.assertEquals("first", second.getFirstName()); [EOL] Assert.assertEquals("first", first.getFirstName()); [EOL] Assert.assertEquals("second", second.getFirstName()); [EOL] Assert.assertEquals("second", second.getFirstName()); [EOL] Assert.assertEquals("second", first.getFirstName());
+assertThat(null, is(nullValue()));
+assertThat(actual).isEqualTo(3); [EOL] assertThat(metacard.get()).isEqualTo(0);
+assertNotNull(object);
+assertEquals(3, sut.getSeen() );
+[EOL]       assertFalse(boolean0)
+assertEquals(expected, actual);
+assertThat(testEvents.size()).isEqualTo(1); [EOL] assertThat(testEvents.size()).isEqualTo(1);
+Assert.assertEquals(ACCESS_TOKEN, accessToken.getToken());
+assertEquals(Code, response.getStatus());
+assertThat(actual).isEqualTo(0);
+assertEquals(0, result.size());
+[EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertTrue(integer1.equals((Object)int0))  [EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertTrue(integer0.equals((Object)int0
+assertEquals(1, s.size()); [EOL] assertEquals(2, schedule.get(0));
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+[EOL]       assertEquals(0.0, fraction1.doubleValue(), 0.01)
+assertTrue(result); [EOL] assertTrue(result);
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertEquals(expected, actual);
+Assert.assertEquals("1", group.getName()); [EOL] Assert.assertEquals("group1", group.getName()); [EOL] Assert.assertEquals("group2", group.getName());
+assertEquals(1, count);
+assertEquals("name", result);
+assertThat(path).isEqualTo(PATH); [EOL] assertThat(path.getPath()).isEqualTo(PATH);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+[EOL]       assertEquals(0L, long0)
+assertEquals(SimpleType.STRING.STRING, value.getValue());
+assertNotNull(repository); [EOL] assertEquals(1, list.size());
+assertThrows(IllegalArgumentException.class, () ->
+Assert.assertEquals(expected, result);
+assertThat(securityGroup).isFalse();
+assertEquals(100, result );
+Assert.assertNotNull(response.getStatus());
+assertNotNull(expression);
+assertThrows(RuntimeException.class, () -> {
+assertThat(result).isNotNull();
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertEquals(1, violations.size()); [EOL] assertEquals(expected, result.get(0));
+assertThat(line.getLineText()).isEqualTo(Line); [EOL] 		assertThat(lineBuilder.getLineText()).isEqualTo("LIN); [EOL] 		assertThat(lineBuilder.getLineText()).isEqualTo("LIN);
+[EOL]       assertEquals(0.0F, fraction0.getValue())
+[EOL]       assertEquals(0L, long0)
+Assert.assertNotNull(response.getStatus());
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+Assert.assertEquals(mDay.getDate(), mCalendar.getFirstDate());
+assertEquals(0, defaultValues.length);
+assertThat(metrics).isEqualTo(metrics);
+assertTrue(auth.isValid());
+assertThat(logEvents.size()).isEqualTo(1);
+[EOL]       assertTrue(boolean0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertThat(res).isEmpty();
+[EOL]       assertNull(boolean0)
+Assert.assertEquals(3, Capabilities.size()); [EOL] Assert.assertEquals(100, Capabilities.get(0));
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(2, apps.size()); [EOL] assertEquals(2, apps.size()); [EOL] assertEquals(0, apps.size());
+assertThat(cbExplosion).isEqualTo(callTimeoutException.class);
+Assert.assertEquals(Date.toString(), value.toString());
+Assert.assertTrue(signature.isEmpty()); [EOL] Assert.assertTrue(signature.isEmpty()); [EOL] Assert.assertTrue(atomicService.isEmpty());
+[EOL]       assertTrue(strBuilder0.equals((Object)strBuilder0))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder0))  [EOL]       assertTrue(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder1))
+[EOL]       assertEquals(0, strBuilder0.length())
+assertThat(buffer.getBuffer()).isEqualTo(10);
+assertTrue(puddCaptor.getValue() instanceof ProxyPopupPath);
+assertEquals(expectedQuery, actual);
+assertEquals(expectedResponse, actualResponse);
+[EOL]       assertSame(toStringBuilder0, toStringBuilder0)
+assertEquals(3, props.size());
+Assert.assertNotNull(e); [EOL] Assert.assertEquals(1, entries.size());
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertThat(capturedCaptor.getValue().getValue()).isEmpty();
+assertFalse(converter.canHandle(null));
+assertEquals(expectedJsonString, actualJsonString);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+[EOL]       assertEquals(1, string0)
+[EOL]       assertFalse(boolean0)
+assertThat(logEvents.size()).isEqualTo(1);
+[EOL]       assertEquals(630, hashCodeBuilder0.toHashCode())
+assertThat(exception.getMessage(),
+Assertions.assertTrue(v1.equals(v1)); [EOL] Assertions.assertTrue(v2.equals(v2));
+[EOL]       assertEquals((-1), mutableFloat0.toLong())
+assertEquals(0, result.getGroup().size());
+[EOL]       assertEquals("", stringBuffer0.toString())
+assertNull(metacard.get());
+Assert.assertEquals(0, defaultValue);
+assertThat(model.getName()).isEqualTo(NAME);
+assertThat(result).isTrue();
+assertThat(String.toString()).isEqualTo("1.0"); [EOL] assertThat(String.toString()).isEqualTo("1.0"); [EOL] assertThat(String.toString()).isEqualTo("2"); [EOL] assertThat(String.toString()).isEqualTo("3");
+assertArrayEquals(
+assertThat(b.isEmpty(), is(true));
+assertThat(loadedJob.get(1).getId()).isEqualTo(2);
+[EOL]       assertFalse(string0)
+assertThat(response.get(0))
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, charArray0.length)
+assertThrows(InvalidArgumentException.class, () -> {
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())
+assertThat(hashCode.hashCode(), notNullValue() ); [EOL] assertThat( out.hashCode(), notNullValue() ); [EOL] assertEquals( new String[] { [EOL] assertEquals( code, dl.hashCode() );
+[EOL]       assertEquals(0.0, float0, 0.01)
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3,
+assertThat(output).isEqualTo(output);
+assertThat(String.toString()).isEqualTo("); [EOL] assertThat(String.toString()).isEqualTo("); [EOL] assertThat(String.toString()).isEqualTo(");
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals("false", string0)
+assertNotNull(hash);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertNotNull(actual);
+[EOL]       assertEquals(1, int0)
+assertArrayEquals(new String[] {
+assertThat(matches.size()).isEqualTo(1);
+assertEquals(200, response.getStatus());
+assertEquals(Converter.toString(null));
+assertNotNull(metaData);
+assertEquals(expected, actual);
+assertNotNull(parameters); [EOL] assertEquals("name", parameters.getName()); [EOL] assertEquals("name", parameters.getName()); [EOL] assertEquals("name", property.getName()); [EOL] assertEquals("name", propertyName.getName()); [EOL] assertEquals("name", property.getName()); [EOL] assertEquals("name", property.getName()); [EOL] assertEquals("name", property.getName()); [EOL] assertEquals("name", parameters.getName());
+[EOL]       assertEquals((-1), int0)
+assertNotNull(found);
+Assert.assertNotNull(message);
+assertEquals(2, calculator.size());
+assertFalse(commands.isEmpty());
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertEquals(
+assertNotNull(buf);
+[EOL]       assertEquals(9, charSequenceArray0.length)
+assertNotNull(converter.apply(null));
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertNull(handler);
+assertEquals(Operator.type(), OpType.getType());
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))
+[EOL]       assertEquals(0, (int)integer0)
+Assert.assertEquals("test", text.getText());
+assertNotNull(extractFile); [EOL] assertEquals(3, file.size()); [EOL] assertEquals(3, file.size()); [EOL] assertEquals(3, file.size());
+[EOL]       assertEquals(0, int0)
+Assert.assertNull(mockFile);
+assertThat(list.size()).isEqualTo(1); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2);
+assertTrue(commands.isEmpty()); [EOL] assertTrue(commands.isEmpty());
+assertThat(result).isNotNull(); [EOL] assertThat(result).isEqualTo(1); [EOL] assertThat(result.getEndpoint()).isEqualTo(1); [EOL] assertThat(result).isEqualTo(2);
+assertEquals(0, count);
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+assertNotNull(seb);
+Assert.assertTrue(e.getMessage().contains(
+assertEquals(expected, actual);
+assertEquals("0.0", sat.getMessage());
+assertThat(result).isEqualTo(0);
+assertEquals(String.format("a"));
+assertNull(resolver.apply(parameter));
+[EOL]       assertTrue(equalsBuilder0.build())
+[EOL]       assertEquals(0, string0)
+assertEquals(1, config.getConfig().size());
+[EOL]       assertEquals(0, long0)
+assertNotNull(value);
+assertEquals(HttpServletResponse.SC_NOT_FOUND, status);
+assertThrows(InvalidArgumentException.class, () -> {
+[EOL]       assertTrue(boolean0)
+assertThat(result.getStatus()).isEqualTo(3); [EOL] assertThat(result.getStatusCode()).isEqualTo(3);
+assertThat(convert).isTrue();
+assertThrows(RuntimeException.class, () -> {
+assertEquals(3, actual.size());
+assertNotNull(retrieved);
+assertTrue(puddCaptor.getValue() instanceof ProxyPopupPath);
+[EOL]       assertEquals(3, strBuilder0.capacity())  [EOL]       assertEquals(3, strBuilder0.capacity())  [EOL]       assertEquals(3, strBuilder1.capacity())  [EOL]       assertEquals(3, strBuilder0.capacity())  [EOL]       assertEquals(3, strBuilder1.capacity())  [EOL]       assertEquals(3, strBuilder0.capacity())  [EOL]      
+assertNull(metaData1);
+Assert.assertEquals(3, lines.length);
+Assert.assertFalse(result);
+assertEquals(2, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3);
+[EOL]       assertEquals(4, longArray1.length)
+assertNotNull(converter.apply(new ObjectRecord()));
+[EOL]       assertEquals(1, longArray0.length)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(1.0f, Float.getFloat(0.0f), 0.0); [EOL] assertEquals(1.0, s.getFloat(0.1), 0.0); [EOL] assertEquals(2.2f, s.getFloat(1), 0.0);
+Assert.assertTrue(file.exists() );
+Assert.assertEquals("1.0", DateUtil.toString(date)); [EOL] Assert.assertEquals("2", dateUtil.toString(date));
+assertEquals(XString, actualOutput); [EOL] 		assertEquals(EXPECTED_Mock, actualOutput);
+assertEquals(expected, actual); [EOL] assertEquals(expected, actual); [EOL] assertEquals(expected, actual);
+Assert.assertFalse(
+assertEquals(1, result.size()); [EOL] 		assertEquals(null, result.get(0));
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+assertEquals(1, s.size()); [EOL] assertEquals(expected, result.get(0)); [EOL] assertEquals(0, s.getText()); [EOL] assertEquals(0, s.getText());
+assertThat(result).isEqualTo(expectedURL); [EOL] assertThat(endpoint).isEqualTo("foo"); [EOL] assertThat(result).isEqualTo("foo"); [EOL] assertThat(result).isEqualTo("foo"); [EOL] assertThat(response.getStatusCode());
+assertEquals(
+assertEquals(1, label.size()); [EOL] assertEquals(value, label.getValue()); [EOL] assertEquals(fieldName, label.getValue());
+assertEquals(expected, actual);
+assertTrue(cache.isEmpty());
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+[EOL]       assertEquals("]", standardToStringStyle0.getEnd())
+assertTrue(bytes.isEmpty()); [EOL] assertFalse(stream.isEmpty());
+Assert.assertEquals(
+assertEquals(TEST_NAME, model.getName());
+assertNull(metacard.get());
+assertEquals(null, result);
+assertThat(actual, is(expected)); [EOL] assertThat(actual, is(expected)); [EOL] assertThat(actual, is(expected));
+assertEquals(end, span.getEndTimestamp());
+assertEquals(p1, p2);
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))
+Assertions.assertTrue(file.exists()); [EOL] Assertions.assertTrue(file.exists()); [EOL] Assertions.assertTrue(file.exists()); [EOL] Assertions.assertFalse(file.exists()); [EOL] Assertions.assertFalse(file.exists());
+assertNull(cache);
+assertNotNull(text);
+assertEquals(date, date);
+Assert.assertNull(digest); [EOL] Assert.assertNull(digest.getDigest());
+assertThat(logEvents.size()).isEqualTo(1); [EOL] assertThat(logEvents.size()).isEqualTo(1); [EOL] assertThat(logEvents.size()).isEqualTo(1); [EOL] assertThat(logEvent.length);
+assertNotNull(result);
+assertThat(r1.getValue()).isEqualTo(1);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertNull(StringUtils.toString(null));
+assertThat(sqlHandler.getRaw()).isEqualTo(jLogger);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, charArray0.length)  [EOL]      
+[EOL]       assertEquals("de", string0)
+assertNotNull(k);
+assertEquals(1, actuals.size());
+Assert.assertTrue(true); [EOL] Assert.assertTrue(true);
+assertTrue(converter.apply(null));
+assertTrue(success);
+assertEquals(expected, actual);
+assertThrows(RuntimeException.class, () -> { [EOL] assertEquals(true, builder1.build());
+assertEquals(targetZ, tile.getY(), 0);
+assertEquals(TEST_URL, model.getProperty(NAME, String.class)); [EOL] assertEquals(VALUE, model.getProperty(NAME, String.class));
+assertEquals("", String.toString()); [EOL] assertEquals("", String.toString());
+assertNull(converter.apply(null));
+assertThat(result).isEqualTo(0);
+assertEquals(empty, i);
+assertEquals("foo", result);
+// assert [EOL] assertEquals(2,
+assertThat(first).isEqualTo(first);
+assertThat(actual, is(true));
+assertEquals(1, actual.size()); [EOL] assertEquals(expected, actual.get(0));
+[EOL]       assertFalse(boolean0)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(2, filter.size());
+assertFalse(result);
+assertTrue(result); [EOL] assertTrue(result);
+Assert.assertNotNull(net);
+assertNotNull(function);
+assertEquals(expected, actual);
+[EOL]       assertNull(file0)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertThrows(InvalidArgumentException.class, () -> { [EOL] assertThrows(InvalidArgumentException.class, () ->
+assertEquals(1, violations.size()); [EOL] assertEquals(expected, result.get(0));
+assertThat(this.cause).isFalse();
+Assert.assertEquals( [EOL] Assert.assertEquals(
+[EOL]       assertEquals(1, classArray1.length)
+assertTrue(Converter.apply(null));
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertThat(actual, containsString(class));
+assertTrue(s.isEmpty());
+[EOL]       assertEquals("m", pattern0.getPattern())
+assertThat(expected.getStatement()).isEqualTo(0);
+[EOL]       assertEquals(2, doubleArray1.length)
+assertThrows(InvalidArgumentException.class, () -> {
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertTrue(isValid);
+assertEquals(1, provider.size());
+assertEquals(convertedDate, date);
+assertEquals(UUID.fromString("00000000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-000000000000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-000000000001");
+[EOL]       assertEquals(0.0F, float0, 0.01)
+assertThat(bytes).isEqualTo(3);
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertTrue(auth.hasNext());
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(true, actual.getEndTimestamp() ); [EOL] assertEquals(
+assertEquals(e.getMessage(),
+[EOL]       assertNull(charArray0)
+[EOL]       assertTrue(equalsBuilder3.build())  [EOL]       assertFalse(equalsBuilder0.build())
+[EOL]       assertEquals(0.0F, float0, 0.01F)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+assertEquals(BOUND_VALUE, model.getBinding());
+assertEquals(3, value.size());
+assertThat(fileList.size()).isEqualTo(3); [EOL] assertThat(fileList.size()).isEqualTo(3); [EOL] assertThat(fileList.size()).isEqualTo(3);
+assertEquals(1, violations.size()); [EOL] assertEquals(expected, result.get(0));
+assertEquals(false, factLocal.isLocal());
+assertEquals(1, actual.size());
+Assert.assertEquals(
+assertThat(index.getIndex()).isEqualTo(0); [EOL] assertThat(index.getIndex()).isEqualTo(0); [EOL] assertThat(index.getIndex()).isEqualTo(0); [EOL] assertThat(index.getIndex()).isEqualTo(0); [EOL] assertThat(index.getIndex()).isEqualTo(0);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(2, writer.toString());
+assertTrue(e.getMessage().contains("origin"));
+assertEquals(1, violations.size()); [EOL] assertEquals(expected, result.get(0));
+assertTrue(SecurityUtils.isSecurityGroup(this.serviceConfig));
+assertEquals(HttpServletResponse.SC_NOT_FOUND, status);
+assertThat(groups).isEmpty();
+assertEquals(0, result); [EOL] assertEquals(0, result.get(0));
+[EOL]       assertTrue(arrayList0.isEmpty())  [EOL]       assertTrue(arrayList0.isEmpty())  [EOL]       assertTrue(arrayList0.isEmpty())  [EOL]       assertTrue(arrayList0.isEmpty())  [EOL]       assertTrue(arrayList0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [
+assertTrue(dao.getDataType() );
+assertTrue(instance.getInstance() );
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertThat(geoBoxHandler.getLatitude(), is(LAT));
+[EOL]       assertFalse(charArray1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder0.equals((Object)strBuilder0))
+assertEquals(expectedMessage, actualMessage);
+assertTrue(supports);
+assertNotNull(result);
+assertThat(logEvents.size()).isEqualTo(1);
+assertThat(permission.getMessage(), is(true));
+assertNotNull(response);
+assertEquals(0, size.size());
+assertTrue(c1.isEmpty());
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))
+Assertions.assertNotNull(new Expectations() {
+[EOL]       assertFalse(set0.contains("~G
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())
+assertEquals(2, s.size()); [EOL] assertTrue(s.contains(Tuple.toString()));
+[EOL]       assertEquals("", string0)
+assertThat(convert).isNotNull();
+assertThat(perms.size()).isEqualTo(1); [EOL] assertThat(permMap.get(0).getServiceName()).isEqualTo(1); [EOL] assertThat(permMap.get(0).getServiceName()).isEqualTo(2);
+assertEquals(app, result);
+assertNotNull(entry.getColumn()); [EOL] assertEquals(entry.getColumn(), getTransaction()); [EOL] assertEquals(entry.getColumn(), getTransaction() );
+assertTrue(result);
+assertThat(actual).isNotNull();
+assertNotNull(convert);
+assertThat(nodes.size()).isEqualTo(1);
+[EOL]       assertFalse(boolean0)
+assertThat(actualSegment.size()).isEqualTo(0);
+assertThat(repo.getPath(), is(nullValue()));
+assertThat(metadata.getName()).isEqualTo(KomodoName); [EOL] assertThat(metadata.getName()).isEqualTo("001"); [EOL] assertThat(metadata.getName()).isEqualTo("001"); [EOL] assertThat(metadata.getName()).isEqualTo("001"); [EOL] assertThat(metadata.getName()).isEqualTo("001");
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+Assert.assertEquals(expected, actual.get(0));
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))
+[EOL]       assertEquals("ja", locale0.toString())  [EOL]       assertEquals("ja", locale0.toString())  [EOL]       assertEquals("ja", locale0.toString())
+assertThat(byte)
+assertThat(result).isEmpty();
+assertFalse(result); [EOL] assertFalse(result);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals(2, parameters.size());
+Assertions.assertTrue(v1.equals(v1)); [EOL] Assertions.assertTrue(v2.equals(v2));
+assertNull(convert);
+assertThat(attributes).isNotNull(); [EOL] assertThat(attribute.size()).isEqualTo(1); [EOL] assertThat(attribute.getName()).isEqualTo(attribute); [EOL] assertThat(attribute.get(0).getName()).isEqualTo(0); [EOL] assertThat(attribute.get(0).getName()).isEqualTo(0); [EOL] assertThat(attribute.get(0).getName()).isEqualTo(0); [EOL] assertThat(attribute.getAttributeName()).isEqualTo(attributeName); [EOL] assert
+assertThat(result).isFalse();
+[EOL]       assertEquals((-1), hashCodeBuilder0.toHashCode())
+assertThat(result).isNull();
+Assert.assertFalse(
+assertTrue(H.contains("A"));
+assertEquals(0, result); [EOL] assertEquals(0, result.get(0));
+assertEquals(1, s.size());
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertTrue(retrieved.isEmpty()); [EOL] assertTrue(retrieved.isEmpty());
+assertNotNull(retrieved); [EOL] assertEquals(1, errorList.size());
+[EOL]       assertEquals(1, booleanArray1.length)
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))
+assertNotNull(entry.getColumn()); [EOL] assertNull(entry.getColumn()); [EOL] assertNull(entry.getColumn()); [EOL] assertNull(entry.getColumn());
+assertThat(endpoint).isNotNull();
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals(1, charArray0.length)
+assertThatThrownBy(() -> {
+assertEquals(1, [EOL] assertEquals(1, [EOL] assertEquals(1, [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals(1, [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [EOL] assertEquals("1", [E
+assertEquals(1, set.size());
+assertThrows(IllegalArgumentException.class, () -> {
+Assert.assertNull(value);
+assertEquals(query, queryValues);
+assertTrue(queue.isEmpty());
+assertThat(
+assertEquals("name", app.getName());
+assertThat(expected.getMessage()).isEqualTo(0);
+assertTrue(auth.isValid());
+assertArrayEquals(expected, actual);
+[EOL]       assertEquals("{m',0)
+[EOL]       assertTrue(equalsBuilder3.build())  [EOL]       assertFalse(equalsBuilder0.build())
+Assert.assertEquals(1, timer.getCount(0)); [EOL] Assert.assertEquals(0, context.getCount(0));
+assertNotNull(enumConverter.apply(null)); [EOL] assertEquals(1, enumUtils.get()); [EOL] assertEquals(false, enumUtils.isPresent()); [EOL] assertEquals(false, enumUtils.isPresent());
+assertThrows(RuntimeException.class, () -> {
+assertEquals(1.0, model.getNumNondefaultElements()); [EOL] assertEquals(1, model.getNumNumeric().size());
+Assert.assertNotNull(response.getStatus());
+assertArrayEquals(new String[] {
+assertEquals(expected, actual);
+assertNotNull(element);
+assertNotNull(site); [EOL] assertEquals(site.getId(), model.getId());
+assertEquals(expected, actual);
+assertThrows(InvalidArgumentException.class, () -> {
+Assertions.assertTrue(v1.equals(v1)); [EOL] Assertions.assertTrue(v2.equals(v2));
+assertNull(resolve);
+assertThat(matcher.match(req));
+[EOL]       assertNull(String0)
+assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3,
+assertThat(formatter).isNotNull(); [EOL] assertThat(formatter).isNotNull(); [EOL] assertThat(formatNames.get(0).getName()).isEqualTo("10"); [EOL] assertThat(formatNames.get(1).getName());
+assertThat(response.getStatus()).isEqualTo(HttpClient.REQUEST);
+assertThat(uri, is(PATH));
+assertEquals(2, writer.toString());
+assertThat(convert).isTrue();
+assertThat(value.equals(i)).isFalse(); [EOL] assertThat(value.equals(i)).isFalse(); [EOL] assertThat(value.equals(i.getValue()).isEqualTo(false); [EOL] assertThat(first.getValue()).isEqualTo(false);
+assertNull(resolver.apply(null));
+[EOL]       assertNull(decimal0)
+assertTrue(result); [EOL] assertTrue(result);
+assertEquals(1, resolver.getMessage().size()); [EOL] assertEquals(expected1, resolver.getMessage()); [EOL] assertEquals(0, error2.getMessage()); [EOL] assertEquals(expected3, error2.getMessage());
+assertEquals(1, result);
+assertNotNull(document); [EOL] assertEquals(code.getId(), document.getId()); [EOL] assertEquals(code.getId(), document.getId());
+assertThat(Long.maxLong()).isEqualTo(1);
+assertNotNull(decoded); [EOL] 		assertEquals(100, result.getValue()); [EOL] 		assertEquals(100, result.getValue()); [EOL] 		assertEquals(100.0, result.getDepth()); [EOL] 		assertEquals(VALUE, result.get(0).getMetric());
+assertThat(result).isEqualTo(0);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertNull(converter.apply(null));
+assertNotNull(found);
+assertThrows(IllegalArgumentException.class, () -> {
+assertNotNull(converter.apply(new ObjectRecord()));
+assertTrue(r.isEmpty()); [EOL] assertTrue(r.isEmpty());
+assertEquals(1, s.size()); [EOL] assertEquals(expected, s.get(0)); [EOL] assertEquals(1, s.size()); [EOL] assertEquals(expected2, s.get(0));
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())
+assertEquals(1, clone.getMetadata());
+assertTrue(cmp.compare(v1)); [EOL] assertTrue(cmp.compare(v2));
+assertThat(attributes).isTrue();
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+Assert.assertTrue(Integer.isInteger("1"));
+assertEquals(1.0, results.size());
+assertEquals(0, result);
+assertThat(result.get(0).getDatapoints().size()).isEqualTo(1);
+[EOL]       assertEquals(1, charRangeArray0.length)
+[EOL]       assertEquals(1, (int)integer0)
+assertThat(capturedData.getValue()).isEqualTo(newValue);
+assertEquals( [EOL] assertEquals(
+[EOL]       assertEquals(0, fraction1.getFloat())
+assertNotNull(ns); [EOL] assertEquals(2, s.size());
+assertTrue(Arrays.isEmpty());
+assertThrows(InvalidArgumentException.class, () -> { [EOL] assertThrows(InvalidArgumentException.class, () -> { [EOL] assertThrows(InvalidArgumentException.class, () ->
+assertTrue(new MetacardVersion("0.0")); [EOL] assertTrue(metaVersion("1.0"));
+assertEquals("USA", locale.getCountry());
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+[EOL]       assertEquals(0, (int)integer0)
+assertEquals(Mock, actual);
+assertTrue(person.isSuccess()); [EOL] assertEquals("something", person.getValue());
+assertEquals(Layers.size(), 1);
+assertNotNull(groups); [EOL] assertTrue(groups.contains("group1")); [EOL] assertTrue(groups.contains("baz"));
+assertNotNull(attributes);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertEquals(0, result);
+assertThat(metadata).isEqualTo(metadata);
+Assert.assertNull(parameterParameter);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+Assertions.assertNotNull(output); [EOL] Assertions.assertTrue(output.isEmpty());
+assertTrue(options.contains(options)); [EOL] assertTrue(options.containsKey(options));
+assertNotNull(url);
+assertEquals(EXPECTED_URL, xmlns1); [EOL] 		assertEquals(EXPECTED_DOMAIN, model.getHttpURL()); [EOL] 		assertEquals(EXPECTED_DOMAIN, xmlnsCache.getBaseName());
+Assert.assertEquals(
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+assertThat(result).isTrue();
+assertEquals(2, result.length);
+assertEquals(e.getMessage(),
+assertThat(expected, is(expected));
+assertEquals(3, size);
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))
+[EOL]       assertEquals(1, int0)
+Assertions.assertNotNull(new Expectations() { [EOL] Assertions.assertThat(context).isEqualTo(0);
+assertEquals(HttpServletResponse.SC_NAME, context.getHttpName()); [EOL] 		assertEquals(HTTP_NAME, xmlnsCache.getHttpURL()); [EOL] 		assertEquals(HTTP_NAME, xmlnsCache.getHttpURL()); [EOL] 		assertEquals(HTTP_NAME, xmlnsCache.getHttpURL()); [EOL] 		assertEquals(HTTP_NAME, xml.getHttpURL());
+[EOL]       assertEquals(6, charSequenceArray0.length)
+Assert.assertEquals(128, buf.getBuffer().length());
+assertEquals(1, containers.size()); [EOL] assertEquals(2, firstSet.size()); [EOL] assertEquals(2, Sets.size());
+assertEquals(expectedOutput, actualOutput);
+assertEquals(expected, actual);
+Assert.assertNotNull(apps); [EOL] Assert.assertEquals(1, apps.size());
+[EOL]       assertEquals(6, long0)
+[EOL]       assertEquals((byte) (-1), byte0)
+[EOL]       assertEquals((-1), int0)
+assertThat( Path.size(), equalTo( 0 ) );
+Assert.assertEquals("1", hexString); [EOL] Assert.assertEquals("1", hexHexString); [EOL] Assert.assertEquals("1", hexHexString);
+assertEquals(expected, actual);
+Assert.assertFalse(i);
+assertTrue(Map.size() == 0);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertEquals(1, duration.getDuration().size()); [EOL] assertEquals(2,Time.get(0).getTimeMs()); [EOL] assertEquals(2,Time.getTimeMs().length);
+assertTrue(result); [EOL] assertTrue(result);
+[EOL]       assertNull(executor0)
+assertTrue(metadataCache.isEmpty());
+assertEquals(Mock, actualMock);
+[EOL]       assertEquals(0, list0.size())
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals("", string0)
+assertThat(actual).isEqualTo(mock);
+Assert.assertEquals(this.stateId(getId()));
+Assert.assertTrue(true);
+assertNotNull(e1);
+assertThrows(IllegalArgumentException.class, () -> {
+assertThat(actualValue.getValue(), is(VALUE));
+Assert.assertEquals(
+assertNull(resolver.apply(parameter));
+assertThat(dataManagementStrings.size()).isEqualTo(1); [EOL] assertThat(dataSource.get(0).getDataName()).isEqualTo(1);
+assertArrayEquals(expectedBit, actualBit);
+assertThat(DateUtil.getDateTimeString(DateUtil.createNormalDateTimeString(date)).isEqualTo("01T00:00:00:00:00:00:00:00.000Z"); [EOL] assertThat(DateUtil.getDateUtil(DateUtil.getDateTimeString(DateUtil.createNormalDateTimeString(1)).isEqualTo("2001-01T00:00:00:00:00:00:00.000Z"); [EOL] assertThat(DateUtil.getDateUtil.getDateUtil(DateUtil.parseDateUtil(DateUtil.parse
+[EOL]       assertEquals((short) (-1), short0)
+assertTrue(cmp.compare(v1)); [EOL] assertTrue(cmp.compare(v2));
+assertNull(res.hashCode());
+Assert.assertEquals(3, scheduleExecutionContainer.getStatus()); [EOL] Assert.assertEquals(3, scheduleExecutionTimer.getStatusCode());
+[EOL]       assertNull(string0)
+[EOL]       assertTrue(equalsBuilder1.isEquals())
+assertThat(this.linkedItem.getItem(), equalTo(0)); [EOL] assertThat(linkedItem.getItem(), equalTo(this.item.getItem(0));
+assertThat(path).isNotNull(); [EOL] assertThat(path.getName()).isEqualTo("name"); [EOL] assertThat(path.getName()).isEqualTo("name"); [EOL] assertThat(path.getName()).isEqualTo("name"); [EOL] assertThat(path.getName());
+[EOL]       assertFalse(string1.equals((Object)string0))
+Assert.assertTrue(value); [EOL] Assert.assertTrue(value); [EOL] Assert.assertTrue(value);
+assertThat(bytes).isEqualTo(8);
+assertThrows(IllegalArgumentException.class, () -> {
+[EOL]       assertEquals(39, fraction1.getDenominator())
+assertEquals(HttpServletResponse.SC_NOT_FOUND, status);
+assertThat(first).isNotNull();
+Assert.assertEquals(
+assertThat(v.value()).isEqualTo(0); [EOL] assertThat(v.value()).isEqualTo(0);
+assertEquals(1.0, s.size()); [EOL] assertEquals(1.0, s.size());
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertEquals( StringUtils.toString( new String( ",').toString(), ",').toString()); [EOL] assertEquals(expected, String.toString());
+assertThrows(InvalidArgumentException.class, () -> delegate.handle(new Object()));
+[EOL]       assertEquals(1, intArray1.length)
+assertThat(logEvents.size()).isEqualTo(1);
+assertEquals(100, result);
+Assert.assertFalse(true);
+assertEquals(1, count);
+Assert.assertEquals(1, hexData.length()); [EOL] Assert.assertEquals(1, hexData.length()); [EOL] Assert.assertEquals(3, hexData.length()); [EOL] Assert.assertEquals(3, hexData.length());
+[EOL]       assertTrue(treeSet0.equals((Object)strBuilder0))  [EOL]       assertTrue(treeSet0.equals((Object)strBuilder0))  [EOL]       assertTrue(treeSet0.equals((Object)strBuilder0))  [EOL]       assertTrue(treeSet0.equals((Object)strBuilder1))
+[EOL]       assertEquals(0, method0.getModifiers())
+[EOL]       assertSame(byteArray1, byteArray0)
+Assert.assertTrue(true);
+assertEquals(1, result.size()); [EOL] assertEquals(expected, result.get(0));
+[EOL]       assertEquals((-1), mutableFloat0.longValue())
+[EOL]       assertSame(date1, date0)
+assertEquals(3, s.size());
+[EOL]       assertEquals(0.0F, float0, 0.01F)
+assertNotNull(list); [EOL] assertEquals(1, list.size()); [EOL] assertEquals("List", list.size());
+assertEquals(1, count);
+Assert.assertTrue(matcher.isInteger("1")); [EOL] 		Assert.assertTrue(matcher.isInteger("1")); [EOL] 		Assert.assertTrue(matcher.isInteger("1")); [EOL] 		Assert.assertTrue(matcher.isInteger("1"));
+assertEquals(test, actual);
+assertEquals(1.0, coordinates.get(i), 0.0); [EOL] assertEquals(coordinates.get(i), 0.0);
+assertThat(logEvent.size()).isEqualTo(1);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+Assert.assertEquals(expectedFile, actualFile);
+[EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())
+assertEquals(100, result);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())
+assertTrue(map.isEmpty()); [EOL] assertTrue(map.isEmpty());
+assertThrows(IllegalArgumentException.class, () -> { [EOL] assertThrows(IllegalArgumentException.class, () -> {
+assertNotNull(cache); [EOL] assertEquals(1, cache.size());
+assertThat(response.getStatus()).isEqualTo(0);
+assertEquals(1, metadata.size()); [EOL] assertMetadata.size()); [EOL] assertEquals(expected, actual.get(0)); [EOL] assertEquals(expected.getMetadata(), actual.get(0));
+Assert.assertEquals(Str,Strings.length); [EOL] Assert.assertEquals(1, Strings.length); [EOL] Assert.assertEquals(1, Strings.length); [EOL] Assert.assertEquals(2, Strings.length); [EOL] Assert.assertEquals(1, Strings.length);
+Assertions.assertEquals(expected, actual.get(0));
+assertThat(result).isEmpty(); [EOL] assertThat(result.getName()).isEqualTo("1");
+assertThat( file.getName()).isEqualTo(0);
+[EOL]       assertEquals(0.0, double0, 0.01)
+assertThat(null).isNull();
+assertTrue(cache.get(0));
+assertEquals(
+assertThat(pluginPolicies.get(0).getPlugin().size(), equalTo(1)); [EOL] assertThat(plugins.get(0).getPlugin().size(), equalTo(1));
+assertNotNull(result); [EOL] assertEquals(2, result.size());
+assertEquals(1, timer.getCount(0L));
+assertThat(geoBoxHandler.getLong(), is(LON1)); [EOL] assertThat(geo4.getLong(), is(LON2));
+assertTrue(puddCaptor.getValue() instanceof ProxyPopupPath);
+assertArrayEquals(new String[] {
+assertEquals(1, apps.size()); [EOL] assertTrue(appsCache.isEmpty()); [EOL] assertEquals(2, apps.size());
+assertNotNull(commands); [EOL] 		assertTrue(commands.isEmpty());
+[EOL]       assertTrue(equalsBuilder1.isEquals())
+Assert.assertEquals(expected, actual);
+assertThat(logger.getLoggerName()).isEqualTo(0); [EOL] assertThat(file.getName()).isEqualTo(1);
+assertArrayEquals(bytes, bytes.length);
+assertEquals(100, tile.getHeight());
+assertNotNull(new Fact);
+assertThat(cbExplosion).isNotNull(); [EOL] assertThat(callTimeout.toString(), is(true));
+[EOL]       assertEquals(0, set0.size())
+assertNull(cache);
+[EOL]       assertEquals(1, charRangeArray0.length)
+assertTrue(supports);
+assertThat(Object.getClassName()).isEqualTo(Field.class);
+assertNotNull(retrieved); [EOL] assertEquals(2, retrieved.size()); [EOL] assertTrue(retrieved.size() > 0);
+assertThat(response.getStatus()).isFalse();
+assertThat(Converter.toString(), is(nullValue()));
+assertEquals("token", result);
+assertEquals(e.getMessage(),
+[EOL]       assertEquals(0, set0.size())
+[EOL]       assertEquals(0L, long0)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+assertEquals(2, result.size()); [EOL] assertTrue(result2.isEmpty()); [EOL] assertEquals(2, result2.size());
+assertEquals(1.0, count);
+Assert.assertEquals(true, value); [EOL] Assert.assertEquals(true, value); [EOL] Assert.assertEquals(true, value);
+assertNotNull(metadata);
+assertThat(actual).isEqualTo(expected);
+assertEquals(expected, actual);
+assertEquals(ACCESS_TOKEN, accessToken.getToken());
+assertThat(actual).isEqualTo(mock);
+assertTrue(v1.isRelease()); [EOL] assertTrue(v1.isRelease()); [EOL] assertFalse(v2.isRelease()); [EOL] assertFalse(v2.isVersion()); [EOL] assertFalse(v2.isVersion()); [EOL] assertFalse(v2.isVersion());
+assertFalse(authService.validateCredentials(null));
+assertEquals(testVersion.getVersion(), version.getVersion());
+assertEquals(1, count); [EOL] assertEquals(1, count);
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string1
+assertNull(resolver.apply(null));
+assertNull(converter.apply(null));
+[EOL]       assertNull(date0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals((-1), int0)
+assertNull(cache);
+Assertions.assertThat(result.getErrorCount()).isEqualTo(0); [EOL] Assertions.assertThat(result.getWarningCount()).isEqualTo(0); [EOL] Assertions.assertThat(result.getWarningCount()).isEqualTo(4); [EOL] Assertions.assertThat(result.getWarningCount()).isEqualTo(4); [EOL] Assertions.assertThat(result.getStatus()).isEqualTo(3); [EOL] Assertions.assertThat(result.getValue()).isEqualTo(3);
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertThat(first.compare(second), equalTo(second));
+assertThat(actual).isEqualTo(metrics);
+assertEquals(1, (int)cursor.getCount()); [EOL] assertEquals(1, (int)cursor.getCount()); [EOL] assertEquals(1, (int)cursor.getCount()); [EOL] assertEquals(1, (int)cursor.getCount()); [EOL] assertEquals(1, (int)c2.getCount());
+assertFalse(response.isSequence(0)); [EOL] assertFalse(response.isSequence(2));
+assertNotNull(connection);
+assertEquals(2, calculator.getCodes().length);
+assertEquals(3, input.size());
+assertEquals(
+assertTrue(r.isCommitted() );
+assertEquals(expected, actual);
+assertEquals(1, lines.size()); [EOL] assertEquals(2, lines.size());
+Assert.assertTrue(value);
+Assert.assertNotNull(e); [EOL] Assert.assertEquals(1, entries.size());
+assertEquals(1, apps.size()); [EOL] assertTrue(accessController.getAllowed()); [EOL] assertEquals(3, apps.size());
+assertThat(puddCaptor.getValue()).isEqualTo(1);
+Assert.assertEquals("2014-13", mCalculateChk); [EOL] Assert.assertEquals("2014-13", mCalendar.getDateTime()); [EOL] Assert.assertEquals("2014-13", mCalculateChk);
+assertNull(resolver.apply(null));
+assertThat(dataRole.getDataName()).isEqualTo(DataName);
+assertThat(result).isEqualTo(0);
+assertThat(geoBoxHandler.getLength(), is(0));
+[EOL]       assertNull(delayed0)
+assertTrue(function.isEmpty()); [EOL] assertTrue(function.isEmpty());
+[EOL]       assertEquals('U', charRange0.getStart())
+assertEquals(expected, actual);
+assertThat(plugins.size()).isEqualTo(0);
+assertEquals(expected, actual); [EOL] assertEquals(expected, actual);
+assertThat(list.size()).isEqualTo(3); [EOL] assertThat(list.size()).isEqualTo(3); [EOL] assertThat(list.size()).isEqualTo(3);
+assertNull(eid); [EOL] assertEquals(2, e.getCause());
+[EOL]       assertNull(string0)
+Assert.assertNotNull(cache);
+assertEquals(1, model.getFactName()); [EOL] assertEquals(expectedName, getFactName());
+assertNotNull(converter.apply(new ObjectRecord()));
+assertEquals(1, duration.getDuration().size()); [EOL] 		assertEquals(1, duration.getDuration(), 0); [EOL] 		assertEquals(2, duration.getDuration(), 0); [EOL] 		assertEquals(2, duration.getDuration(), 0);
+assertThat(fieldList.getFieldName()).isEqualTo(fieldName); [EOL] assertThat(fieldList.getFieldName()).isEqualTo("fieldName"); [EOL] assertThat(fieldName.getFieldName(NAME).getFieldName()).isEqualTo("fieldName"); [EOL] assertThat(fieldName.getFieldName(NAME).getFieldName()).isEqualTo("fieldName"); [EOL] assertThat(fieldName.getFieldName(FieldName.NAME).isEqualTo("fieldName");
+[EOL]       assertEquals(1, int0)
+assertThat(e, instanceOf(Functions.class)); [EOL] assertThat(e, instanceOf(Functions.class))
+Assert.assertEquals(1, sut.length()); [EOL] Assert.assertEquals(1, s1.length());
+assertEquals(3, [EOL] assertEquals(3,
+assertFalse(supports(false));
+assertEquals(1, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0, [E
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(arrayDeque0.equals((Object)string0))  [EOL]       assertTrue(arrayDeque0.equals((Object)string0))  [EOL]       assertTrue(arrayDeque0.equals((Object)string0))
+[EOL]       assertEquals('X', charRange0.getStart())
+assertThat(connection.getConnection()).isFalse();
+assertThat(list.get(0)).isEqualTo(2); [EOL] assertThat(list.get(0)).isEqualTo(2); [EOL] assertThat(list.get(1)).isEqualTo(2); [EOL] assertThat(prefs.get(2)).isEqualTo(2);
+[EOL]       assertEquals("{", standardToStringStyle0.getFieldSeparator())
+assertEquals("supports", props.getClassName());
+assertEquals(2, writer.toString());
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertNotNull(actualValue); [EOL] assertEquals(2, [EOL] assertEquals(0.0,
+assertEquals(HttpURL, response.getStatus()); [EOL] assertEquals(HttpURL, response.getStatus());
+assertThat(metacard.getWidth(), is(VALUE));
+assertTrue(validator.validate(null));
+[EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)
+[EOL]       assertEquals(0, int0)
+assertThat(testPath)
+assertThrows(AccessDeniedException.class, () -> {
+assertEquals(expected, actual);
+[EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)
+assertThat(e, is(true));
+[EOL]       assertFalse(string1.equals((Object)string0))
+assertEquals(1, results.size());
+assertEquals(Credentials.getCredentials().size(), 1);
+[EOL]       assertEquals("java.0", string0)
+Assert.assertEquals(p.getValue(), 0);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())
+assertThat(readMessage, is(true));
+assertTrue(connection.isEmpty());
+[EOL]       assertFalse(boolean0)
+[EOL]       assertSame(toStringBuilder1, toStringBuilder0)
+assertNull(converter.apply(null));
+assertThat(String.toString()).isEqualTo("Hello World");
+assertThat(handlers.isEmpty(), is(true));
+[EOL]       assertFalse(boolean0)
+assertThat(path).isEqualTo(null);
+assertThat(bot.getCount()).isEqualTo(0);
+assertEquals(expectedResponse, actualResponse);
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string0
+assertThat(String.toString())
+assertNotNull(result); [EOL] assertEquals(1, result.size());
+assertThrows(RuntimeException.class, () -> {
+assertThat(testStream.toString()).isEqualTo(0); [EOL] assertThat(Stream.toString()).isEqualTo(5); [EOL] assertThat(Stream.toString()).isEqualTo(5); [EOL] assertThat(Stream.toString()).isEqualTo(5); [EOL] assertThat(Stream.toString()).isEqualTo(5);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+[EOL]       assertFalse(strBuilder0.equals((Object)strBuilder0))
+assertEquals(1, [EOL] assertEquals(2, [EOL] assertTrue(expression.get(0));
+[EOL]       assertFalse(string1.equals((Object)string0))
+[EOL]       assertEquals((byte) (-1), byte0)
+Assert.assertNotNull(restReport);
+assertEquals("''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+assertThat(subscription.getName()).isEqualTo(0);
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertThat(response.getStatus()).isEqualTo(1); [EOL] assertThat(replica.getReplication()).isEqualTo(1); [EOL] assertThat(replica.getReplication()).isEqualTo(1); [EOL] assertThat(replica.getPath()).isEqualTo(2); [EOL] assertThat(replica.getPath()).isEqualTo(1); [EOL] assertThat(replica.getPath()).isEqualTo(2); [EOL] assertThat(replica.getPath()).isEqualTo(2);
+assertEquals(1, items.size());
+assertEquals(expected, actual); [EOL] assertEquals(expected, actual);
+assertEquals(200, response.getStatus());
+assertFalse(converter.apply(null));
+assertNotNull(seb);
+assertThat(query.get(0), is(0)); [EOL] assertThat(query.get(0), is(1));
+Assert.assertEquals(1, MathUtil.charAt(1)); [EOL] Assert.assertEquals(3, MathUtil.charAt(1)); [EOL] Assert.assertEquals(3, MathUtil.charAt(3)); [EOL] Assert.assertEquals(5, MathUtil.charAt(5)); [EOL] Assert.assertEquals(5, MathUtil.charAt(5)); [EOL] Assert.assertEquals(5, MathUtil.charAt(5)); [EOL] Assert.assertEquals(5, MathUtil.charAt(
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertThat(actual).isEqualTo(mock);
+assertEquals(id, s);
+[EOL]       assertEquals(2, booleanArray1.length)
+[EOL]       assertTrue(boolean0)
+Assert.assertEquals(1, bag.size());
+assertEquals(2.0, aumeric.length);
+assertThat(productName.getName(), is(productName));
+assertThat(token.getEndpoint()).isEqualTo(0); [EOL] assertThat(token.getEndpoint()).isEqualTo(1); [EOL] assertThat(token.getEndpoint()).isEqualTo(2); [EOL] assertThat(result.getEndpoint()).isEqualTo(2);
+assertTrue(empty.isEmpty());
+assertThat(null).isFalse();
+Assert.assertEquals(
+[EOL]       assertTrue(boolean0)
+assertEquals(
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+assertEquals(0, (int) 0.01);
+[EOL]       assertEquals(0.0, double0, 0.01)
+assertNotNull(matches); [EOL] assertEquals(0, s.length); [EOL] assertEquals(0, s.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length); [EOL] assertEquals(0, seq.length);
+assertThat(details).isFalse();
+Assert.assertFalse(isValid);
+[EOL]       assertEquals(6, long0)
+Assert.assertNotNull(groups);
+assertThat(convert);
+[EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [
+Assert.assertEquals(
+[EOL]       assertEquals(0, decimal.getDenominator())
+assertEquals(1, result.size());
+assertThat(hashCode.hashCode()).isEqualTo(hashCode);
+assertThat( value.valueValue()).isEqualTo(0); [EOL] assertThat(Integer.MIN_VALUE); [EOL] assertThat(Integer.MIN_VALUE).isEqualTo(VALUE); [EOL] assertThat(Integer.MIN_VALUE); [EOL] assertThat(Integer.MIN_VALUE).isEqualTo(VALUE);
+Assert.assertTrue(parameters.isEmpty());
+assertEquals(expected, actual);
+assertEquals(1, requestMock);
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())
+assertEquals(type1, type2);
+assertTrue(StringUtils.contains("foo")); [EOL] assertFalse(StringUtils.contains("foo"));
+[EOL]       assertEquals(17, strBuilder0.length())  [EOL]       assertEquals(17, strBuilder0.length())  [EOL]       assertEquals(17, strBuilder1.length())  [EOL]       assertEquals(17, strBuilder0.length())  [EOL]       assertEquals(17, strBuilder1.length())  [EOL]       assertEquals(17, strBuilder0.length())  [EOL]      
+[EOL]       assertEquals("", string0)
+assertNull(resolver.apply(null));
+assertEquals(1, second.getValue() );
+[EOL]       assertEquals(0, int0)
+assertNotNull(actualView);
+Assert.assertEquals(ACCESS_TOKEN, accessToken.get());
+assertEquals(resp.hashCode(), resp.hashCode());
+assertEquals(2, context.getPlan(0));
+assertThat(converter.apply(null));
+assertThat(logEvents.size()).isEqualTo(1);
+assertThat(convert).isNotNull();
+assertThatThrownBy(() -> {
+assertNotNull(result); [EOL] assertEquals(1, lines.size());
+assertThat( result, equalTo( 0 ) );
+assertTrue(result.isEmpty()); [EOL] assertTrue(result.isEmpty());
+[EOL]       assertEquals(1, fraction1.getNumerator())
+assertEquals(1.0, s.norm(1.1), 0.1); [EOL] assertEquals(1.1, s.length); [EOL] assertEquals(1.0, s.norm(1), 0.0); [EOL] assertEquals(1.0, s.length);
+assertTrue(validator.isValid());
+assertNotNull(class);
+assertEquals(expectedResponse, actualResponse);
+Assert.assertEquals(EXPECTED_CONTENT_VALUE, s);
+[EOL]       assertNull(file0)
+[EOL]       assertEquals(9, stringArray0.length)  [EOL]       assertEquals(9, stringArray0.length)
+[EOL]       assertEquals(0, compareToBuilder0.toComparison())
+assertNotNull(report);
+assertThrows( IllegalStateException.class, () -> await( error.getMessage() ) );
+assertThat(linkedItem.size()).isEqualTo(3);
+assertTrue(matchedCalled.isEmpty());
+Assertions.assertThat(pluginList).isEmpty();
+assertEquals(200, response.getStatus()); [EOL] assertEquals(
+assertEquals(3, count);
+assertEquals(2, writer.toString());
+assertThat(e, is(false)); [EOL] assertThat(e.getMessage(), is(true));
+assertThat(matches).isEqualTo("1"); [EOL] assertThat(matches.match(1))
+Assert.assertEquals("/bar", json);
+assertNotNull(converter.apply(new ObjectRecord()));
+Assert.assertThrows(RuntimeException.class, () -> {
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertThat(result).isNull();
+[EOL]       assertEquals(0, int0)
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertThat(actual).isEqualTo(URI);
+assertThat(messageEncoder.signMessage(
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertThat(response.getStatus(), is(true));
+assertEquals(1, composition.getId()); [EOL] assertEquals(1, lockMap.get(0).getId()); [EOL] assertEquals(1, lockMap.get(1).getId()); [EOL] assertEquals(2, lockMap.get(1).getId());
+assertEquals(1, [EOL] assertEquals(0, [EOL] assertEquals(0, [EOL] assertEquals(0,
+assertTrue(cursor.hasNext());
+assertTrue(converter.toString(null));
+assertEquals(1.0f, float.length()); [EOL] assertEquals(1.0f, (Float.0f), EPSILON); [EOL] assertEquals(1.0f, (Float.0f), EPSILON); [EOL] assertEquals(1.0f, float.length); [EOL] assertEquals(1.0f, RandomUtils.reset(1f, 2), EPSILON);
+assertEquals(200, response.getStatus());
+assertNotNull(repository); [EOL] assertEquals(1, [EOL] assertEquals(2,
+[EOL]       assertTrue(boolean0)
+assertEquals(200, response.getStatus()); [EOL] assertEquals(
+assertThat(true).isFalse();
+assertEquals(1, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(2, [EOL] assertEquals(1, [EOL] assertEquals(2, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(3, [EOL] assertEquals(value2, [EOL] assertEquals(value2, [EOL] assertEquals(value2
+[EOL]       assertTrue(standardToStringStyle0.isEmpty())
+assertNotNull(pv1); [EOL] assertEquals(p1, pdf);
+[EOL]       assertEquals((-1), (int)integer1)
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertTrue(cmp.compare(v1)); [EOL] assertTrue(cmp.compare(v2));
+assertThrows(RecordCoreException.class, () -> {
+assertTrue(puddCaptor.getValue() instanceof ProxyPopupPath);
+[EOL]       assertEquals('L', charRange0.getStart())  [EOL]       assertEquals('L', charRange0.getStart())
+assertThat(dataManagementStrings.size()).isEqualTo(1);
+assertArrayEquals(expectedBytes, actualBytes);
+assertThat(expected, is(expected));
+[EOL]       assertEquals((-1), mutableFloat0.intValue())
+Assert.assertEquals(1, actual.size());
+[EOL]       assertEquals(0, list0.size())
+[EOL]       assertEquals("/", charBuffer0.toString())  [EOL]       assertEquals("/", charBuffer0.toString())  [EOL]       assertEquals("/", charBuffer0.toString())  [EOL]       assertEquals("en_CA", charBuffer0.toString())
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string0
+assertThat(StringUtil.parseString("")).isEqualTo("abc");
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))
+assertThat(Strings.toString())
+assertTrue(r.equals(new FactRecord())); [EOL] assertTrue(r.equals(record.getMessage())); [EOL] assertTrue(r.equals(record.getMessage())); [EOL] assertTrue(r.equals(record.getTo());
+assertEquals(0, diff.size());
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string0
+Assert.assertEquals("i", word.getText());
+assertEquals(2, writer.toString());
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+[EOL]       assertEquals(0, list0.size())
+Assert.assertNull(pluginMetadata);
+[EOL]       assertEquals(4, shortArray1.length)
+assertNotNull(retrieved);
+assertTrue(metadata.getHeight() == 0);
+[EOL]       assertEquals(0, fraction1.getValue())
+assertEquals(RGB, actual);
+assertThat(Calculator.calculate(1.0), equalTo(1));
+[EOL]       assertEquals("", stringBuffer0.toString())
+Assertions.assertTrue(v1.equals(v1)); [EOL] Assertions.assertTrue(v2.equals(v2));
+assertEquals(expectedColumn, columnName);
+assertEquals("name", stage.getName());
+assertEquals(hash1, hashCode); [EOL] assertEquals(hash1, hashCode); [EOL] assertEquals(hashCode, hashCode);
+[EOL]       assertEquals(0.0, double0, 0.01)
+assertNull(cache);
+assertThat(
+assertEquals(1L, id2.hashCode());
+assertThat(option.getValue()).isEmpty();
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertNotNull(Encoder); [EOL] 		assertTrue(EncryptedUtils.equals(encryptedPassword.toHexString()));
+assertFalse(iterator.hasNext());
+assertThat(instances).isEmpty();
+Assert.assertEquals(3, manifest.size());
+assertNotNull(convert);
+Assert.assertNotNull(s);
+assertNotNull(seb);
+assertThat(logEvents.size()).isEqualTo(1); [EOL] assertThat(logger.getLoggerName()).isEqualTo("loggerName"); [EOL] assertThat(logger.getLoggerName()).isEqualTo(0); [EOL] assertThat(logger.getLoggerName());
+assertNotNull(first);
+assertTrue(Calculator.calculate(1));
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))
+[EOL]       assertTrue(Arrays.equals(new boolean[] {true, false, false, false}, booleanArray0))
+assertNull(encode); [EOL] assertEquals(
+assertTrue(hotList.isEmpty());
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertTrue(Arrays.equals(new String[] {
+[EOL]       assertEquals(0, fraction1.getNumerator())
+Assert.assertTrue(mock.isPresent());
+assertNotNull(response.getStatusCode()); [EOL] assertEquals(
+Assert.assertEquals(
+assertNotNull(converter.apply(new ObjectRecord()));
+Assert.assertTrue(token.isValid());
+assertEquals(1, requestMock);
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertEquals(0, notificationCount.get());
+assertEquals(2, splits.size());
+assertEquals(0, response.getStatus()); [EOL] assertEquals(
+assertEquals(test.getSubspace(i));
+assertThat(path).isEqualTo(path);
+Assert.assertNotNull(response.getStatus());
+assertTrue(value);
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals("", string0)
+assertThat(e, is(oops));
+assertEquals(expected, actual);
+[EOL]       assertEquals('n', strSubstitutor0.getEscapeChar())
+Assert.assertArrayEquals(new String[] {
+assertThat(logEvents.size()).isEqualTo(1);
+assertNull(resolver.apply(null));
+assertThrows(InvalidArgumentException.class, () -> {
+[EOL]       assertFalse(boolean0)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertNull(resolver.apply(null));
+assertThat(result.equals(false)); [EOL] assertThat(result.equals(false)); [EOL] assertThat(result.equals(false)); [EOL] assertThat(result.equals(false));
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+assertTrue(validator.validate(new Integer(1))); [EOL] assertFalse(input.validate(2));
+assertTrue(EncryptedUtil.equals(EncryptedPassword.digest())); [EOL] 		assertTrue(EncryptedUtil.digest() == 0);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+[EOL]       assertEquals(1, stringArray1.length)
+assertThat(e, is(oops));
+assertEquals(expected, actual);
+[EOL]       assertEquals((byte) (-1), (byte)mutableByte0.toByte())
+assertEquals(1, response.getStatus());
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [
+assertThat(result).isEmpty();
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(2, stringArray0.length)
+assertThat(output).isEqualTo(output);
+Assert.assertEquals(DEFAULT_NAME, context.getVarName());
+assertTrue(value.isEmpty());
+assertThat(expected, is(expected));
+assertEquals(1, s.size());
+assertThat(grid.getMessage()).isEqualTo(10); [EOL] assertThat(grid.getMessage()).isEqualTo(10); [EOL] assertThat(grid.getMessage()).isEqualTo(10); [EOL] assertThat(grid.getSize(10); [EOL] assertThat(grid.getSize()).isEqualTo(10);
+assertTrue(dataSet.isEmpty());
+assertTrue(commands.isEmpty()); [EOL] assertTrue(commands.isEmpty());
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]      
+assertNotNull(commands);
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertFalse(handler.isPasswordValid());
+[EOL]       assertEquals(0, string0)
+assertThat(cache.get(0), is(false));
+assertNotNull(seb);
+assertEquals(0, response.getStatus()); [EOL] assertEquals(
+assertEquals(BOUND_VALUE, model.getBinding());
+assertThat(s).isEmpty();
+assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.size()).isEqualTo(2);
+assertThat(logger.getMessage()).isEqualTo("log");
+assertEquals(1, apps.size()); [EOL] assertTrue(apps.contains(application_NAME)); [EOL] assertTrue(appsInCache.contains(application_NAME));
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]      
+assertNotNull(delete); [EOL] assertEquals(1, update.size()); [EOL] assertEquals(2, update.get(0).getType()); [EOL] assertEquals(1, diff.get(0).getType()); [EOL] assertEquals(2, update.getType());
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())
+assertThat(nodes.size()).isEqualTo(1);
+assertEquals(1, organizations.size());
+assertTrue(true);
+assertEquals(1, s.size()); [EOL] assertEquals(2, s.size());
+[EOL]       assertEquals(2, doubleArray1.length)
+assertEquals(1, e.getMessage().size());
+[EOL]       assertEquals("m", string0)
+[EOL]       assertEquals("y_", string0)
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(2, stringArray1.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(2, stringArray0.length)
+assertTrue(permission.getPermission().isEmpty()); [EOL] assertTrue(permission.getPermission().isEmpty()); [EOL] assertTrue(permission.getPermission().isEmpty()); [EOL] assertThat(permission.getPermission().isEmpty(), is(true));
+assertNull(null);
+assertThat(perm.getValue()).isEqualTo(0); [EOL] assertThat(perm.getValue()).isEqualTo(0); [EOL] assertThat(perm.getValue()).isEqualTo(0); [EOL] assertThat(perm.getSize(0));
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+assertThat(logger.getLevel()).isEqualTo(Level.INFO);
+assertEquals(docIdMock,
+assertEquals(1, actual.size());
+assertTrue(result);
+assertThat(result).isNotNull(); [EOL] assertThat(result).isEqualTo(0);
+assertEquals(expected, result);
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]      
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0
+assertTrue(response.isValid()); [EOL] assertTrue(response.isValid());
+assertThat(metricsManager().isEmpty(), is(true));
+Assert.assertNull(parameterParameter);
+[EOL]       assertNull(element0)
+assertThat(params).isEqualTo(parameters);
+[EOL]       assertEquals(1, charArray1.length)
+assertTrue(commands.isEmpty()); [EOL] assertTrue(commands.isEmpty());
+Assert.assertFalse(dbRangerPolicy.isEmpty()); [EOL] Assert.assertFalse(dbRangerPolicy.isEmpty());
+assertFalse(isEmpty);
+assertNull(actual);
+assertThat(matchingGroup).isEqualTo("1"); [EOL] assertThat(matcher.getMessage()).isEqualTo("1");
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]      
+assertEquals(0, response.getStatus()); [EOL] assertEquals(
+[EOL]       assertEquals(9, integerArray1.length)
