@@ -1,0 +1,1000 @@
+assertEquals("latch value should be 3", 3, latch.get());
+Assert.assertEquals(transcoder.encodeStringValue(date), formatTime);
+assertEquals(r1, firstUnprocessed);
+assertNull(longrunningService.get(lrt.getId())); [EOL] 		assertNull(service.get(item.getId())); [EOL] 		assertNotNull(scheduledTaskService.get(d.getId()));
+assertEquals(1, attributes.size()); [EOL] assertEquals("myValue", attribute.getValue()); [EOL] assertEquals("myExpression", attribute.getExpressionObject().getExpression()); [EOL] assertEquals("myRole", attribute.getRole()); [EOL] assertEquals("myType", attribute.getRenderer()); [EOL] assertEquals(1, attributes.size()); [EOL] assertEquals("myBody", attribute.getValue()); [EOL] assertEquals("myExpression", attribute.getExpressionObject() [EOL] assertEquals("myRole", attribute.getRole()); [EOL] assertEquals("myType", attribute.getRenderer());
+assertThat(resultMatch.isFailed(), is(true)); [EOL] assertThat(resultMatch.isPassed(), is(false)); [EOL] assertThat(resultMatch.isSkipped(), is(false));
+assertThatExceptionOfType(NullPointerException.class)
+assertFalse(group(null)); [EOL] 		assertFalse(group("test group**")); [EOL] 		assertFalse(group(RandUtil.nextAlphabetic(GROUP_MAX + 1))); [EOL] 		assertFalse(group(RandUtil.nextAlphabetic(GROUP_MIN - 1))); [EOL] 		assertTrue(group("test group"));
+assertAll( [EOL] () -> assertThat(bytes).hasSize(4), [EOL] () -> assertThat(bytes).isEqualTo(new byte[]{(byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF})
+assertThat(tags.size()).isEqualTo(12);
+Assert.assertNotNull(type); [EOL] Assert.assertTrue(type.getClass().getName(), type instanceof ComplexType); [EOL] Assert.assertTrue(type.getUserData().get(XSDTypeDefinition.class) instanceof XSDComplexTypeDefinition); [EOL] Assert.assertEquals("simpleFeatureType", local); [EOL] Assert.assertEquals(NS_URI, uri); [EOL] Assert.assertEquals(8, attributes.size()); [EOL] // assertTrue(descriptor.getType() instanceof GeometryType); [EOL] assertSimpleAttribute(descriptor, name, typeName, Geometry.class, 1, 1); [EOL] assertSimpleAttribute(descriptor, name, typeName, String.class, 1, 1); [EOL] assertSimpleAttribute(descriptor, name, typeName, Integer.class, 1, 1);
+Assert.assertEquals(1,getChildren(root).size()); [EOL] 		Assert.assertEquals("\"Value1\"",check1.getExpected().getExpression()); [EOL] 		Assert.assertEquals(AssertOperator.EQUALS,check1.getOperator()); [EOL] 		Assert.assertTrue(check1.getDoNegate().get());
+assertTrue(e.isValid());
+assertEquals(1.5, r1.center()); [EOL] assertEquals(0.0, r2.center()); [EOL] assertEquals(-1.5, r3.center());
+assertEquals(xml, "");
+assertThat(subject.createKeyProxy(keyMetadata).getKey(), equalTo(aesKey));
+assertEquals(2, range.getStart());
+assertEquals(LocalTime.NOON, column1.get(0)); [EOL] assertEquals(LocalTime.NOON, column1.get(1)); [EOL] assertNotEquals(LocalTime.NOON, column1.get(2)); [EOL] assertNotEquals(LocalTime.NOON, column1.get(3));
+assertEquals(2, table.columnCount()); [EOL] assertEquals(3, table.rowCount()); [EOL] assertEquals("Date", table.column(0).name()); [EOL] assertEquals("Value", table.column(1).name()); [EOL] assertEquals(ColumnType.LONG, table.columnTypes()[0]); [EOL] assertEquals(1453438800000L, table.column("Date").get(0));
+assertEquals("testBytesToFloat", b, bf, TestConstant.float_min_delta);
+assertThat(DittoAuthorizationContextType.contains(null)).isFalse();
+assertThat(generated).isNotNull();
+assertEquals(desc.getAllowableValues().size(),otherDescriptor.getAllowableValues().size()); [EOL] assertEquals(desc.getDefaultValue(),otherDescriptor.getDefaultValue()); [EOL] assertEquals(desc.getDescription(),otherDescriptor.getDescription()); [EOL] assertEquals(desc.getDisplayName(),otherDescriptor.getDisplayName()); [EOL] assertEquals(desc.getName(),otherDescriptor.getName()); [EOL] assertEquals(desc.getSensitive(),otherDescriptor.isSensitive()); [EOL] assertEquals(desc.getRequired(),otherDescriptor.isRequired());
+assertEquals( 4, periods.size() ); [EOL] assertEquals( periodType.createPeriod( new DateTime( 2008, 10, 1, 0, 0 ).toDate() ), periods.get( 0 ) ); [EOL] assertEquals( periodType.createPeriod( new DateTime( 2009, 1, 1, 0, 0 ).toDate() ), periods.get( 1 ) ); [EOL] assertEquals( periodType.createPeriod( new DateTime( 2009, 4, 1, 0, 0 ).toDate() ), periods.get( 2 ) ); [EOL] assertEquals( periodType.createPeriod( new DateTime( 2009, 7, 1, 0, 0 ).toDate() ), periods.get( 3 ) );
+assertThat(scoreButton.isEnabled(), is(false)); [EOL] assertThat(faveButton.isEnabled(), is(false)); [EOL] assertThat(upvoteButton.isEnabled(), is(false)); [EOL] assertThat(downvoteButton.isEnabled(), is(false)); [EOL] assertThat(scoreButton.isEnabled(), is(false)); [EOL] assertThat(faveButton.isEnabled(), is(true)); [EOL] assertThat(upvoteButton.isEnabled(), is(true)); [EOL] assertThat(downvoteButton.isEnabled(), is(true));
+assertNotNull(list); [EOL] assertTrue(list instanceof List);
+assertFalse(filter.filter(dependency));
+Assert.assertEquals(1, types.size());
+assertArrayEquals("ints contains three zeros, 1 for each multiple of 3",
+assertNotNull(resDom1); [EOL] assertEquals("Test Domain1", resDom1.getDescription()); [EOL] assertEquals("testorg", resDom1.getOrg()); [EOL] assertTrue(resDom1.getEnabled()); [EOL] assertFalse(resDom1.getAuditEnabled()); [EOL] assertNull(resDom1.getTokenExpiryMins()); [EOL] assertNull(resDom1.getMemberExpiryDays()); [EOL] assertNull(resDom1.getServiceExpiryDays()); [EOL] assertNull(resDom1.getRoleCertExpiryMins()); [EOL] assertNull(resDom1.getServiceCertExpiryMins()); [EOL] assertNotNull(resDom2); [EOL] assertEquals("Test2 Domain", resDom2.getDescription()); [EOL] assertEquals("NewOrg", resDom2.getOrg()); [EOL] assertTrue(resDom2.getEnabled()); [EOL] assertFalse(resDom2.getAuditEnabled()); [EOL] assertEquals(Integer.valueOf(1001), resDom2.getYpmId()); [EOL] assertEquals("12345", resDom2.getAccount()); [EOL] assertEquals(resDom2.getCertDnsDomain(), "athenz1.cloud"); [EOL] assertEquals(Integer.valueOf(20), resDom2.getTokenExpiryMins()); [EOL] assertEquals(Integer.valueOf(10), resDom2.getMemberExpiryDays()); [EOL] assertEquals(Integer.valueOf(45), resDom2.getServiceExpiryDays()); [EOL] assertEquals(Integer.valueOf(50), resDom2.getGroupExpiryDays()); [EOL] assertNull(resDom2.getRoleCertExpiryMins()); [EOL] assertNull(resDom2.getServiceCertExpiryMins()); [EOL] assertNotNull(resDom3); [EOL] assertEquals("Test2 Domain-New", resDom3.getDescription()); [EOL] assertEquals("NewOrg-New", resDom3.getOrg()); [EOL] assertTrue(resDom3.getEnabled()); [EOL] assertFalse(resDom3.getAuditEnabled()); [EOL] assertEquals(Integer.valueOf(1001), resDom3.getYpmId()); [EOL] assertEquals("12345", resDom3.getAccount()); [EOL] assertEquals(resDom3.getCertDnsDomain(), "athenz1.cloud"); [EOL] assertEquals(Integer.valueOf(20), resDom3.getTokenExpiryMins()); [EOL] assertEquals(Integer.valueOf(10), resDom3.getMemberExpiryDays()); [EOL] assertEquals(Integer.valueOf(45), resDom3.getServiceExpiryDays()); [EOL] assertEquals(Integer.valueOf(50), resDom3.getGroupExpiryDays()); [EOL] assertEquals(Integer.valueOf(30), resDom3.getRoleCertExpiryMins()); [EOL] assertEquals(Integer.valueOf(40), resDom3.getServiceCertExpiryMins()); [EOL] assertEquals(resDom3.getSignAlgorithm(), "rsa"); [EOL] assertNotNull(resDom4); [EOL] assertEquals("Test2 Domain-New", resDom4.getDescription()); [EOL] assertEquals("NewOrg-New", resDom4.getOrg()); [EOL] assertTrue(resDom4.getEnabled()); [EOL] assertFalse(resDom4.getAuditEnabled()); [EOL] assertEquals(Integer.valueOf(1001), resDom4.getYpmId()); [EOL] assertEquals("12345", resDom4.getAccount()); [EOL] assertEquals(resDom4.getCertDnsDomain(), "athenz1.cloud"); [EOL] assertEquals(Integer.valueOf(500), resDom4.getTokenExpiryMins()); [EOL] assertEquals(Integer.valueOf(10), resDom4.getMemberExpiryDays()); [EOL] assertEquals(Integer.valueOf(20), resDom4.getServiceExpiryDays()); [EOL] assertEquals(Integer.valueOf(25), resDom4.getGroupExpiryDays()); [EOL] assertEquals(Integer.valueOf(300), resDom4.getRoleCertExpiryMins()); [EOL] assertEquals(Integer.valueOf(400), resDom4.getServiceCertExpiryMins()); [EOL] assertEquals(resDom4.getSignAlgorithm(), "ec");
+assertEquals(obj1, layerHash.getTop()); [EOL] assertEquals(obj3, layerHash.getBeneath(obj1)); [EOL] assertEquals(obj2, layerHash.getBeneath(obj3)); [EOL] assertEquals(obj3, layerHash.getTop()); [EOL] assertEquals(obj1, layerHash.getBeneath(obj3)); [EOL] assertEquals(obj2, layerHash.getBeneath(obj1)); [EOL] assertEquals(obj3, layerHash.getTop()); [EOL] assertEquals(obj1, layerHash.getBeneath(obj3)); [EOL] assertEquals(obj2, layerHash.getBeneath(obj1));
+assertEquals(0, c.getTextRise(), 0); [EOL] assertEquals(5, c.getTextRise(), 0); [EOL] assertEquals(12, c.getFont().getSize(), 0); [EOL] assertEquals(-c.getFont().getSize() / 2, c.getTextRise(), 0); [EOL] assertEquals(12, c.getFont().getSize(), 0); [EOL] assertEquals(c.getFont().getSize() / 2 + 0.5, c.getTextRise(), 0);
+assertWithExternalHeadersThat(actual).isEqualTo(expected);
+assertNotNull(transformationResult); [EOL] assertTrue(transformationResult.isSuccessful()); [EOL] assertEquals(transformationResult.getTransformationRequest().getConfiguration(), configuration); [EOL] assertFalse(transformationResult.hasManualInstructions()); [EOL] assertNull(transformationResult.getManualInstructionsFile()); [EOL] assertEquals(transformationResult.getTransformedApplicationDir(), appFolder); [EOL] assertNull(transformationResult.getAbortDetails()); [EOL] assertNotNull(metricsList); [EOL] assertEquals(metricsList.size(), 1); [EOL] assertEquals(metrics.getFromVersion(), "1.5.6"); [EOL] assertEquals(metrics.getToVersion(), "1.5.7"); [EOL] assertEquals(statistics.getManualInstructionsCount(), 0); [EOL] assertEquals(statistics.getPerformResultErrorCount(), 0); [EOL] assertEquals(statistics.getPerformResultSkippedConditionCount(), 1); [EOL] assertEquals(statistics.getPerformResultSkippedDependencyCount(), 0); [EOL] assertEquals(statistics.getTOExecutionResultErrorCount(), 0); [EOL] assertEquals(statistics.getTOExecutionResultWarningCount(), 0); [EOL] assertEquals(statistics.getTUExecutionResultErrorCount(), 0); [EOL] assertEquals(statistics.getTUExecutionResultWarningCount(), 0);
+assertNull (UBL23DocumentTypes.getDocumentTypeOfImplementationClass (null)); [EOL] assertNull (UBL23DocumentTypes.getSchemaOfImplementationClass (null)); [EOL] assertNull (UBL23DocumentTypes.getSchemaOfImplementationClass (String.class)); [EOL] assertSame (eDocType, UBL23DocumentTypes.getDocumentTypeOfImplementationClass (eDocType.getImplementationClass ())); [EOL] assertSame (eDocType.getSchema (), UBL23DocumentTypes.getSchemaOfImplementationClass (eDocType.getImplementationClass ())); [EOL] assertNotNull (eDocType.getValidator ());
+Assert.assertEquals(input, returned);
+FunctionTestUtil.assertResult(maxFunction.invoke(new Object[]{1}), 1); [EOL] FunctionTestUtil.assertResult(maxFunction.invoke(new Object[]{1, 2, 3}), 3); [EOL] FunctionTestUtil.assertResult(maxFunction.invoke(new Object[]{1, 3, 2}), 3); [EOL] FunctionTestUtil.assertResult(maxFunction.invoke(new Object[]{3, 1, 2}), 3);
+Assert.assertTrue(reader.accepts(AtomContainer.class));
+assertTrue(obj instanceof SingleArgsConstuctorClass);
+assertEquals("Generates correct _target metadatum", [EOL] assertTrue("Has title", metadata.containsKey("datacite.title")); [EOL] assertTrue("Has publication year", metadata.containsKey("datacite.publicationyear")); [EOL] assertTrue("Has publisher", metadata.containsKey("datacite.publisher")); [EOL] assertTrue("Has creator", metadata.containsKey("datacite.creator"));
+Assert.assertEquals(1L, new LongBitMask(1L).clone().asLong());
+assertEquals(expectSubscribe, newSubscribe);
+assertEquals(logLine, "10.11.12.13 user.joe athenz.provider \"instance-id-1234\" \"CN=athenz.api,O=Athenz,ST=CA,C=US\" \"CN=AthenzTestCA,O=AthenzTest,ST=CA,C=US\" 11380750808733699965 1629005177000"); [EOL] assertEquals(logLine, "10.11.12.13 - athenz.provider - \"CN=athenz.api,O=Athenz,ST=CA,C=US\" \"CN=AthenzTestCA,O=AthenzTest,ST=CA,C=US\" 11380750808733699965 1629005177000");
+assertEquals("A", SpreadsheetUtils.getPortName("A", null)); [EOL] 		assertEquals("AABR", SpreadsheetUtils.getPortName("AABR", null)); [EOL] 		assertEquals("beta", SpreadsheetUtils.getPortName("B", configuration)); [EOL] 		assertEquals("T", SpreadsheetUtils.getPortName("T", configuration));
+assertEquals(ErrorCode.MALFORMED_QUERY, ex.getCode());
+Assert.assertFalse(firstAlsoCalled.get()); [EOL] Assert.assertTrue(secondAlsoCalled.get());
+Assertions.assertEquals(8080, builder.build().getQosPort());
+assertThat(underTest.isEntriesSizeGreaterThan(comparisonSize)).isFalse();
+assertNotNull(item.get("id")); [EOL] assertEquals(creatorId.toString(), item.get("createId")); [EOL] assertEquals(new BigDecimal(now.toEpochMilli()), item.get("createAt"));
+assertEquals(o1, o2);
+assertThat(fileJobInfo.isDirectory()).isTrue(); [EOL] assertThat(fileToVerify.exists()).isFalse();
+assertFalse(dud.isValid());
+Assert.assertNotNull("DataType was NOT found for Type = " + typeString, dType); [EOL] Assert.assertEquals("Wrong DataType found", typeString, dType.getName()); [EOL] Assert.assertEquals("DataType length is not correct", 255, dType.getLength()); [EOL] Assert.assertNull("DataType should NOT have been found for Type = " + content, dType);
+assertEquals("\"something\"", Messages.quote("something"));
+assertThat(entry.getKey(), is(1)); [EOL] assertThat(entry.getValue(), is("y"));
+Assert.assertEquals(1, atomSignature.getConnected(0)[0]);
+assertNotNull( response ); [EOL] assertEquals( response.getStatus(), 200 );
+Assert.assertEquals(16, sum1.getSum()); [EOL] Assert.assertEquals(7, sum2.getSum()); [EOL] Assert.assertEquals(15, sum3.getSum()); [EOL] Assert.assertEquals(35, sum4.getSum()); [EOL] Assert.assertEquals(35, sum5.getSum()); [EOL] Assert.assertEquals(40, sum6.getSum()); [EOL] Assert.assertEquals(40, sum7.getSum());
+Assert.assertEquals(0, txClient.getInvalidSize()); [EOL] Assert.assertEquals(1, status); [EOL] Assert.assertEquals(0, txClient.getInvalidSize()); [EOL] Assert.assertEquals(2, txClient.getInvalidSize()); [EOL] Assert.assertEquals(0, status); [EOL] Assert.assertEquals(1, txClient.getInvalidSize());
+assertTrue(notJar.stream().anyMatch(elem -> elem.contains("test-classes")));
+assertNotNull("Hello"); [EOL] assertNotNull(null);
+assertThat(declaredFields.getValue(), is(fields));
+assertThat(e).isInstanceOf(RuntimeException.class); [EOL] assertThat(e.getMessage()).isEqualTo("simulated error"); [EOL] assertThat(changesSubscriber.takeNext()).isNull();
+assertTrue("Should have succeeded", core.exitIfConnectionFails(core.client, 3)); [EOL] assertFalse("Success means it shouldn't be closed", core.isClosed()); [EOL] assertFalse("Should fail due to authentication failing", core.exitIfConnectionFails(core.client, 3)); [EOL] assertFalse("Failure does not mean it should be closed", core.isClosed()); [EOL] assertFalse("Should fail due to WebSocket failing", core.exitIfConnectionFails(core.client, 3)); [EOL] assertFalse("Failure does not mean it should be closed", core.isClosed()); [EOL] assertFalse("Should fail due to timeout on source connection", core.exitIfConnectionFails(core.client, 3)); [EOL] assertFalse("Failure does not mean it should be closed", core.isClosed());
+assertEquals("VZA", SpotVgtProductReaderPlugIn.getBandName("VZA.HDF")); [EOL] assertEquals("VZA", SpotVgtProductReaderPlugIn.getBandName("_VZA.HDF")); [EOL] assertEquals("B2", SpotVgtProductReaderPlugIn.getBandName("V220050513179_B2.HDF")); [EOL] assertEquals("MIR", SpotVgtProductReaderPlugIn.getBandName("V220050513179_MIR.HDF"));
+assertEquals(-1, result);
+assertThat(factory.create(1l), is(1l));
+assertEquals(Arrays.asList(
+assertThat(jsonContent, is(response.result));
+Assert.assertTrue(setsDirectly);
+assertThat(request.operation()).isEqualTo("send");
+assertEquals("default", StringUtil.defaultIfEmpty(null, "default")); [EOL] assertEquals("default", StringUtil.defaultIfEmpty("", "default")); [EOL] assertEquals(" ", StringUtil.defaultIfEmpty(" ", "default")); [EOL] assertEquals("bat", StringUtil.defaultIfEmpty("bat", "default"));
+assertThat(fossologyHandler.checkConnection(), is(requestStatus));
+assertFalse(edges.isEmpty()); [EOL] assertEquals("loves", edgeEntity.getLabel()); [EOL] assertEquals("Bruce Banner", person2.getName()); [EOL] assertEquals("Natasha Romanoff", person.getName());
+Assert.assertEquals("C", e.getSymbol());
+Assert.assertTrue(count > 0);
+assertEquivalent(Restrictions.lt(property, value),
+assertThat(result).isEqualTo(TEST_PROJECT_ID);
+assertTrue(zms.matchPrincipalInRole(role, null, "user.user2", null));
+assertEquals(Integer.valueOf(222), tx.makeTx().getEngine().get(recid, Serializer.INTEGER_SERIALIZER));
+Assert.assertEquals(response.getStatus(), 204);
+Assert.assertEquals(attachmentValue.getRef(), attachmentValueUnmarshalled.getRef());
+assertThat(underTest.getTimestamp()).contains(OffsetDateTime.parse(TIMESTAMP));
+Assert.assertEquals(Utilities.julianEaster(2008, true), new Day(2008, Month.April, 26)); [EOL] Assert.assertEquals(Utilities.julianEaster(2009, true), new Day(2009, Month.April, 18)); [EOL] Assert.assertEquals(Utilities.julianEaster(2010, true), new Day(2010, Month.April, 3)); [EOL] Assert.assertEquals(Utilities.julianEaster(2011, true), new Day(2011, Month.April, 23)); [EOL] Assert.assertEquals(Utilities.julianEaster2(2008, true), new Day(2008, Month.April, 26)); [EOL] Assert.assertEquals(Utilities.julianEaster2(2009, true), new Day(2009, Month.April, 18)); [EOL] Assert.assertEquals(Utilities.julianEaster2(2010, true), new Day(2010, Month.April, 3)); [EOL] Assert.assertEquals(Utilities.julianEaster2(2011, true), new Day(2011, Month.April, 23)); [EOL] Assert.assertEquals(Utilities.julianEaster3(2008, true), new Day(2008, Month.April, 26)); [EOL] Assert.assertEquals(Utilities.julianEaster3(2009, true), new Day(2009, Month.April, 18)); [EOL] Assert.assertEquals(Utilities.julianEaster3(2010, true), new Day(2010, Month.April, 3)); [EOL] Assert.assertEquals(Utilities.julianEaster3(2011, true), new Day(2011, Month.April, 23));
+Assert.assertThat(userError,is(ERROR));
+Assert.assertEquals(value,"<reference value=\""+null+"\"/>");
+assertThat(fragments.length, is(2)); [EOL] assertThat(fragments[0].getAtomCount(), is(12)); [EOL] assertThat(fragments[1].getAtomCount(), is(6));
+assertEquals(2, retrieved.getInserts() [EOL] assertEquals(2, deserialized.getInserts() [EOL] assertTrue(deserialized.getInserts()
+Assert.assertEquals(testResult, result, 0.01);
+assertThat(user.isAnonymous()).isFalse();
+assertThat(registry, is(notNullValue())); [EOL] assertThat(registry.getURI(JcrLexicon.Namespace.PREFIX), is(JcrLexicon.Namespace.URI));
+Assert.assertTrue(takeUnlessCalled.get()); [EOL] Assert.assertNull(returned);
+assertThat(entity).isEqualTo(GET_POLICY_RESULT);
+assertThat(ee, exception(UnexpectedFailureException.class, DEFAULT_HEADER, "unexpected")); [EOL] assertThat(ee, exception(UnexpectedFailureException.class, MESSAGE)); [EOL] assertThat(ee, exception(UnexpectedFailureException.class, MESSAGE_1)); [EOL] assertSame(e, ee.getCause()); [EOL] assertSame(e, ee.getCause());
+assertThat(parseB3SingleFormat(traceId + "-" + spanId + "-0").context())
+assertEquals(set("1", "2", "3"), test.getAllShards(exp(OperatorEnum.EQUAL, "sa")));
+Assertions.assertEquals(1000, builder.build().getWait());
+assertSame(expected, actual);
+assertEquals(expected, result);
+assertThat(underTest.toString()).isEqualTo("false");
+Assert.assertEquals(transformed.getOperator(), SequenceOperator.FILTER); [EOL] Assert.assertEquals(((OperatorNode) transformed.getArgument(0)).getOperator(), SequenceOperator.JOIN); [EOL] Assert.assertEquals(((OperatorNode) transformed.getArgument(1)).getOperator(), ExpressionOperator.AND);
+assertEquals(expected, bv.asBinaryString());
+assertNotNull(roleList); [EOL] assertTrue(roleList.getNames().contains("Role1".toLowerCase())); [EOL] assertTrue(roleList.getNames().contains("Role2".toLowerCase()));
+assertTrue(wiki.existsPage(A_FAMOUS_PAGE_ID));
+assertFalse("archiveRoot should not exist", archiveRoot.exists());
+assertThat(e.getMessage())
+assertThat(tables.size()).isEqualTo(0); // table created and dropped [EOL] assertThat(dbName).isEqualTo("mydb"); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.get(0).type()).isEqualTo(EventType.CREATE_TABLE); [EOL] assertThat(list.get(1).type()).isEqualTo(EventType.DROP_TABLE);
+assertNull(ReflectionUtil.getAnnotationFields((Class<?>) null, (Class<? extends Annotation>) null)); [EOL] assertNull(ReflectionUtil.getAnnotationFields((Class<?>) null, AnnotationClass.Test.class)); [EOL] assertNull(ReflectionUtil.getAnnotationFields(AnnotationClass.class, (Class<? extends Annotation>) null)); [EOL] assertTrue(fields.length == 2); [EOL] assertTrue(ObjectUtil.isEmpty(fields));
+Assert.assertEquals(3, subnets.size()); [EOL] Assert.assertTrue(subnets.contains("2-v0s")); [EOL] Assert.assertTrue(subnets.contains("1-v1s")); [EOL] Assert.assertTrue(subnets.contains("1-v0s"));
+assertFalse(optimizedExportStrategy.test(exportParameters));
+Assert.assertArrayEquals(new String[]{
+assertThat(totalDuration, is(10000000000L));
+Assertions.assertNull(channel.getAttribute(CHANNEL_KEY)); [EOL] Assertions.assertNull(channel.getAttribute(CHANNEL_KEY));
+assertThat(configurableService.annotationType(), is(ConfigurableService.class)); [EOL] assertThat(configurableService.category(), is(emptyString())); [EOL] assertThat(configurableService.description_uri(), is(emptyString())); [EOL] assertThat(configurableService.factory(), is(false)); [EOL] assertThat(configurableService.label(), is(emptyString()));
+assertThat(value.getString(), is("true"));
+testObserver.assertNoValues() [EOL] .assertNotComplete() [EOL] .assertError(IOException.class);
+assertNull("Should have null result", secretManager.decrypt(null));
+assertFalse("compose concat empty string has no more length than sentinel", predicate.test("")); [EOL] assertTrue("compose concat empty string has more length than sentinel", predicate.test("more"));
+assertNotNull(certReq); [EOL] assertEquals(Crypto.extractX509CSRDnsNames(certReq), dnsNames);
+assertThat(authenticator.authenticate(SimplePrincipal.of("CN=new-client"), false)).isEmpty();
+assertThat(actualJson).isEqualTo(KNOWN_JSON);
+assertFalse(shutdownOnPowerDisconnect.getValue());
+assertEquals(1, filtered.size()); [EOL] assertEquals("PastureProvider".toLowerCase(), ModelUtilities.getTargetLabel(result.getNodeTemplate("shetland_pony")).get()); [EOL] assertEquals("FieldProvider".toLowerCase(), ModelUtilities.getTargetLabel(result.getNodeTemplate("shetland_pony_2")).get()); [EOL] assertEquals("FieldProvider".toLowerCase(), ModelUtilities.getTargetLabel(result.getNodeTemplate("shetland_pony_3")).get()); [EOL] assertEquals("FieldProvider".toLowerCase(), ModelUtilities.getTargetLabel(result.getNodeTemplate("shetland_pony_4")).get());
+assertTrue(answer instanceof GroupAnswer); [EOL] assertEquals(((GroupAnswer) answer).getResults().length, 2); [EOL] assertTrue(answer.getResult());
+assertEquals(after, parser.parser(null, before).getSql()); [EOL] assertEquals(after, parser.parser(null, before).getSql()); [EOL] assertEquals(after, parser.parser(null, before).getSql()); [EOL] assertEquals(after, parser.parser(null, before).getSql());
+assertTrue(Math.abs(M.sum())<1e-9 );
+assertEquals(expectedOutput, new String(stream.toByteArray()));
+assertThatExceptionOfType(DittoHeaderInvalidException.class) [EOL] .satisfies(dittoHeaderInvalidException -> assertThat(dittoHeaderInvalidException.getDescription())
+assertThatExceptionOfType(ComputationException.class) [EOL] assertEquals("logs", ce.getErrLogs().get("security-analysis.err")); [EOL] assertEquals("logs", ce.getOutLogs().get("security-analysis.out")); [EOL] assertNotNull(result); [EOL] assertTrue(result.getPreContingencyResult().isComputationOk()); [EOL] assertTrue(result.getPreContingencyResult().getLimitViolations().isEmpty()); [EOL] assertEquals(1, result.getPostContingencyResults().size()); [EOL] assertEquals("c1", result.getPostContingencyResults().get(0).getContingency().getId()); [EOL] assertTrue(resultWithLog.getLogBytes().isPresent()); [EOL] assertEquals(expectedLogs, foundNames);
+assertEquals(5, joined.columnCount()); [EOL] assertEquals(4, joined.rowCount()); [EOL] assertEquals(4, joined.column("ID").size());
+FunctionTestUtil.assertResult(stringFunction.invoke(Period.ofMonths(2)), "P2M"); [EOL] FunctionTestUtil.assertResult(stringFunction.invoke(Period.ofMonths(27)), "P2Y3M"); [EOL] FunctionTestUtil.assertResult(stringFunction.invoke(Period.ofMonths(-27)), "-P2Y3M");
+assertTrue(names.remove(nm), "Missed name: " + nm); //$NON-NLS-1$ [EOL] 		assertEquals(0, names.size());
+assertThat(textProperty.get()).isEqualTo("New Label"); [EOL] assertThat(listener.getCount()).isEqualTo(0); [EOL] assertThat(textProperty.get()).isEqualTo("Label text updated directly"); [EOL] assertThat(listener.getCount()).isEqualTo(1); [EOL] assertThat(label.getText()).isEqualTo("Label text updated via property"); [EOL] assertThat(listener.getCount()).isEqualTo(2);
+Assert.assertEquals(42, left.toInt()); [EOL] Assert.assertEquals(123, right.toInt());
+assertThat(lv == lv2).isTrue();
+assertThat(dittoRuntimeException).isEqualTo(expectedException);
+assertEquals(createNewInstanceStrategyArgumentCaptor.getValue().resolve(collectionNameStr), collectionName);
+Assert.assertFalse("Header understood", result); [EOL] 		Assert.assertTrue("Context has no response", context.hasResponse()); [EOL] 		Assert.assertTrue("Response body has no fault", responseBody.hasFault()); [EOL] 		Assert.assertEquals("Invalid fault code", new QName(SOAPConstants.URI_NS_SOAP_1_2_ENVELOPE, "MustUnderstand"), [EOL] 		Assert.assertEquals("Invalid fault string", SoapMessageDispatcher.DEFAULT_MUST_UNDERSTAND_FAULT_STRING, [EOL] 		Assert.assertTrue("Response header has no elements", iterator.hasNext()); [EOL] 		Assert.assertEquals("No NotUnderstood header", new QName(SOAPConstants.URI_NS_SOAP_1_2_ENVELOPE, "NotUnderstood"),
+Assert.assertEquals(first, stack.current());
+Assert.assertNotNull(rootRule); [EOL] Assert.assertEquals("main", rootRule.getId());
+assertNotNull(obj); [EOL] 		assertEquals(0, obj.getRecordIndex()); [EOL] 		assertEquals(100, obj.getOffsetInFile()); [EOL] 		assertEquals(128, obj.getRecordContentLength()); [EOL] 		assertNotNull(obj); [EOL] 		assertEquals(2, obj.getRecordIndex()); [EOL] 		assertEquals(420, obj.getOffsetInFile()); [EOL] 		assertEquals(128, obj.getRecordContentLength()); [EOL] 		assertNotNull(obj); [EOL] 		assertEquals(1, obj.getRecordIndex()); [EOL] 		assertEquals(236, obj.getOffsetInFile()); [EOL] 		assertEquals(176, obj.getRecordContentLength()); [EOL] 		assertNotNull(obj); [EOL] 		assertEquals(2, obj.getRecordIndex()); [EOL] 		assertEquals(420, obj.getOffsetInFile()); [EOL] 		assertEquals(128, obj.getRecordContentLength()); [EOL] 		assertNotNull(obj); [EOL] 		assertEquals(0, obj.getRecordIndex()); [EOL] 		assertEquals(100, obj.getOffsetInFile()); [EOL] 		assertEquals(128, obj.getRecordContentLength()); [EOL] 		assertNotNull(obj); [EOL] 		assertEquals(18, obj.getRecordIndex()); [EOL] 		assertEquals(3860, obj.getOffsetInFile()); [EOL] 		assertEquals(256, obj.getRecordContentLength());
+assertThatIllegalArgumentException()
+assertEquals(COSInteger.THREE, victim.getItem(COSName.A));
+assertThat(actualProjection).isEqualTo(annotatedClass);
+assertFalse(validator.checkPackage("_abc123,xyz.ABC.ABC"));
+assertNotNull(personRepository);
+assertTrue(field.in(env));
+assertSame("should return same array", policies, facade.getPolicies(principal));
+assertThat(entity).isEqualTo(JOB_1);
+assertThat(builder.toString(), is("INSERT OR IGNORE"));
+assertNotNull(partitions); [EOL] assertThat(partitions, hasSize(2));
+assertThrows(IOException.class, () -> getLatestVersion("1234:5678:"));
+assertThat(map1.equals(map2), is(true));
+assertNull(dataSetDefRegistry.getDataSetDef("salesPerYearAutoDeploy")); [EOL] assertNotNull(def);
+assertTrue(cb.waitForComplete()); [EOL] assertEquals(4, cb.processed);
+assertThat(deviceLogItems.size()).isEqualTo(1);
+assertEquals(expectedParentMap.keySet(), parentKeys); [EOL] parentKeys.forEach(iri -> assertEquals(expectedParentMap.get(iri), parentMap.get(iri))); [EOL] assertEquals(expectedChildMap.keySet(), childKeys); [EOL] childKeys.forEach(iri -> assertEquals(expectedChildMap.get(iri), childMap.get(iri))); [EOL] assertEquals(expectedSubjects, result.getModel().subjects());
+assertTrue(locked);
+assertEquals(Parser.EVENT, packet.type); [EOL] assertNotNull(packet.data); [EOL] assertEquals(JSONArray.class, packet.data.getClass()); [EOL] assertEquals(1, ((JSONArray) packet.data).length()); [EOL] assertEquals("baz", ((JSONArray) packet.data).get(0)); [EOL] assertNotNull(rooms); [EOL] assertArrayEquals(new String[] { "foo", "bar" }, rooms); [EOL] assertNull(socketsExcluded);
+.assertSubscribed()
+to.assertEmpty();
+assertEquals (AOption.<String>none(), ACollectionHelper.find (Arrays.<String>asList (), len1)); [EOL] assertEquals (AOption.<String>none(), ACollectionHelper.find (Arrays.asList ("", "ab", "cde"), len1)); [EOL] assertEquals (AOption.some("d"), ACollectionHelper.find (Arrays.asList ("", "abc", "d", "ef", "g"), len1));
+assertEquals("Pixel 3 API 29 (Missing system image)", action.getTemplatePresentation().getText());
+Assert.assertTrue(cout > 0);
+assertWithExternalHeadersThat(actual).isEqualTo(expected);
+assertEquals("February 2015", detailsForMonth.getName()); [EOL] 		assertEquals(1, detailsForMonth.getCategories().size()); [EOL] 		assertEquals("Uncategorized", categorySummary.getName()); [EOL] 		assertEquals(-12345L, categorySummary.getAmount());
+assertThrows(IllegalArgumentException.class,
+assertThat(logger.isLoggable(Level.SEVERE)).isTrue(); [EOL] assertThat(logger.isLoggable(Level.WARNING)).isTrue(); [EOL] assertThat(logger.isLoggable(Level.INFO)).isFalse(); [EOL] assertThat(logger.isLoggable(Level.CONFIG)).isFalse(); [EOL] assertThat(logger.isLoggable(Level.FINE)).isFalse(); [EOL] assertThat(logger.isLoggable(Level.FINER)).isFalse(); [EOL] assertThat(logger.isLoggable(Level.FINEST)).isFalse();
+assertNotNull(entry); [EOL] assertNull(entry.etag); [EOL] assertEqualsWithin(entry.serverDate, now, ONE_MINUTE_MILLIS); [EOL] assertEqualsWithin(entry.lastModified, (now - ONE_DAY_MILLIS), ONE_MINUTE_MILLIS); [EOL] assertTrue(entry.softTtl >= (now + ONE_HOUR_MILLIS)); [EOL] assertTrue(entry.ttl == entry.softTtl);
+// assert [EOL] assertThat(culpritTable.getNumberOfColumns(), is(0)); [EOL] assertThat(culpritTable.getNumberOfRows(), is(0));
+Assert.assertThat(g.topologyOf(0), is(Topology.unknown()));
+assertThat(vector.x, closeTo(6d, 0.01)); [EOL] assertThat(vector.y, closeTo(7d, 0.01));
+Assert.assertTrue(fc.getConfigurationErrors().isEmpty()); [EOL] Assert.assertNull(ac);
+Assert.assertNotNull(this.delegatesManager);
+assertThat(result).extracting("symbol").containsExactlyInAnyOrder("UBI.PA", "GFT.PA", "RR.L");
+assertNotNull(method); [EOL] assertEquals("test", result.get(0).get(1));
+assertFalse(kbuilder.hasErrors()); [EOL] assertEquals( 1, list.size() );
+assertEquals(1, time.size()); [EOL] assertEquals("2011-10-10T10:00:00.000Z",df.format(time.get(0)));
+assertEquals(SpreadsheetEmptyCellPolicy.EMPTY_STRING, configuration.getEmptyCellPolicy());
+Assert.assertEquals( -1, orderAsc.compare( object1, object2 ) );
+assertThat(ov1.hashCode() == ov2.hashCode()).isTrue();
+assertThat(validComponent).isFalse();
+assertThat(StringUtil.normalize("test this"), is("test this"));
+assertEquals( 2, dsA.getDataSetElements().size() ); [EOL] assertEquals( 1, dsB.getDataSetElements().size() ); [EOL] assertEquals( 2, deA.getDataSetElements().size() ); [EOL] assertEquals( 1, deB.getDataSetElements().size() );
+assertThat(ts.getOnNextEvents().size(), equalTo(1));
+assertEquals(VERSION, task.getTarget());
+assertTrue(CharScanner.isInteger("-123".toCharArray()));
+assertEquals(mBuilder.getTextSpacingExtra(), 10.0f, 0.0f); [EOL] assertEquals(mLayout.getSpacingAdd(), 10.0f, 0.0f);
+assertThat(shapes.size(), is(2));
+assertEquals(Boolean.FALSE, h1.getBoolean()); [EOL] assertEquals(Boolean.TRUE, h2.getBoolean()); [EOL] assertEquals(null, h3.getBoolean());
+assertEquals(1, XPathUtil.rootElementSteps(descriptor, namespaces).size()); [EOL] assertEquals(rootQName, step.getName()); [EOL] assertEquals(1, XPathUtil.rootElementSteps(descriptor, namespaces).size()); [EOL] assertEquals(rootQName, step.getName());
+assertArrayEquals(expected, Proto.build_null_str(str));
+context.assertNotNull(joltSpec); [EOL] context.assertNotNull(joltSpec.getChainr()); [EOL] context.assertTrue(joltSpec.isWithMetadata()); [EOL] context.assertNotNull(joltSpec2); [EOL] context.assertNotNull(joltSpec2.getChainr()); [EOL] context.assertFalse(joltSpec2.isWithMetadata());
+assertNotNull(supportedOutputFormats); [EOL] assertEquals(8, supportedOutputFormats.size()); // should be 7 once GEOT-3172 is fixed [EOL] assertTrue(supportedOutputFormats.contains("text/gml; subtype=gml/3.1.1")); [EOL] assertTrue(supportedOutputFormats.contains("text/xml; subtype=gml/2.1.2")); [EOL] assertTrue(supportedOutputFormats.contains("text/xml; subtype=gml/3.1.1")); [EOL] assertTrue(supportedOutputFormats.contains("GML2-GZIP")); [EOL] assertTrue(supportedOutputFormats.contains("gml3")); [EOL] assertTrue(supportedOutputFormats.contains("json")); [EOL] assertTrue(supportedOutputFormats.contains("SHAPE-ZIP")); [EOL] assertTrue(supportedOutputFormats.contains("GML2"));
+assertEquals(actor, value.getValue());
+assert firstHandler.getVariable().get("message") == p; [EOL] assert firstHandler.getVariable().get("data") == data; [EOL] assert secondHandler.getVariable().get("message") == null; [EOL] assert secondHandler.getVariable().get("data") == null;
+assertEquals("getEntityId", entityPath(ENTITY_TYPE, ENTITY_ID1), candidateAdded.getEntityPath()); [EOL] assertEquals("getNewCandidate", memberName1, candidateAdded.getNewCandidate()); [EOL] assertEquals("getAllCandidates", ImmutableSet.of(memberName1), [EOL] assertEquals("getEntityId", entityPath(ENTITY_TYPE, ENTITY_ID1), candidateAdded.getEntityPath()); [EOL] assertEquals("getNewCandidate", memberName2, candidateAdded.getNewCandidate()); [EOL] assertEquals("getAllCandidates", ImmutableSet.of(memberName1, memberName2), [EOL] assertEquals("getEntityId", entityPath(ENTITY_TYPE, ENTITY_ID2), candidateAdded.getEntityPath()); [EOL] assertEquals("getNewCandidate", memberName1, candidateAdded.getNewCandidate()); [EOL] assertEquals("getAllCandidates", ImmutableSet.of(memberName1), [EOL] assertEquals("getEntityId", entityPath(ENTITY_TYPE, ENTITY_ID1), candidateRemoved.getEntityPath()); [EOL] assertEquals("getRemovedCandidate", memberName1, candidateRemoved.getRemovedCandidate()); [EOL] assertEquals("getRemainingCandidates", ImmutableSet.of(memberName2), [EOL] assertEquals("getEntityId", entityPath(ENTITY_TYPE, ENTITY_ID1), candidateRemoved.getEntityPath()); [EOL] assertEquals("getRemovedCandidate", memberName2, candidateRemoved.getRemovedCandidate()); [EOL] assertEquals("getRemainingCandidates", ImmutableSet.of(),
+assertEquals(true, ByteArrayHelper.getBit(byteArray, 13)); [EOL] assertEquals(false, ByteArrayHelper.getBit(byteArray, 13));
+assertThat(actualRow).hasDescription(EXPECTED_DESCRIPTION) [EOL] assertThatDetailedColumnContains(actualRow.getFileName(),
+assertArrayEquals("loadedClasses should contain String and Map",
+assertEquals(expectedResponse, response.getResult());
+Assert.assertEquals(expected.encode(), berValue.getRemainingBytes());
+Assert.assertTrue(cache.has("asd"));
+Assert.assertEquals(-175.22, bbox.getMinX(), .01); [EOL] 		Assert.assertEquals(179.21, bbox.getMaxX(), .01); [EOL] 		Assert.assertEquals(-41.29, bbox.getMinY(), .01); [EOL] 		Assert.assertEquals(64.15, bbox.getMaxY(), .01);
+Assertions.assertEquals("result", result.getValue());
+assertThat(results).isNotEmpty();
+assertThat(HexEncoder.getString(seed), is(
+assertThat(new PageTitle("wiki", wiki), is(wiki.titleForInternalLink("wiki"))); [EOL] assertThat(new PageTitle("wiki", wiki), is(wiki.titleForInternalLink("/wiki/wiki"))); [EOL] assertThat(new PageTitle("wiki/wiki", wiki), is(wiki.titleForInternalLink("/wiki/wiki/wiki")));
+assertThat(
+assertFalse(multiKey.equals("a"));
+assertEquals(response.getStatus(), 200);
+assertTrue(latch.await(10000, TimeUnit.MILLISECONDS)); [EOL] assertTrue(commandShowsUp.get()); [EOL] assertTrue(threadPoolShowsUp.get());
+assertEquals(prefix + "key count", expectList.size(), actualList.size()); [EOL] assertEquals(subPrefix + " value ", expectObject.get("keyValue").getAsString(), actualObject.keyValue); [EOL] assertEquals(subPrefix + " type ", expectObject.get("keyType").getAsString(),
+assertTrue(fs.size() == 2); [EOL] 		assertTrue(fs.contains(2)); [EOL] 		assertTrue(fs.contains(1)); [EOL] 		assertTrue(fs.size() == 2); [EOL] 		assertTrue(fs.contains(2)); [EOL] 		assertTrue(fs.contains(1));
+assertFalse(fd.add(iDoc2)); [EOL] assertTrue(fd.add(iDoc1)); [EOL] assertEquals(1, fd.getFields().size()); [EOL] assertTrue(fd.getFields().contains(iDoc1));
+assertSame(description, chain.getChainDescription());
+assertTrue(results.contains(lineMgmt)); [EOL] 		assertTrue(results.contains(employment));
+assertTrue(stereoElements.hasNext()); [EOL] Assert.assertNotNull(stereoElement); [EOL] assertTrue(stereoElement instanceof ITetrahedralChirality); [EOL] Assert.assertEquals("C", l4Chiral.getChiralAtom().getSymbol()); [EOL] Assert.assertNotNull(atom); [EOL] Assert.assertEquals(mol.getAtom(0), ligands[0]); [EOL] Assert.assertEquals(mol.getAtom(1), ligands[1]); [EOL] Assert.assertEquals(mol.getAtom(2), ligands[2]); [EOL] Assert.assertEquals(mol.getAtom(5), ligands[3]); [EOL] Assert.assertEquals(Stereo.ANTI_CLOCKWISE, l4Chiral.getStereo()); [EOL] Assert.assertNotNull(atom); [EOL] Assert.assertEquals(mol.getAtom(0), ligands[0]); [EOL] Assert.assertEquals(mol.getAtom(2), ligands[1]); [EOL] Assert.assertEquals(mol.getAtom(3), ligands[2]); [EOL] Assert.assertEquals(mol.getAtom(4), ligands[3]); [EOL] Assert.assertEquals(Stereo.ANTI_CLOCKWISE, l4Chiral.getStereo());
+Assert.assertTrue(adds.size() == 2); [EOL] Assert.assertTrue(adds.size() == 0); [EOL] Assert.assertTrue(deletes.size() == 1); [EOL] Assert.assertTrue(deletes.get(0).equals(new ServiceInstance("127.0.0.1", 8015))); [EOL] Assert.assertTrue(adds.size() == 1); [EOL] Assert.assertTrue(deletes.size() == 0); [EOL] Assert.assertTrue(adds.get(0).equals(new ServiceInstance("127.0.0.1", 8015)));
+assertTrue(thread.hasIpV6Servers(config, servers)); [EOL] assertFalse(thread.hasIpV6Servers(config, servers)); [EOL] assertFalse(thread.hasIpV6Servers(config, servers)); [EOL] assertFalse(thread.hasIpV6Servers(config, servers)); [EOL] assertTrue(thread.hasIpV6Servers(config, servers));
+Assert.assertNotNull(_svc.getVolumeNameFromCommand(createVol));
+assertEquals("THE_TOKEN", bearerToken);
+assertSame(expectedResult, actualResult.get(RestController.PLACE_OBJ));
+assertThat(tables.size()).isEqualTo(0); // table created and dropped [EOL] assertThat(dbName).isEqualTo("other"); [EOL] assertThat(list.size()).isEqualTo(2); [EOL] assertThat(list.get(0).type()).isEqualTo(EventType.CREATE_TABLE); [EOL] assertThat(list.get(1).type()).isEqualTo(EventType.DROP_TABLE);
+assertEquals(0, sut.getLicenses().size());
+assertThat(problems.hasErrors(), is(false)); [EOL] assertThat(problems.isEmpty(), is(true)); [EOL] assertProjectNode(plan, "column1", "column2", "column3"); [EOL] assertThat(plan.getType(), is(PlanNode.Type.PROJECT)); [EOL] assertThat(plan.getChildCount(), is(1)); [EOL] assertSourceNode(source, "someTable", null, "column1", "column2", "column3"); [EOL] assertThat(source.getChildCount(), is(0));
+assertEquals(0,r.getCount()); [EOL] 		assertEquals(0,r.getStart()); [EOL] 		assertEquals(1,r.getTotal()); [EOL] 		assertEquals(false, b.isApplied()); [EOL] 		assertEquals(true, b.isSaved()); [EOL] 		assertEquals(new Date(1322150498000l), b.getSavedTimestamp()); [EOL] 		assertEquals(true, j.isActive()); [EOL] 		assertEquals(139355, j.getCompany().getId()); [EOL] 		assertEquals("Allen Recruitment Consulting", j.getCompany().getName()); [EOL] 		assertEquals(2160963, j.getId()); [EOL] 		assertEquals("Java Developer - GWT (Perm or Contract) \u2013 Dublin, Ireland", j.getPosition().getTitle()); [EOL] 		assertEquals(new Date(1320773338000l), j.getPostingTimestamp()); [EOL] 		assertEquals("Our Client has an excellent opportunity for a number Java GWT Developers. You will be based out of Dublin City Centre office. Overseas candidates are welcome to apply, but ideally you should be currently eligible to work in the EU / Ireland Responsibilities: Ownership of the design and the implementation (estimation, breakdown of tasks) for complex business functional specifications through the ", j.getDescriptionSnippet());
+Assertions.assertEquals("result", result.getValue());
+assertThatExceptionOfType(ConnectionException.class).isThrownBy(() -> {
+assertThat("#05FF00", is(equalTo(hex)));
+assertEquals("&lt;null&gt;", sanitizer.escapeValue(null));
+Assertions.assertThat(XlsUtils.getColumnNumberFromCellRef("A5")).isEqualTo(0); [EOL] Assertions.assertThat(XlsUtils.getColumnNumberFromCellRef("D5")).isEqualTo(3); [EOL] Assertions.assertThat(XlsUtils.getColumnNumberFromCellRef("A15")).isEqualTo(0); [EOL] Assertions.assertThat(XlsUtils.getColumnNumberFromCellRef("AG142")).isEqualTo(32); [EOL] Assertions.assertThat(XlsUtils.getColumnNumberFromCellRef("BB11")).isEqualTo(53);
+assertEquals("780508", underlyingSymbol);
+assertTrue(setHasNames(
+assertEquals( "Array List", TextUtils.getPrettyClassName( ArrayList.class ) ); [EOL] assertEquals( "Abstract Sequential List", TextUtils.getPrettyClassName( AbstractSequentialList.class ) );
+assertEquals(4, results.size()); [EOL] assertEquals("[[A, C], [A, D], [B, C], [B, D]]", results.toString()); [EOL] assertEquals(2, results.size()); [EOL] assertEquals("[[A, C], [A, D]]", results.toString()); [EOL] assertEquals(0, results.size()); [EOL] assertEquals("[[A], [B], [C]]", results.toString());
+assertThat(httpServletRequestImpl.getIntHeader("missingIntKey"), is(-1)); [EOL] assertThat(httpServletRequestImpl.getIntHeader("intKey"), is(3333)); [EOL] assertThat(httpServletRequestImpl.getIntHeader("unableToParseKey"), is(0));
+Assert.assertTrue(e instanceof IllegalArgumentException); [EOL] Assert.assertTrue(s.equalsIgnoreCase(CodecUtils.byte2hex(bs)));
+Assert.assertEquals(IllegalArgumentException.class, e.getClass());
+assertEquals(Long.valueOf(1), new RequestParameter(null, "1").toLong()); [EOL] assertEquals(Long.valueOf(-1), new RequestParameter(null, "-1").toLong());
+Assert.assertTrue(dataBaseInfo != null);
+Assert.assertArrayEquals(basis.weightVector(), new int[]{3, 3, 3, 3, 3, 3, 3, 3});
+assertThat(declarativeSampler.methodToSamplers)
+assertTrue(result.isLeft());
+assertEquals(result, new BigDecimal("0.125"));
+assertThat(feature, notNullValue());
+assertThat(FAILURE_WITH_THROWABLE.orAttemptGetFrom(mockOtherValueFailingAttemptSupplier),
+assertThat(namesOfIdProperties.size(), equalTo(1)); [EOL] assertThat(namesOfIdProperties, hasItem(idPropertyName));
+Assert.assertEquals(6, molecule.getAtomCount()); [EOL] Assert.assertEquals(2, resonanceStructures.getAtomContainerCount());
+assertEquals("df1754aa4b56c86c06d7842dfd02064f0781c1f740f489d3fc158bb541c8d197", [EOL] assertEquals("625d5aedcd0499fe04ebab81f3c7ae30c236cee653a914ffb587d890198f3aba", [EOL] assertEquals("c138b503c6475aa749585d0e3ad4dba3546b6d33ec485efd8ac8bd603d93fedb", [EOL] assertEquals("93bea45814fd8955cabb957e7a3f8790d6c568eaa16fa30425c2d26c60490bde",
+assertEquals(8, processor.processed.size()); [EOL] assertEquals(expected[i], processor.processed.get(i));
+Assert.assertEquals(result, expected);
+assertCountThenEstimateEquals(cte, clone); [EOL] assertEquals(128, cte.cardinality()); [EOL] assertCountThenEstimateEquals(cte, clone); [EOL] assertFalse(cte.tipped()); [EOL] assertEquals(256, cte.cardinality()); [EOL] assertTrue(clone.tipped()); [EOL] assertEquals(0.1, error, 0.1);
+assertThat(next).isEqualTo(last + period - grace);
+assertThat(messages).containsExactly("hey hello");
+assertTrue(db.engine.getClass() == CacheWeakSoftRef.class); [EOL] assertFalse(((CacheWeakSoftRef)db.engine).useWeakRef);
+assertTrue(comparator.compare(dso1, dso2) < 0);
+assertEquals(actionToBeMoved, initialUpperCaseAction); [EOL] assertEquals(initialUpperCaseAction, movedAction);
+softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom( [EOL] 		softly.assertThat(isAssignableFrom(
+Assert.assertTrue("Expected type: " + Holder.class + " but found " + response.getClass(), response.getClass().isAssignableFrom(Holder.class)); [EOL] 		Assert.assertEquals(obj, ((Holder<Object>) response).getState());
+assertExceptionContains(e, "com.google.crypto.tink.DeterministicAead"); [EOL] assertExceptionContains(e, "com.google.crypto.tink.DeterministicAead");
+assertEquals(status, actualStatus);
+assertTrue(mModel.isNeedAutoFocused()); [EOL] assertFalse(mUpdateManualFetchFabEventCaptor.getValue().getVisible());
+assertTrue("line=" + line,
+Assertions.assertTrue(builder.build().getMethods().contains(method)); [EOL] Assertions.assertEquals(1, builder.build().getMethods().size());
+assertNotNull("active is null", active); [EOL] 		assertEquals("active not true", Boolean.TRUE, active);
+Assert.assertEquals("", 4, result1); [EOL] Assert.assertFalse("", 0 == result2);
+Assert.assertEquals(size, group.getSize());
+assertThat(helper.getBundlePrefix(ignorableBasePath.resolve("i18n/messages_de.properties"))).isEqualTo("i18n"); [EOL] assertThat(helper.getBundlePrefix(ignorableBasePath.resolve("i18n/messages_de.properties").toFile())).isEqualTo("i18n"); [EOL] assertThat(helper.getBundlePrefix(new File(ignorableBasePath.toFile(), "i18n/messages_de.properties"))).isEqualTo("i18n");
+assertNotNull("The bean should not be null",bean); [EOL] 		assertEquals("There should be 1 input",1,bean.get("inputPorts").size()); [EOL] 		assertEquals("There should be 1 output",1,bean.get("outputPorts").size()); [EOL] 		assertEquals("The input should be named input","input",bean.get("inputPorts").get(0).get("name").textValue()); [EOL] 		assertEquals("The output shouldbe named getPersonResponse","getPersonReturn",bean.get("outputPorts").get(0).get("name").textValue()); [EOL] 		assertEquals("The type xml definition should match",xml,bean.get("wrappedType").textValue());
+assertThat(changedThing)
+assertEquals("&gt;&lt;iframe src='external.html'&gt;&lt;/iframe&gt;", sanitizer.execute("><iframe src='external.html'></iframe>")); [EOL] assertEquals("&gt;&lt;script&gt;alert('hack!');&lt;/script&gt;", sanitizer.execute("><script>alert('hack!');</script>"));
+assertThat(this.circuitBreaker.isClosed()).withFailMessage("Status should be OPEN after 2 failures").isFalse();
+assertEquals(shardAccess.getLeaderLocation(), LeaderLocation.UNKNOWN); [EOL] assertEquals(shardAccess.getLeaderLocation(), LeaderLocation.LOCAL); [EOL] assertEquals(shardAccess.getLeaderLocation(), LeaderLocation.UNKNOWN); [EOL] assertTrue(e instanceof IllegalStateException);
+assertThat(init)
+assertNull(store.getCurveName(spec, false));
+assertThatExceptionOfType(NullPointerException.class)
+assertNotNull(resource); [EOL] 		assertNotNull(next); [EOL] 		assertTrue(next instanceof CompoundPrologTerm); [EOL] 		assertEquals("load_classical_b_from_list_of_facts", t.getFunctor()); [EOL] 		assertEquals(2, t.getArity()); [EOL] 		assertTrue(argument.isList());
+assertHexEquals(0xFF00FF01, XMLUtil.getAttributeColor(this.document, "catalog", "book", "price", "color1")); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$ [EOL] 		assertHexEquals(0, XMLUtil.getAttributeColor(this.document, "catalog", "book", "price", "Color1")); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$
+assertThat(parser.parse(reader.readLine(), reader, messageConsumer)).isTrue(); [EOL] assertThat(captor.getAllValues()).hasSize(1);
+assertEquals("joueur nombre piece aprés défausse :", 8, joueur.getPiece());
+assertThat(stmt.getMaxRows(), is(0));
+assertEquals(expectedResult, HeaderHelper.removeQuoteEscapes(string));
+ts.assertNoErrors(); [EOL] ts.assertTerminated(); [EOL] assertEquals(100, ts.values().size());
+assertEquals(new SecurityRoleFunctionCreateRequest(new SecurityRoleFunctionKey(SECURITY_ROLE_2, SECURITY_FUNCTION_2)),
+assertEquals("SOME_FOO", Formatter.toUpperCase("some_foo"));
+Assert.assertNotNull(targetImageSize); [EOL] assertEquals("in", targetImageSize.getIdentifier()); [EOL] assertEquals(21687, targetImageSize.getStartOffset()); [EOL] assertEquals(445, targetImageSize.getTrackOffset()); [EOL] assertEquals(6000, targetImageSize.getRows()); [EOL] assertEquals(2498, targetImageSize.getColumns());
+assertArrayEquals(expected, actual);
+assertThat(underTest).isNotNull();
+assertThat(new URI("test:path")).isEqualTo(converter.convert("test:path ", context));
+assertTrue( item.isDisabled() );
+assertEquals(4, results.length); [EOL] assertSame(populationToAppend, results[0]); [EOL] assertSame(inputPopulations[0], results[1]); [EOL] assertSame(inputPopulations[1], results[2]); [EOL] assertSame(inputPopulations[2], results[3]);
+assertEquals(create.byteBuffer(1, 2, 3), decoderInputBuffer);
+assertTrue(ex.getMessage().indexOf("requirement") != -1);
+assertThat(UNDER_TEST.resolve(THING_ID, "thing_id")).isEmpty();
+assertEquals(0, frame.getBufferIndex()); [EOL] assertEquals(1, frame.getBufferIndex());
+assertThat(parameterDefinitions).hasSize(3); [EOL] assertThat(parameterDefinitions.get(0).getName()).isEqualTo("filterValue"); [EOL] assertThat(parameterDefinitions.get(0).getType()).isEqualTo(String.class); [EOL] assertThat(parameterDefinitions.get(1).getName()).isEqualTo("rqlFunction"); [EOL] assertThat(parameterDefinitions.get(1).getType()).isEqualTo(String.class); [EOL] assertThat(parameterDefinitions.get(2).getName()).isEqualTo("comparedValue"); [EOL] assertThat(parameterDefinitions.get(2).getType()).isEqualTo(String.class);
+assertEquals(os, delegate.getWriter());
+assertThat(nextValues(receiver)).containsExactly((double) i);
+assertTrue(true);
+assertSame(ia, ObjectUtil.defaultIfNull(null, ia)); [EOL] assertSame(ic, ObjectUtil.defaultIfNull(null, ic)); [EOL] assertSame(is, ObjectUtil.defaultIfNull(null, is)); [EOL] assertSame(s, ObjectUtil.defaultIfNull(null, s)); [EOL] assertSame(s, ObjectUtil.defaultIfNull((Object) null, s)); [EOL] assertEquals("123", ObjectUtil.defaultIfNull("123", s));
+assertThat(databaseDeleteFunction(FAILURE)
+assertWithExternalHeadersThat(actualCreated).isEqualTo(expectedCreated); [EOL] assertWithExternalHeadersThat(actualModified).isEqualTo(expectedModified);
+assertThat(en.getKey().startsWith("someprefix")).isTrue(); [EOL] assertThat(en.getValue().getValue()).isEqualTo(System.getenv(thisKey));
+assertMessage("<type>STOPPED</type>", 4);
+assertEquals(6, joined.columnCount()); [EOL] assertEquals(11, joined.rowCount()); [EOL] assertEquals(11, joined.column("Bedrooms").size()); [EOL] assertEquals(0, joined.column("Bedrooms").countMissing()); [EOL] assertEquals(11, joined.column("Bedrooms").size()); [EOL] assertEquals(0, joined.column("Bedrooms").countMissing()); [EOL] assertEquals(11, joined.column("BuildDate").size()); [EOL] assertEquals(3, joined.column("BuildDate").countMissing()); [EOL] assertEquals(11, joined.column("Owner").size()); [EOL] assertEquals(0, joined.column("Owner").countMissing()); [EOL] assertEquals(11, joined.column("Type").size()); [EOL] assertEquals(3, joined.column("Type").countMissing()); [EOL] assertEquals(11, joined.column("SoldDate").size()); [EOL] assertEquals(3, joined.column("SoldDate").countMissing());
+Assert.assertNotNull(model.getMerge());
+Assert.assertEquals("g:h", URIUtils.resolve(this.baseURI, "g:h").toString());
+assertNotNull(patientDetails); [EOL] //assertEquals("line 1, line 3, postcode", patientDetails.getAddress());
+assertEquals(ReturnValue.FAILURE, dataBridgeApp.parseCommandLineArguments(arguments, applicationContext));
+assertTrue(credentialManager.getTrustConfirmationProviders().isEmpty());
+assertThat(testee.bazMethod(), is(6));
+Assert.assertFalse(AnnotationUtils.isIoOpHasTimestamp("A_DB_HAS_NO_NAME", IOType.SourceBatch));
+assertNotNull(user);
+assertThatIllegalArgumentException()
+assertThat(actual).isEqualTo(expected);
+assertEquals("no trusted keys are available for this protocol version", e.getMessage());
+Assert.assertEquals("`user` user", ctx.getSqlStatement()); [EOL] Assert.assertEquals(true, ctx.isTableResolved());
+assertFalse(ByteUtil.isInteger(bytes, 0, bytes.length));
+assertArrayEquals("odd compact encode fail", expectedData, CompactEncoder.packNibbles(test));
+assertEquals(expected, translator.contains(field, testValues));
+assertFalse("Check that task hasn't run yet", ran > 0); [EOL] assertEquals("Check that task ran", 1, ran);
+assertEquals(1, fileService.getFile(file.getId()).getOwners().size()); [EOL] 		assertEquals(2, fileService.getFile(file.getId()).getOwners().size()); [EOL] 		assertEquals("i1", owners.get(1).getUser().getUserId()); [EOL] 		assertEquals(3, fileService.getFile(file.getId()).getOwners().size());
+Assert.assertTrue(r.indexOf("a") > r.indexOf("b")); [EOL] 		Assert.assertTrue(r.indexOf("b") > r.indexOf("c")); [EOL] 		Assert.assertTrue(r.indexOf("a") > r.indexOf("d")); [EOL] 		Assert.assertTrue(r.indexOf("d") > r.indexOf("e")); [EOL] 		Assert.assertTrue(resultNodes.contains(d));
+assertFalse(vns.macToGuid.containsKey(mac1)); [EOL] assertFalse(vns.portToMac.containsKey(hostPort1)); [EOL] assertFalse(vns.vNetsByGuid.get(host1Guid).portToMac.containsValue(mac1)); [EOL] assertFalse(vns.macToGuid.containsKey(mac2)); [EOL] assertFalse(vns.portToMac.containsKey(hostPort2)); [EOL] assertFalse(vns.vNetsByGuid.get(host2Guid).portToMac.containsValue(mac2)); [EOL] assertFalse(vns.macToGuid.containsKey(mac3)); [EOL] assertFalse(vns.portToMac.containsKey(hostPort3)); [EOL] assertFalse(vns.vNetsByGuid.get(host3Guid).portToMac.containsValue(mac3));
+FunctionTestUtil.assertResult( [EOL] FunctionTestUtil.assertResult(
+assertTrue(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled()); [EOL] assertFalse(auditConfig.isLocationEnabled());
+assertThat(cache.getAllItemsRaw()).containsExactly(ITEM_B_B);
+assertEquals(reason, e.getCause().getMessage()); [EOL] assertEquals(count.get(), threadCount);
+assertEquals("old", entry.setValue("new")); [EOL] assertEquals("new", entry.value);
+assertTrue(CacheBuilder.redisCache() instanceof RedisCacheBuilder);
+assertFalse(tweets.getBody().isEmpty());
+assertEquals(expected, result);
+assertEquals("wrong number of inputs", 1, inputs.size()); [EOL] 		assertTrue("should not be base type", [EOL] 		assertEquals("wrong name", "bid", (inputs.get(0)) [EOL] 		assertEquals("wrong type", "int", (inputs.get(0))
+assertEquals(3.0, aggregator.apply(new double[] {1.0, 2.0, 4.0}), 0.001);
+assertFalse(onThirdOrFourthLine.at(at("a1"))); [EOL] 		assertFalse(onThirdOrFourthLine.at(at("a3"))); [EOL] 		assertTrue(onThirdOrFourthLine.at(at("c3"))); [EOL] 		assertTrue(onThirdOrFourthLine.at(at("q16")));
+assertThat(mol.getAtom(2).getPoint2d().x - mol.getAtom(1).getPoint2d().x,
+assertEquals(String.format("results %d: ", i), expected[i], lsaw);
+Assert.assertNotNull(chart);
+assertTrue("Assertions should be enabled.", ImageWorker.class.desiredAssertionStatus()); [EOL] 	Assert.assertEquals("Format",test1I.getRenderedOperation().getOperationName()); [EOL] 	Assert.assertTrue(maximums1.length==1); [EOL] 	Assert.assertEquals(255.0,maximums1[0],1E-10); [EOL] 	Assert.assertTrue(minimums1.length==1); [EOL] 	Assert.assertEquals(255.0,minimums1[0],1E-10); [EOL] 	Assert.assertEquals("Format",test2I.getRenderedOperation().getOperationName()); [EOL] 	Assert.assertTrue(maximums2.length==1); [EOL] 	Assert.assertEquals(255.0,maximums2[0],1E-10); 	 [EOL] 	Assert.assertTrue(minimums2.length==1); [EOL] 	Assert.assertEquals(255.0,minimums2[0],1E-10); 	 [EOL] 	Assert.assertEquals("Rescale",test3I.getRenderedOperation().getOperationName()); [EOL] 		Assert.assertTrue(Math.abs(maximums3a[0]-maximums3b[0])>1E-10); [EOL] 		Assert.assertTrue(Math.abs(255.0-maximums3b[0])>=0); [EOL] 		Assert.assertTrue(minimums3b[0]>=0); [EOL] 	Assert.assertEquals("Format",test4I.getRenderedOperation().getOperationName()); [EOL] 	Assert.assertEquals(maximums4a[0],maximums4b[0],1E-10); [EOL] 	Assert.assertEquals(minimums4a[0],minimums4b[0],1E-10); [EOL] 	Assert.assertEquals(maximums5a[0],maximums5b[0],1E-10); [EOL] 	Assert.assertEquals(minimums5a[0],minimums5b[0],1E-10); [EOL] 	Assert.assertTrue(Math.abs(maximums5a[1]-maximums5b[1])>1E-10); [EOL] 	Assert.assertTrue(Math.abs(minimums5a[1]-minimums5b[1])>1E-10);
+assertEquals(5, victim.getPages(10).size()); [EOL] assertEquals(4, victim2.getPages(15).size());
+assertSame("should be the same nothing", [EOL] assertEquals("latch value should be 2", 2, latch.get());
+assertEquals("ExampleConcreteClass.java", clazz.getSourceFile());
+assertEquals( SQLDataSetDefAttributesDriver.class, presenter.getDriverClass() );
+assert myFileSystem != null; [EOL] assert myMockDevice != null; [EOL] assert myCallbackExecutor != null; [EOL] assertThat(result).isNull(); [EOL] assertThat(totalBytesRef.get()).isEqualTo(deviceEntry.getSize()); [EOL] assertThat(Files.exists(tempFile)).isTrue(); [EOL] assertThat(tempFile.toFile().length()).isEqualTo(deviceEntry.getSize());
+assertEquals(1, ds.size()); [EOL] 		assertEquals(0, ds.indexOf(dt, false)); [EOL] assertEquals(2, ds.size()); [EOL] 		assertEquals(1, ds.indexOf(dt2, false)); [EOL] assertEquals(3, ds.size()); [EOL] 		assertEquals(2, ds.indexOf(dt3, false)); [EOL] assertEquals(4, ds.size()); [EOL] 		assertEquals(3, ds.indexOf(dt4, false)); [EOL] assertEquals(5, ds.size()); [EOL] 		assertEquals(4, ds.indexOf(dt5, false)); [EOL] assertEquals(6, ds.size()); [EOL] 		assertEquals(5, ds.indexOf(dt6, false)); [EOL] assertEquals(7, ds.size()); [EOL] 		assertEquals(6, ds.indexOf(dt7, false)); [EOL] assertEquals(8, ds.size()); [EOL] 		assertEquals(7, ds.indexOf(dt8, false)); [EOL] assertEquals(9, ds.size()); [EOL] 		assertEquals(8, ds.indexOf(dt9, false)); [EOL] assertEquals(10, ds.size()); [EOL] 		assertEquals(9, ds.indexOf(dt10, false)); [EOL] assertEquals(11, ds.size()); [EOL] 		assertEquals(10, ds.indexOf(dt11, false)); [EOL] assertEquals(12, ds.size()); [EOL] 		assertEquals(11, ds.indexOf(dt12, false)); [EOL] assertEquals(13, ds.size()); [EOL] 		assertEquals(12, ds.indexOf(dt13, false)); [EOL] assertEquals(14, ds.size()); [EOL] 		assertEquals(13, ds.indexOf(dt14, false)); [EOL] assertEquals(15, ds.size()); [EOL] 		assertEquals(14, ds.indexOf(dt15, false)); [EOL] assertEquals(16, ds.size()); [EOL] 		assertEquals(15, ds.indexOf(dt16, false)); [EOL] assertEquals(17, ds.size()); [EOL] 		assertEquals(15, ds.indexOf(t, false)); [EOL] 		assertEquals(16, ds.indexOf(dt16, false));
+public void assertGetColumnValue() { [EOL] assertThat(queryRow.getColumnValue(1), is((Object) 10));
+FunctionTestUtil.assertResult( afterFunction.invoke( "a", "b" ), Boolean.FALSE ); [EOL] FunctionTestUtil.assertResult( afterFunction.invoke( "a", "a" ), Boolean.FALSE ); [EOL] FunctionTestUtil.assertResult( afterFunction.invoke( "b", "a" ), Boolean.TRUE ); [EOL] FunctionTestUtil.assertResult( afterFunction.invoke( BigDecimal.valueOf(2), BigDecimal.valueOf(1) ), Boolean.TRUE ); [EOL] FunctionTestUtil.assertResult( afterFunction.invoke( BigDecimal.valueOf(1), BigDecimal.valueOf(2) ), Boolean.FALSE ); [EOL] FunctionTestUtil.assertResult( afterFunction.invoke( BigDecimal.valueOf(1), BigDecimal.valueOf(1) ), Boolean.FALSE );
+Assert.assertNotNull(MFChecker.getRules());
+Assert.assertEquals(timeToVerify, ret);
+assertEquals(2, result.getItems().size()); [EOL] assertEquals("VERTICAL", buttonOrientationProperty.getValue());
+assertThat(options.getCloudStorageOptions().getProxyUsername()).isNotNull(); [EOL] assertThat(options.getCloudStorageOptions().getProxyUsername().value()).isEqualTo("proxy-user"); [EOL] assertThat(options.getCloudStorageOptions().getProxyUsername().toString()) [EOL] assertThat(options.getCloudStorageOptions().getProxyPassword()).isNotNull(); [EOL] assertThat(options.getCloudStorageOptions().getProxyPassword().value()).isEqualTo("proxy-pass"); [EOL] assertThat(options.getCloudStorageOptions().getProxyPassword().toString()) [EOL] assertThat(options.getCloudStorageOptions().getProxyAddress()).isEqualTo("proxy-address");
+assertThrows(IllegalArgumentException.class, optionsBuilder::build);
+assert fakeSocket.compareData(expectedData); [EOL] assert fakeSocket.compareAddress(expectedAddress); [EOL] assert fakeSocket.comparePort(expectedPort);
+assertEquals(copyDirectory.getToRelative(), "src/main/resources"); [EOL] assertEquals(executionResult.getType(), TOExecutionResult.Type.ERROR); [EOL] assertEquals(executionResult.getException().getClass(), TransformationOperationException.class); [EOL] assertEquals(executionResult.getException().getMessage(), "Directory could not be copied"); [EOL] assertEquals(executionResult.getException().getCause().getMessage(), "Source '" + new File(transformedAppFolder, "nonExistentFolder").getAbsolutePath() + "' does not exist"); [EOL] assertEquals(copyDirectory.getDescription(), "Copy directory content from nonExistentFolder to src/main/resources"); [EOL] assertNull(executionResult.getDetails());
+assertEquals("000001111",ALU.integerDivision("1111", "0110", 4));
+Assert.assertTrue(ServiceException.class.isInstance(e));
+assertTrue(ints[i - 1] >= ints[i], "Failed at " + i + ": " + ints[i - 1] + " vs " + ints[i]);
+assertEquals("{\"CycleCalibrated\": {\"StartValue\":10000} {\"TotalUnits\":1000}}\n",results.toString());
+assertEquals(new HSBType("0,0,100"), item.getStateAs(HSBType.class)); [EOL] assertEquals(new HSBType("0,0,0"), item.getStateAs(HSBType.class));
+assertEquals(1, imageView.getScaleX()); [EOL] assertEquals(1, imageView.getScaleY());
+Assert.assertEquals(1, setOfReactions.getReactionCount()); [EOL] Assert.assertEquals(2, setOfReactions.getReaction(0).getProductCount()); [EOL] Assert.assertTrue(new UniversalIsomorphismTester().isIsomorph(molecule1, queryAtom)); [EOL] Assert.assertTrue(new UniversalIsomorphismTester().isIsomorph(product2, queryAtom));
+assertFalse(i1.equals(i2));
+assertCursor(meta.pofClassAttribute, 0, 0, 54, 61);
+assertEquals(URI.create(expected), uri);
+assertThat( list, is( instanceOf( ListNode.class ) ) ); [EOL] assertThat( list.getResultType(), is( BuiltInType.LIST ) ); [EOL] assertThat( list.getText(), is( inputExpression ) ); [EOL] assertThat( ln.getElements(), is( empty() ));
+Assert.assertEquals(2, setOfReactions.getReactionCount()); [EOL] Assert.assertTrue(uiTester.isIsomorph(product1, queryAtom)); [EOL] Assert.assertTrue(uiTester.isIsomorph(product2, queryAtom)); [EOL] Assert.assertTrue(uiTester.isIsomorph(product1, queryAtom)); [EOL] Assert.assertTrue(uiTester.isIsomorph(product2, queryAtom));
+assertEquals(7, smsd1.getFirstAtomMapping().size());
+assertTrue(oadr20bVENEiEventService.getOadrEvents(VTN_SOURCE).isEmpty()); [EOL] 		assertEquals(1, oadr20bVENEiEventService.getOadrEvents(VTN_SOURCE).size()); [EOL] 		assertNotNull(oadr20bVENEiEventService.getOadrEvents(VTN_SOURCE).get(eventId));
+assertCollectionEquals(toString(subGeneric.usedForeignPackages()), model("p4.p1"));
+Assert.assertEquals("<body style=\"background-color:#222222;\"><font color='#FFF'>test</font></body>",root.toHtml());
+assertEquals("stringValue", XMLUtils.nullSafeGetStringAttribute(node, "stringAttr")); [EOL] assertNull(XMLUtils.nullSafeGetStringAttribute(node, "chuckNorris")); [EOL] assertNull(node2); [EOL] assertNull(XMLUtils.nullSafeGetStringAttribute(node2, "kick"));
+assertThatExceptionOfType(ProtocolAdapterException.class).isThrownBy(() -> {
+assertThat(map.target.keySet())
+Assert.assertEquals( [EOL] Assert.assertEquals(ChannelControl.KEEP_OPEN, selectionOperation.getChannelControl()); [EOL] Assert.assertEquals(2, selectionSeRequests.size()); [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertNull( [EOL] Assert.assertEquals( [EOL] Assert.assertEquals( [EOL] Assert.assertNull(seRequest1.getSeSelector().getAtrFilter()); [EOL] Assert.assertEquals(".*", seRequest2.getSeSelector().getAtrFilter().getAtrRegex()); [EOL] Assert.assertEquals(2, seRequest1.getApduRequests().size()); [EOL] Assert.assertEquals(0, seRequest2.getApduRequests().size()); [EOL] Assert.assertArrayEquals(apduRequests.get(0).getBytes(), ByteArrayUtil.fromHex("001122334455")); [EOL] Assert.assertArrayEquals(apduRequests.get(1).getBytes(), ByteArrayUtil.fromHex("66778899AABB")); [EOL] Assert.assertFalse(apduRequests.get(0).isCase4()); [EOL] Assert.assertTrue(apduRequests.get(1).isCase4());
+assertEquals("Incompatible histograms in terms of size or bounds", e.getMessage()); [EOL] assertEquals("Incompatible histograms in terms of size or bounds", e.getMessage()); [EOL] assertEquals(0, failed, 5);
+assertFalse(DefaultCoinSelector.isSelectable(t)); [EOL] assertFalse(DefaultCoinSelector.isSelectable(t)); [EOL] assertFalse(DefaultCoinSelector.isSelectable(t)); [EOL] assertTrue(DefaultCoinSelector.isSelectable(t)); [EOL] assertTrue(DefaultCoinSelector.isSelectable(t)); [EOL] assertTrue(DefaultCoinSelector.isSelectable(t));
+Assert.assertTrue(clientSnapshot.abort());
+Assert.assertEquals(0.97, score, .01);
+TestCase.assertEquals('l', parameters.get("prefix.let")); [EOL] TestCase.assertEquals(true, parameters.get("prefix.activate")); [EOL] TestCase.assertFalse(parameters.containsKey("prefix.flag"));
+Assertions.assertEquals(8080, config.getPort()); [EOL] Assertions.assertEquals(1, config.getCorethreads()); [EOL] Assertions.assertEquals(2, config.getThreads()); [EOL] Assertions.assertEquals(3, config.getIothreads()); [EOL] Assertions.assertEquals(4, config.getQueues()); [EOL] Assertions.assertEquals(5, config.getAccepts()); [EOL] Assertions.assertEquals(6, config.getPayload()); [EOL] Assertions.assertEquals(1024, config.getBuffer()); [EOL] Assertions.assertEquals(1000, config.getHeartbeat()); [EOL] Assertions.assertEquals("name", config.getName()); [EOL] Assertions.assertEquals("host", config.getHost()); [EOL] Assertions.assertEquals("contextpath", config.getContextpath()); [EOL] Assertions.assertEquals("mockthreadpool", config.getThreadpool()); [EOL] Assertions.assertEquals("mockcodec", config.getCodec()); [EOL] Assertions.assertEquals("serialization", config.getSerialization()); [EOL] Assertions.assertEquals("utf-8", config.getCharset()); [EOL] Assertions.assertEquals("accesslog", config.getAccesslog()); [EOL] Assertions.assertEquals("mocktransporter", config.getTransporter()); [EOL] Assertions.assertEquals("mockexchanger", config.getExchanger()); [EOL] Assertions.assertEquals("mockdispatcher", config.getDispatcher()); [EOL] Assertions.assertEquals("networker", config.getNetworker()); [EOL] Assertions.assertEquals("server", config.getServer()); [EOL] Assertions.assertEquals("client", config.getClient()); [EOL] Assertions.assertEquals("mocktelnethandler", config.getTelnet()); [EOL] Assertions.assertEquals("prompt", config.getPrompt()); [EOL] Assertions.assertEquals("mockstatuschecker", config.getStatus()); [EOL] Assertions.assertEquals("optimizer", config.getOptimizer()); [EOL] Assertions.assertEquals("extension", config.getExtension()); [EOL] Assertions.assertTrue(config.isRegister()); [EOL] Assertions.assertFalse(config.getKeepAlive()); [EOL] Assertions.assertTrue(config.isDefault()); [EOL] Assertions.assertTrue(config.getParameters().containsKey("default.num")); [EOL] Assertions.assertEquals("one", config.getParameters().get("default.num")); [EOL] Assertions.assertEquals("id", config.getId()); [EOL] Assertions.assertEquals("prefix", config.getPrefix()); [EOL] Assertions.assertNotSame(config, config2);
+assertThat(all).isNotNull(); [EOL] assertThat(all).isNotEmpty(); [EOL] assertThat(firstWorkspace.getId()).isPositive(); [EOL] assertThat(firstWorkspace.getName()).isNotEmpty();
+assertThat(reply).isNull(); [EOL] assertThat(getLogs()).contains("D/blueReader: blueReader notice that NFC is active...");
+Assert.assertEquals(locationFromLocationManager, lastLocation);
+Assertions.assertThat(filteredTargets)
+assertThat(CxSmilesParser.processCx("|SgD::cdk&#58;ReactionConditions:Heat&#10;Hv|", state), is(not(-1))); [EOL] assertThat(state.mysgroups,
+assertFalse(myPresentation.isEnabled()); [EOL] assertEquals("Screen Record", myPresentation.getText());
+Assert.assertSame(result, thread.delivered());
+assertThat(resultListRepositoryPresenter.getLayoutResId(STRING_LIST_RESULT, 1),
+assertThat(expected.getMessage(), containsString("only 1 META-INF/services/org.apache.dubbo.common.status.StatusChecker file is expected, but 2 dubbo.properties files found on class path:"));
+assertEquals(NullMimeTypeDetector.INSTANCE, detector);
+assertFalse(emailValidator.isValid("simon.pierre.gingras@gmail.c", null));
+assertEquals("(none)", prettyPrinter.format(new ArrayList<Long>()));
+assertFalse(validate.isEmpty()); [EOL] assertEquals("Age should not be greater than 150", message);
+assertEquals(MainNetParams.get().getId(), params.getId()); [EOL] assertEquals(TestNet3Params.get().getId(), params.getId());
+assertEquals(1.000,adjustedPValue,EPSILON);
+assertThat(Strings.isNotEmpty(nullString), is(false)); [EOL] assertThat(Strings.isNotEmpty(emptyString), is(false)); [EOL] assertThat(Strings.isNotEmpty(blankString), is(true)); [EOL] assertThat(Strings.isNotEmpty(string), is(true));
+assertThat(containerInfoBuilder.getPassthroughAttributesMap()).containsEntry(S3_WRITER_ROLE, "defaultWriter"); [EOL] assertThat(containerInfoBuilder.getPassthroughAttributesMap()).containsEntry(S3_BUCKET_NAME, "defaultBucket");
+assertEquals(Locale.getDefault(), wrapper.getLocale());
+assertTrue(range.contains(2)); [EOL] 		assertFalse(range.contains(7));
+assertEquals(ex.getCode(), 400);
+assertThat(strRepresentation).contains(obj.toString()).contains("" + count);
+assertThrows(PhenolRuntimeException.class,
+assertThat(membershipsTableSize()).isEqualTo(before - 1); [EOL] assertThat(membershipsTableSize()).isEqualTo(before - 2);
+assertTrue(c2c.get(0).getColor(null, 0).equals(new Color(0x11, 0x33, 0x55))); [EOL] assertTrue(c2c.get(1).getColor(null, 0).equals(new Color(0xdd, 0x66, 0xee))); [EOL] assertTrue(c2c.get(2).getColor(null, 0).equals(new Color(0xff, 0xaa, 0x99)));
+Assert.assertTrue(telephony.isBusy()); [EOL] Assert.assertNotNull(receivedResult); [EOL] // Assert.assertEquals(utterance, receivedResult.getUtterance());
+assertThat(reply).isNull(); [EOL] assertThat(getLogs()).contains("D/blueReader: blueReader notice that NFC is now hibernated...");
+Assertions.assertFalse(server.isCalled()); [EOL] Assertions.assertTrue(server.isCalled()); [EOL] Assertions.assertEquals("Hello, haha", JavaBeanSerializeUtil.deserialize((JavaBeanDescriptor) result));
+assertThat(result).containsExactlyElementsIn(expected); [EOL] assertThat(cache.getAllItemsRaw()).containsExactlyElementsIn(expected);
+assertEquals("http://ci.visuwall.awired.net/job/struts/7/api/xml", testUrl);
+assertWithExternalHeadersThat(actual).isEqualTo(adaptable);
+assertThat(FAILURE_WITH_THROWABLE.ifSucceededMergeFrom(mockSupplier, mockMerger),
+assertEquals(1, b.anInt); [EOL] assertEquals("Foo", b.aString);
+Throwable t = assertThrows(IllegalArgumentException.class, [EOL] assertThat(t).hasMessage("message");
+assertAll( [EOL] () -> assertThrows(NullPointerException.class, () -> ListUtils.firstIndexOf(null, x -> true)), [EOL] () -> assertThrows(NullPointerException.class, () -> ListUtils.firstIndexOf(new ArrayList<>(), null))
+assertEquals(itemList.size(), 2); [EOL] assertEquals(itemList.get(0).getKey(), "entry1"); [EOL] assertEquals(itemList.get(1).getKey(), "entry2");
+assertEquals("me", object.foo); [EOL] assertEquals("foot", object.foot);
+assertNotNull(reader); [EOL] 	assertNotNull(record); [EOL] 	assertEquals(0, record.getRecordIndex()); [EOL] 	assertEquals(161, record.getRecordOffset()); [EOL] 	assertEquals(BDTOPO_VALUE, record.getFieldValue(0)); [EOL] 	assertEquals("Religieux", record.getFieldValue(1)); //$NON-NLS-1$ [EOL] 	assertEquals(BATIMENT_RELIGIEUX_VALUE, record.getFieldValue(2)); [EOL] 	assertEquals(15., record.getFieldValue(3));
+assertThat(content).contains(
+assertEquals(2, ebXML.length); [EOL] assertEquals("1|" + uriPart1, ebXML[0]); [EOL] assertEquals("2|" + uriPart2, ebXML[1]);
+assertEquals("Conversion from celsius to fahrenheit failed", expected, actual, 0.001);
+assertThat(output).isEqualTo(LIGHT_VIBRANT);
+assertEquals("[{\"name\":\"Foo\",\"events\":[\"FAILURE\",\"FALLBACK_FAILURE\"],\"latencies\":[104]}]", actual);
+assertEquals(
+Assert.assertNotNull(map); [EOL] Assert.assertEquals(20, map.size()); [EOL] Assert.assertNotNull("Did not find AA for: " + aa1, aa);
+assertEquals(Resources.toString(getClass().getResource("keep-layout-test-expected.properties"), Charsets.UTF_8),
+assertTrue(StringUtils.isEquals(null, null)); [EOL] assertFalse(StringUtils.isEquals(null, "")); [EOL] assertTrue(StringUtils.isEquals("abc", "abc")); [EOL] assertFalse(StringUtils.isEquals("abc", "ABC"));
+assertThat(headers).containsAll(ImmutableList.of("a", "b", "c"));
+assertThat(request.summarize()).isEqualTo("blockface [onStreet=null, crossStreetOne=null, crossStreetTwo=null, borough=null]"); [EOL] assertThat(request.summarize()).isEqualTo("blockface [onStreet=bway, crossStreetOne=w 100 st, crossStreetTwo=w 101 st, borough=manhattan]");
+assertEquals(actual.getHeader(CONTENT_TYPE_HEADER), XML_CONTENT); [EOL] assertEquals(actual.getHeader(CONTENT_ENCODING_HEADER), GZIP_CONTENT);
+Assert.assertNull(acplaced); [EOL] Assert.assertEquals(ac.getAtom(1), acplaced);
+Assert.assertEquals(SxmpErrorCode.MISSING_REQUIRED_ELEMENT, e.getErrorCode()); [EOL] Assert.assertThat(e.getMessage(), CoreMatchers.containsString("The operation type [submit] requires a request element")); [EOL] Assert.assertNotNull(e.getOperation()); [EOL] Assert.assertEquals(Operation.Type.SUBMIT, partial.getType());
+Assert.assertEquals(expected, actual);
+assertThat( systemInstance.getUsername(), is( USERNAME ) ); [EOL] assertThat( systemInstance.getPassword(), is( PASSWORD ) ); [EOL] assertThat( systemInstance.getUrl(), is( EVENTS_URL ) );
+Assert.assertNull(session.getAttribute(AdminConsoleController.SESSION_ATTRIBUTE)); [EOL] Assert.assertEquals("index", mav.getViewName()); [EOL] Assert.assertNotNull(mav.getModel().get("error")); [EOL] Assert.assertNull(mav.getModel().get("authenticated"));
+assertEquals( 2, def.size() ); [EOL] assertEquals( "the_geom", def.get(0).name ); [EOL] assertTrue( def.get(0).expression instanceof PropertyName ); [EOL] assertEquals( "cat", def.get(1).name );
+Assert.assertEquals(expected, elPartition);
+assertTrue(result.contains("CURRENT LOG APPENDER"));
+assertPointsEquals(expected, result);
+assertEquals("Invalid orbit reference due to different element sentinel-safe:phaseIdentifier", e.getMessage());
+Assert.assertEquals("A", columnNames.next()); [EOL] Assert.assertEquals("B", columnNames.next()); [EOL] Assert.assertEquals("C", columnNames.next()); [EOL] assertTrue(records.hasNext()); [EOL] assertEquals(record.get(0), record.get("A")); [EOL] assertEquals(record.get(1), record.get("B")); [EOL] assertEquals(record.get(2), record.get("C")); [EOL] assertFalse(records.hasNext());
+Assert.assertEquals(zkStr, kafkaZkConnection.getZkString()); [EOL] Assert.assertEquals(chRoot.isEmpty() ? expectedChrootPath.get(0) : expectedChrootPath.get(1), kafkaZkConnection.getChRoot());
+assertThat(presenter.destroyed).isSameAs(activityScope);
+assertEquals(0, this.spaceRepository.count()); [EOL] assertEquals(1, this.spaceRepository.count()); [EOL] assertEquals(2, this.spaceRepository.count()); [EOL] assertEquals(1, this.spaceRepository.count());
+assertEquals( expected, params.getItemOptions() );
+assertNull(ExceptionUtils.trace(null, start, end)); [EOL] assertSame(ArrayIndexOutOfBoundsException.class, e.getClass()); [EOL] assertSame(ArrayIndexOutOfBoundsException.class, e.getClass()); [EOL] assertSame(ArrayIndexOutOfBoundsException.class, e.getClass()); [EOL] assertNotNull(ExceptionUtils.trace(elements, start, end));
+assert(!searchLevels.isCpe("cpe"));
+assertEquals(actual, false);
+Assert.assertTrue(map.containsKey("border-left-style")); [EOL] 		Assert.assertEquals("dashed", map.get("border-left-style")); [EOL] 		Assert.assertTrue(map.containsKey("border-top-style")); [EOL] 		Assert.assertEquals("dashed", map.get("border-top-style")); [EOL] 		Assert.assertTrue(map.containsKey("border-bottom-style")); [EOL] 		Assert.assertEquals("dashed", map.get("border-bottom-style")); [EOL] 		Assert.assertTrue(map.containsKey("border-right-style")); [EOL] 		Assert.assertEquals("dashed", map.get("border-right-style"));
+assertNotNull(findFontFor(
+assertEquals (expected, elem);
+Assert.assertFalse("Null QName validated", QNameUtils.validateQName(null)); [EOL] 		Assert.assertFalse("Empty QName validated", QNameUtils.validateQName("")); [EOL] 		Assert.assertFalse("Invalid QName validated", QNameUtils.validateQName("{namespace}")); [EOL] 		Assert.assertFalse("Invalid QName validated", QNameUtils.validateQName("{namespace"));
+assertEquals(ObjectNotFoundException.class, e.getClass()); [EOL] assertEquals("The notification registration status \"DOES_NOT_EXIST\" doesn't exist.", e.getMessage());
+assertEquals(1, this.iterator.rest()); [EOL] 		assertEquals(0, this.iterator.rest());
+assertEquals(response.getStatus(), 200); [EOL] assertTrue(result.containsKey("additions")); [EOL] assertTrue(result.containsKey("deletions"));
+assertWithExternalHeadersThat(actualCreated).isEqualTo(expectedCreated); [EOL] assertWithExternalHeadersThat(actualModified).isEqualTo(expectedModified);
+Assert.assertEquals(data.get(0).f1,
+Assert.assertNull(grammar);
+assertSame(this.point, map.get(ShapeElementType.POINT).elements.iterator().next()); [EOL] 		assertSame(this.multiPoint, map.get(ShapeElementType.MULTIPOINT).elements.iterator().next()); [EOL] 		assertSame(this.polyline, map.get(ShapeElementType.POLYLINE).elements.iterator().next()); [EOL] 		assertSame(this.polygon, map.get(ShapeElementType.POLYGON).elements.iterator().next());
+assertNotNull(runProfile.getDataBundle()); [EOL] 		assertEquals(dataBundle, runProfile.getDataBundle()); [EOL] 		assertEquals(runProfile.getDataBundle(), runProfile.getDataBundle());
+assertEquals(1, fromBase64.size(0));
+assertEquals(String.format(DISK_USAGE_HTML_TEMPLATE, "9.0 MB", "20.0 MB", "11.0 MB", "1.0 GB"), [EOL] assertNull(messages.getSecond());
+assertExceptionContains(e, "empty keyset");
+assertTrue("did it", didIt.getNow(false));
+MatchUtils.assertXmlEquals("null iterator", expected, prr.getResult().asString(), true);
+resultSubscriber.assertNoValues(); [EOL] assertThat(onErrorEvents).hasSize(1); [EOL] assertThat(Status.fromThrowable(onErrorEvents.get(0))).isEqualTo(Status.INTERNAL);
+assertEquals(754801260, EndianNumbers.toLELong(123, 456, 789, 159, 753, 145, 487, 653));
+assertEquals("2012-06-28", sanitizer.execute("2012-06-28")); [EOL] assertEquals("2012-06-282012-06-28", sanitizer.execute("2012-06-28 2012-06-28")); [EOL] assertEquals("2012-06-28", sanitizer.execute("yadda yadda 2012-06-28")); [EOL] assertEquals("", sanitizer.execute("^50 First} St, ~Flo|or 7"));
+assertEquals(TestModel.OUTER_LIST_QNAME.getLocalName(), mergeData, actualNode);
+assertThat(divByZero.getValue())
+assertEquals("value", extractor.getValue("key"));
+assertThat(job.getId()).isEqualTo(jobOne.getId());
+assert (mScreenInfoProvider.getScreenHeightInPixels() == mDisplayMetrics.heightPixels);
+assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("y s")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("\"yes\"")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no")); [EOL] assertTrue(field.contains("yes")); [EOL] assertFalse(field.contains("no"));
+assertThat(mNetworkApi.requestUrl("1","get")).contains("HaloNetClientTest"); [EOL] assertThat(mNetworkApi.requestUrl("1","get")).contains("get");
+assertThat(((Gauge<?>) gauges.getMetrics().get("deadlock.count")).getValue())
+assertThat(actual).usingRecursiveComparison().isEqualTo(expected);
+assertThat(time.toEpochSecond()).isEqualTo(-12 * 60 * 60);
+assertSuccessfulAPIReceipt(sendReceipt);
+assertEquals("keys", task.get(5, TimeUnit.SECONDS)); [EOL] assertEquals(1, httpTransportGetCount.get());
+Assert.assertEquals(expectedName, host.getHostName());
+assertTrue(parameterList.isEmpty()); [EOL] assertImmutableList(parameterList);
+assertError(stanzas, StanzaErrorCondition.FORBIDDEN);
+Assert.assertEquals("Combined array length is not correct", 3, combinedArray.length); [EOL] Assert.assertEquals("a1", combinedArray[0]); [EOL] Assert.assertEquals("a2", combinedArray[1]); [EOL] Assert.assertEquals("b1", combinedArray[2]);
+assertThat(resultMatch.getStatusString(), is("skipped"));
+assertTrue(it.hasNext()); [EOL] assertTrue(it.hasNext()); [EOL] assertFalse(it.hasNext());
+assertEquals("windows-1252", response.getCharacterEncoding());
+Assertions.assertThrows(IllegalStateException.class, () -> ClassUtils.newInstance("org.apache.dubbo.common.compiler.support.internal.HelloServiceInternalImpl"));
+assertEquals(newHashSet(), response.getLinks());
+assertThat(jmsTracing.connection(wrapped))
+assertEquals(baseUrl, params); [EOL] assertEquals(baseUrl + "?foo=bar", params); [EOL] assertEquals(baseUrl + "?foo=bar&baz=buq", params);
+assertEquals(4, names.size()); [EOL] assertTrue(names.contains("admin")); [EOL] assertTrue(names.contains("role1")); [EOL] assertTrue(names.contains("role2")); [EOL] assertTrue(names.contains("role3"));
+assertNull(url);
+assertThat(webViewClient).isNotNull(); [EOL] assertThat(webViewClient).isInstanceOf(HtmlWebViewClient.class);
+FunctionTestUtil.assertResult(numberFunction.invoke("9,876", ",", null), BigDecimal.valueOf(9876)); [EOL] FunctionTestUtil.assertResult(numberFunction.invoke("9,876,000", ",", null), BigDecimal.valueOf(9876000));
+assertThat(clonedDest, is(instanceOf(PDPageFitWidthDestination.class))); [EOL] assertEquals(806, ((PDPageFitWidthDestination) clonedDest).getTop());
+assertTrue(actual.getFormatFamily() instanceof HtmlFormatFamily); [EOL] assertEquals("ISO-8859-1", actual.getEncoding());
+assertNull(exception.getMessage()); [EOL] assertNull(exception.getCause());
+Assert.assertNull(metrics);
+assertNotNull(mvcResult.getResponse().getContentAsString());
+assertTrue(ex.getMessage().indexOf("at least 1 character") != -1); [EOL] assertTrue(ex.getMessage().indexOf("at least 1 character") != -1); [EOL] assertTrue(result.indexOf(objectId) != -1); [EOL] assertTrue(result.indexOf(namespace) != -1);
+assertEquals("<jobMessages />", schedulerAdapter.getJobMessages(null).toXML().trim());
+assertEquals(1.5, epsilonEnhanced.get(first).getDouble(), 0.0); [EOL] 		assertEquals(-1.0, epsilonEnhanced.get(second).getDouble(), 0.0);
+assertTrue(rm.equals(tester));
+assertThat(version2).isEqualTo(version); [EOL] assertThat(version3).isNotEqualTo(version2); [EOL] assertThat(version3).isNotEqualTo(version4); [EOL] assertThat(1).isNotEqualTo(version); [EOL] assertThat(version).isNotNull(); [EOL] assertThat(new HaloServerVersion(null, "1.1")).isNotEqualTo(version); [EOL] assertThat(version).isNotEqualTo(new HaloServerVersion(null, "1.1")); [EOL] assertThat(new HaloServerVersion(null, null)).isNotEqualTo(version); [EOL] assertThat(new HaloServerVersion("changelog", null)).isNotEqualTo(version); [EOL] assertThat(version).isNotEqualTo(new HaloServerVersion("changelog", null)); [EOL] assertThat(version).isEqualTo(version); [EOL] assertThat(version2.hashCode()).isEqualTo(version.hashCode()); [EOL] assertThat(new HaloServerVersion(null, null).hashCode() == 0).isTrue(); [EOL] assertThat(new HaloServerVersion(null, null).hashCode()).isNotEqualTo(version.hashCode()); [EOL] assertThat(version3.hashCode()).isNotEqualTo(version.hashCode());
+assertThat(MmffAromaticTypeMapping.contribution(7, 3, 4), is(1));
+assertThat(Registry.getKeyManager(MacConfig.HMAC_TYPE_URL, Mac.class).getClass().toString())
+assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL, [EOL] assertEquals(Filter.ReturnCode.INCLUDE_AND_NEXT_COL,
+context.assertNotNull(mappedRoles); [EOL] context.assertTrue(mappedRoles.size() == 3); [EOL] context.assertTrue(mappedRoles.get("domain1-user-stage-prod").forward == false); [EOL] context.assertTrue(mappedRoles.get("domain1-user").forward == false); [EOL] context.assertTrue(mappedRoles.get("domain1").forward == true);
+assertEquals('!', formatWithDelimiter.getDelimiter());
+assertEqualsEvent(expectedEvent, actual);
+Assert.assertEquals(1, notifications.size()); [EOL] 		Assert.assertTrue(notifications.stream().anyMatch(n -> n.getType().equals(IdmEmailLog.NOTIFICATION_TYPE))); [EOL] 		Assert.assertEquals(2, notificationAttachments.size()); [EOL] 		Assert.assertTrue(notificationAttachments.stream().allMatch(na -> na.getAttachment() != null)); [EOL] 		Assert.assertTrue(notificationAttachments.stream().anyMatch(na -> na.getAttachment().equals(attachmentTwo.getId()))); [EOL] 		Assert.assertEquals(content, response);
+Assertions.assertThrows(IllegalArgumentException.class, () -> {
+.assertComplete() [EOL] .assertNoErrors(); [EOL] assertTrue(s3Client.isPresent());
+assertNotNull(retval); [EOL] assertEquals(retval.x, 2.0f, 0.0f); [EOL] assertEquals(retval.y, -1.32f, 0.01f); [EOL] assertEquals(retval.z, 11.4f, 0.0f);
+assertEquals(IntList.of(1, 4, 9), L);
+assertThat((CharSequence) other).isEqualTo(underTest);
+// Assert.assertEquals("{\"order\":{\"topping\":\"salami\",\"size\":\"medium\"},\"date\":\"now\"}",
+assertNotNull( "OSInfo is null", osInfo );
+assertWithExternalHeadersThat(actual).isEqualTo(expected);
+assertTrue(matchObject instanceof ZpeMatchAll); [EOL] assertTrue(matchObject instanceof ZpeMatchRegex); [EOL] assertTrue(matchObject instanceof ZpeMatchRegex); [EOL] assertTrue(matchObject instanceof ZpeMatchRegex); [EOL] assertTrue(matchObject instanceof ZpeMatchRegex); [EOL] assertTrue(matchObject instanceof ZpeMatchRegex); [EOL] assertTrue(matchObject instanceof ZpeMatchEqual); [EOL] assertTrue(matchObject instanceof ZpeMatchEqual); [EOL] assertTrue(matchObject instanceof ZpeMatchStartsWith);
+assertEquals(9180000000L, result);
+Assert.assertNotNull(result); [EOL] Assert.assertEquals(dv.getNames().length, result.length());
+assertTrue(mypp.isSatisfiedBy(ptd, null, null));
+assertNotNull(createdConnection); [EOL] assertNotNull(createdConnection.getComponentConfiguration()); [EOL] assertEquals(connectionConfig.getIdentifier(), createdConnection.getComponentConfiguration().getIdentifier());
+assertThat(httpServletRequestImpl.getDateHeader("If-Modified-Since"), is(1421339413000L)); [EOL] assertThat(httpServletRequestImpl.getDateHeader("If-Modified-Since-MALFORMED"), is(-1L)); [EOL] assertThat(httpServletRequestImpl.getDateHeader("Inexisting"), is(-1L));
+assertEquals( [EOL] assertArrayEquals( [EOL] assertArrayEquals( [EOL] assertArrayEquals( [EOL] assertArrayEquals( [EOL] assertArrayEquals(
+assertNotNull(responseCode); [EOL] assertEquals(406, [EOL] assertNotNull(responseMsg); [EOL] assertEquals("endpoint " + serverURL + " could not be reached: ",
+assertNotNull(processInstanceId); [EOL] assertNotNull(reports); [EOL] assertTrue(report.isSuccessful()); [EOL] assertMigratedProcessInstance(ADDTASKAFTERACTIVE_ID_V2, processInstanceId, ProcessInstance.STATE_ACTIVE); [EOL] assertMigratedTaskAndComplete(ADDTASKAFTERACTIVE_ID_V2, processInstanceId, "Active Task"); [EOL] assertMigratedTaskAndComplete(ADDTASKAFTERACTIVE_ID_V2, processInstanceId, "Added Task"); [EOL] assertMigratedProcessInstance(ADDTASKAFTERACTIVE_ID_V2, processInstanceId, ProcessInstance.STATE_COMPLETED);
+Assert.assertNotNull(diffString); [EOL] Assert.assertEquals(0, diffString.length()); [EOL] Assert.assertNotNull(diffString); [EOL] assertOneLiner(diffString); [EOL] assertContains(diffString, "AtomTypeDiff"); [EOL] assertContains(diffString, "{"); [EOL] assertContains(diffString, "}");
+Assert.assertEquals(
+Assert.assertNotNull(stream);
+assertSame(unreserved, StringEscapeUtil.escapeURL(unreserved)); [EOL] assertEquals(expectedStr, StringEscapeUtil.escapeURL(str, "8859_1")); [EOL] assertEquals(expectedStr, writer.toString()); [EOL] assertEquals("%D6%D0%BB%AA%C8%CB%C3%F1%B9%B2%BA%CD%B9%FA", StringEscapeUtil.escapeURL("中华人民共和国", "GBK")); [EOL] assertEquals("%D6%D0%BB%AA%C8%CB%C3%F1%B9%B2%BA%CD%B9%FA", writer.toString());
+assertThat(request.method()).isEqualTo("sayHello");
+assertSame(applicationContext, wrapper.getApplicationContext());
+Assert.assertEquals(expected, result);
+assertThat(point.getX().getInteger(), is(new BigInteger("472067484368213515937816390739321044164758042133140508836395663489652332002738245695993700980622152470363675557312182877688850671564164"))); [EOL] assertThat(point.getY().getInteger(), is(new BigInteger("319056567243186338229131462709903384480410384317025731854394641070448863807652348269431018082259219462543405812580172294129861864113606")));
+assertEquals("{}", su.getJsonUpdateString()); [EOL] 		assertTrue(su.isEmptyEdit());
+assertArrayEquals(new double[]{3, 2, 1}, d1, NO_DELTA); [EOL] assertArrayEquals(new double[]{4, 3, 2, 1}, d2, NO_DELTA); [EOL] assertArrayEquals(new double[]{}, d3, NO_DELTA);
+assertEquals(7, privateKey[0] & 7); [EOL] assertEquals(128, privateKey[31] & 192);
+Assert.assertEquals(true, it.hasNext()); [EOL] Assert.assertEquals(j + "th iteration next", Long.valueOf(i), it.next());
+assertEquals(OntologyRecord.TYPE, service.getTypeIRI());
+Assertions.assertTrue(cidrUtils.isInRange("192.168.1.63")); [EOL] Assertions.assertFalse(cidrUtils.isInRange("192.168.1.65")); [EOL] Assertions.assertTrue(cidrUtils.isInRange("192.168.1.199")); [EOL] Assertions.assertFalse(cidrUtils.isInRange("192.168.1.190"));
+assertNotNull(generatedDto.getEmail()); [EOL] 		assertEquals(finalUsername + emailSuffixResult, generatedDto.getEmail());
+assertNull(containerRequest.evaluatePreconditions(new EntityTag("1234567")));
+assertTrue(builder == newBuilder);
+assertNull(trustManagerProxy.getAcceptedIssuers());
+assertEquals(0, grafanaObj.getDashboard().panels.size());
+assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0A,value0B"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0C,value0D"); [EOL] assertFalse(e.hasMoreElements()); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0A"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0B"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0C"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value0D"); [EOL] assertFalse(e.hasMoreElements()); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value1A"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value\t, 1B"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value1C"); [EOL] assertTrue(e.hasMoreElements()); [EOL] assertEquals(e.nextElement(), "value1D"); [EOL] assertFalse(e.hasMoreElements());
+assertEquals(header, request.getResponseHeaders());
+assertEquals(1, vars.length); [EOL] assertEquals("SELECT *\nWHERE {\nGRAPH ?" + vars[0]
+assertFalse(value);
+assertEquals("{\"name\": \"role1\", \"auditEnabled\": \"true\"}", auditDetails.toString());
+Assert.assertFalse(promise.verifyGet());
+assertThatThrownBy(() -> config.getValue(TestConfig.FOO)).isInstanceOf(ConfigKeyNotFoundException.class);
+Assert.assertTrue(TempletonUtils.hadoopFsListAsArray(null, null, null) == null); [EOL] Assert.assertTrue(TempletonUtils.hadoopFsListAsArray(tmpFileName1 + "," + tmpFileName2, [EOL] Assert.assertEquals("file:" + tmpFileName1, tmp2[0]); [EOL] Assert.assertEquals("file:" + tmpFileName2, tmp2[1]);
+assertEquals(registerRequest, registerRequest2);
+assertThat(response.result()).isSameAs(result);
+assertThat(path.getSegmentsArray(), is(notNullValue()));
+assertTrue(userService.containsKey(RANDOM_UUID));
+assertNotNull("This authentication should have succeeded", authReport.getAuthIdentity()); [EOL] 		assertNull("The header should have been removed", exchange.getIn().getHeader(appHeaderName));
+Assertions.assertFalse(mixedCaseFalse.parseBoolean(TestCSVColumn.BOOLEAN)); [EOL] Assertions.assertFalse(numberRepresentationFalse.parseBoolean(TestCSVColumn.BOOLEAN));
+Assert.assertTrue("OutputStream export gives incorrect output",
+assertEquals("Hello Sherlock Holmes!",
+assertNotNull(transactionApi.createName(randomUUID().toString())); [EOL] assertNotNull(transactionApi.createName(anyName));
+assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals( [EOL] 	assertEquals(
+Assert.assertTrue(databaseSetService.findDbSetPageList(paging).getList().size() > 0);
+// assertEquals(3, busySubscriber.onNextCount.get()); [EOL] assertTrue(busySubscriber.onNextCount.get() < 4); [EOL] assertTrue(busySubscriber.onError); [EOL] assertFalse(busySubscriber.onComplete); [EOL] assertTrue(onSubscribe.maxConcurrentThreads.get() > 1); [EOL] assertEquals(1, busySubscriber.maxConcurrentThreads.get());
+assertEquals( 1, result.length ); [EOL] assertEquals( expected, result[0] );
+Assert.assertNotNull(map); [EOL] Assert.assertEquals(20, map.size()); [EOL] Assert.assertNotNull("Did not find AA for: " + aa1, aa);
+assertNotNull(blockchainStatus);
+ts.assertFailure(CompositeException.class); [EOL] TestHelper.assertError(ts, 0, TestException.class); [EOL] TestHelper.assertError(ts, 1, NullPointerException.class, "Subscription not set!");
+assertThat(driver.findElement(locator).submit(), is(equalTo("driver.findElement(" + locator + ").submit()")));
+assertThat(actualJson).isEqualTo(KNOWN_JSON_WITH_FIELD_SELECTION);
+assertEquals(op1, msg1.getOutPoints().get(0)); [EOL] assertEquals(op2, msg2.getOutPoints().get(0)); [EOL] assertEquals(1, msg1.getOutPoints().size()); [EOL] assertFalse(future1.isDone()); [EOL] assertEquals(future1.get(), response1); [EOL] assertEquals(future2.get(), response2);
+assertEquals(initial + 1, result);
+assertEqual2D(matAIA.getArrayCopy2D(), matI.getArrayCopy2D());
+assertThat(mCallbackFlag.isFlagged()).isTrue(); [EOL] assertThat(cancellable).isNotNull();
+assertFalse(newPasswordOK);
+assertTrue("Theme material_light should be light theme",
+Assert.assertNotNull(configurationManager.getSearchesCronConfiguration()); [EOL] Assert.assertEquals(configurationManager.getSearchesCronConfiguration().getSchedule(), "0 0 5 ? * *");
+assertNotNull(personRepository);
+Assert.assertEquals(0, container.getAtomCount()); [EOL] Assert.assertEquals(0, container.getBondCount());
+assertThat(usedAuthProvider).isInstanceOf(ApiKeyAuthProvider.class);
+assertThat(result.toString()).isEmpty();
+assertEquals(ABIVersion.BORON, clone.getVersion()); [EOL] assertEquals(OBJECT.getSequence(), clone.getSequence()); [EOL] assertEquals(OBJECT.getTarget(), clone.getTarget());
+Assertions.assertThrows(IllegalArgumentException.class, () -> {
+assertEquals("Should have found " + maxRecordsPerPoll + " records", maxRecordsPerPoll, records.count()); [EOL] assertEquals("Should be from parittion 1 only", 1, record.partition()); [EOL] assertTrue("Should be empty", records.isEmpty());
+assertThat(durationValue).isEqualTo(expectedValue);
+assertNull(CollectionUtils.splitAll(null, null)); [EOL] assertNull(CollectionUtils.splitAll(null, "-")); [EOL] assertTrue(CollectionUtils.splitAll(new HashMap<String, List<String>>(), "-").isEmpty()); [EOL] assertEquals(expected, CollectionUtils.splitAll(input, ":"));
+assertThat(state.nextM(0, -1), is(2));
+Assertions.assertEquals("consumer", result);
+FunctionTestUtil.assertResultList(
+ValidationExecutorTest.assertViolation(validator.validate(node, nodeContext, false),
+assertTrue(map1.getCurrentTableCapacity() < map2.getCurrentTableCapacity()); [EOL] 			assertTrue(KeyMap.CapacityDescendingComparator.INSTANCE.compare(map1, map1) == 0); [EOL] 			assertTrue(KeyMap.CapacityDescendingComparator.INSTANCE.compare(map2, map2) == 0); [EOL] 			assertTrue(KeyMap.CapacityDescendingComparator.INSTANCE.compare(map1, map2) > 0); [EOL] 			assertTrue(KeyMap.CapacityDescendingComparator.INSTANCE.compare(map2, map1) < 0);
+Assert.assertEquals(1, result); [EOL] 	Assert.assertEquals(-1, result); [EOL] 	Assert.assertEquals(0, result); [EOL] 	Assert.assertEquals(0, result);
+assertEquals(10, dataset.getCtx().size()); [EOL] assertEquals(10, dataset.getData().size()); [EOL] assertEquals(10, arr.length); [EOL] assertEquals(env.partition() * 10 + i, arr[i]); [EOL] assertEquals(10, cnt.intValue());
+assertThat(actual, is(millisTime)); [EOL] assertThat(actual, is(not(secTime)));
+assertEquals(4, states.size()); [EOL] 		assertTrue(stateMap.containsKey(NFACompiler.BEGINNING_STATE_NAME)); [EOL] 		assertTrue(beginningState.isStart()); [EOL] 		assertTrue(stateMap.containsKey("start")); [EOL] 		assertEquals(2, startTransitionMap.size()); [EOL] 		assertTrue(startTransitionMap.containsKey("start")); [EOL] 		assertEquals(StateTransitionAction.IGNORE, reflexiveTransition.getAction()); [EOL] 		assertTrue(startTransitionMap.containsKey("middle")); [EOL] 		assertEquals(StateTransitionAction.TAKE, startMiddleTransition.getAction()); [EOL] 		assertTrue(stateMap.containsKey("middle")); [EOL] 		assertEquals(1, middleTransitionMap.size()); [EOL] 		assertTrue(middleTransitionMap.containsKey("end")); [EOL] 		assertEquals(StateTransitionAction.TAKE, middleEndTransition.getAction()); [EOL] 		assertTrue(stateMap.containsKey("end")); [EOL] 		assertTrue(endState.isFinal()); [EOL] 		assertEquals(0, endState.getStateTransitions().size());
+assertThrows(ConstraintViolationException.class,
+assertNull(uut.loadData(image.getId()));
+assertEquals(mt1.hashCode(), mt2.hashCode());
+assertEquals( 1d, module.costForMovingInLevel( LevelType.GROUND ) ); [EOL] assertEquals( Double.MAX_VALUE, module.costForMovingInLevel( LevelType.SKY ) ); [EOL] assertEquals( Double.MAX_VALUE, module.costForMovingInLevel( LevelType.SPACE ) ); [EOL] assertEquals( (double) levelType.ordinal(), module.costForMovingInLevel( levelType ) );
+Assert.assertEquals(1, list.size()); [EOL] 		Assert.assertTrue(list.contains(i0)); [EOL] 		Assert.assertEquals(1, list.size()); [EOL] 		Assert.assertTrue(list.contains(i0));
+assertEquals(1, upstreamSize); [EOL] assertEquals(1, data.size()); [EOL] assertEquals(84, dataElement.val.intValue()); [EOL] assertEquals(1, cnt.get());
+assertThatThrownBy(() -> convertValue(RuleScenarioRunnerHelperTest.class.getCanonicalName(), 1, classLoader))
+Assert.assertEquals(outerProduct.numRows(), 8); [EOL] Assert.assertEquals(outerProduct.numCols(), 8); [EOL] Assert.assertArrayEquals(outerProduct.getRow(0), new double[]{0, 0, 0, 0, 0, 0, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(1), new double[]{0, 0, 0, 2, 2, 2, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(2), new double[]{0, 0, 0, 0, 0, 0, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(3), new double[]{0, 0, 0, 2, 2, 2, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(4), new double[]{0, 0, 0, 0, 0, 0, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(5), new double[]{0, 0, 0, 2, 2, 2, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(6), new double[]{0, 0, 0, 0, 0, 0, 0, 0}, TOL); [EOL] Assert.assertArrayEquals(outerProduct.getRow(7), new double[]{0, 0, 0, 2, 2, 2, 0, 0}, TOL);
+Assert.assertNotNull(smarts); [EOL] Assert.assertEquals(307, smarts.length);
+assertThat(certPathValidator).isNotNull();
+Assert.assertThat(messages, AnyValidationMessageMatcher.noValidationInCollection());
+assertTrue(testFolder.mkdir()); [EOL] assertTrue(testFolder.isDirectory()); [EOL] assertTrue(expectedFile.exists()); [EOL] assertTrue(expectedFile.delete()); [EOL] assertTrue(testFolder.delete());
+assertThat(sce, instanceOf(SecureComputationEngineImpl.class));
+Assertions.assertEquals(invokers, filteredInvokers);
+assertThat(result).isEqualTo("\\r");
+assertEquals(ex.getCode(), 400); [EOL] assertTrue(ex.getMessage().contains("Unsupported authority for TLS Certs"));
+assertEquals(1, configurationErrors.size()); [EOL] assertError(configurationErrors.get(0), AGENT_NAME_MISSING, "something", "", ERROR);
+assertThat(factory.create("1"), is(false)); [EOL] assertThat(factory.create("0"), is(false)); [EOL] assertThat(factory.create(" 0 "), is(false)); [EOL] assertThat(factory.create(" 1 "), is(false));
+Assert.assertTrue(DoubleBondAcceptingAromaticityDetector.detectAromaticity(mol)); [EOL] Assert.assertTrue("Atom is expected to be aromatic: " + atom, atom.getFlag(CDKConstants.ISAROMATIC));
+Assertions.assertThat(response.getStatus()).isEqualTo(HttpStatus.OK_200); [EOL] Assertions.assertThat(clusterNames).hasSize(1); [EOL] Assertions.assertThat(clusterNames).contains(CLUSTER_NAME);
+assertThat(shapes.size(), is(3));
+assertEquals(1, actuals.size()); [EOL] assertEquals("Name", actuals.get(0).getName()); [EOL] assertEquals("string", actuals.get(0).getType());
+assertThat(thing).hasNoFeatures();
+assertTrue(filter.filter(promotedModule)); [EOL] assertFalse(filter.filter(notPromotedModule)); [EOL] assertFalse(filter.filter(promotedModule)); [EOL] assertTrue(filter.filter(notPromotedModule));
+assertTestCaseLogged(testCase);
+assertTrue(messageCracked > 0);
+assertNotNull(uri); [EOL] assertEquals(uri.toString(), ITEM_VALID_IMAGE_URL);
+Assert.assertNotNull(clonedHosts); [EOL] Assert.assertEquals(hosts.size(), clonedHosts.size()); [EOL] Assert.assertNotEquals(hosts, clonedHosts); [EOL] Assert.assertNotNull(clonedHost); [EOL] Assert.assertEquals(host.getHostId(), clonedHost.getHostId()); [EOL] Assert.assertNotEquals(host, clonedHost); [EOL] Assert.assertNotNull(clonedHost.getVmsResources()); [EOL] Assert.assertEquals(vmsHost.size(), clonedHost.getVmsResources().size()); [EOL] Assert.assertEquals(vmsHost.get(0), clonedHost.getVmsResources().get(0));
+assertThat(specAbstractSomeDomainObject.satisfies(null), is(nullValue()));
+assertNotNull(mManeuverList.getAdapter()); [EOL] assertThat(mManeuverList.getAdapter().getItemCount(), equalTo(0)); [EOL] assertNull(mManeuverList.getRoute());
+assertThat( nameRef, is( instanceOf( NameRefNode.class ) ) ); [EOL] assertThat( nameRef.getResultType(), is( BuiltInType.STRING ) ); [EOL] assertLocation( inputExpression, nameRef );
+Assert.assertTrue(result3.doubleValue() < result2.doubleValue()); [EOL] Assert.assertTrue(result2.doubleValue() < result1.doubleValue());
+assertThatExceptionOfType(JsonParseException.class)
+assertThat(actualJsonUpdated).isEqualTo(KNOWN_JSON);
+assertEquals(1, nodeGroupState.nodes.size()); [EOL] assertEquals(1, nodeGroupState.nodes.values().iterator().next().membershipQuorum);
+assertTrue(cache instanceof SearchableCache); [EOL] assertTrue(cache instanceof OffHeapCache);
+IOException thrown = assertThrows(IOException.class, () -> readChannel.read(buffer)); [EOL] assertTrue(
+assertEquals(3, definedClasses.size()); // Outer class + 2 inner classes [EOL] assertEquals("public class android/os/Build {\n" + [EOL] assertEquals("public class android/os/Build$InnerClass {\n" + [EOL] assertEquals("public class android/os/Build$InnerClass2 {\n" +
+Assert.assertNull(authCache.get(this.target)); [EOL] Assert.assertNull(authCache.get(this.proxy));
+assertEquals(name("foo").tag("bar", "baz").tag("qux", "quux").build(), name("foo").tag("bar", "baz").tag("qux", "quux").build()); [EOL] 		assertEquals(name("foo").tag("qux", "quux").tag("bar", "baz").build(), name("foo").tag("bar", "baz").tag("qux", "quux").build());
+Assert.assertNotNull(a);
+assertEquals("4",stack.poll()); [EOL] assertEquals("3",stack.poll()); [EOL] assertEquals("2",stack.poll()); [EOL] assertEquals("1",stack.poll()); [EOL] assertNull(stack.poll());
+assertEquals(0, iterator.count()); [EOL] assertEquals(1, iterator.count()); [EOL] assertEquals(1, iterator.count());
+assertThat(VersionUtils.getVersionFromPomProperties(ByteBuddy.class, BYTEBUDDY_GROUP, "byte-buddy")).matches(VERSION_PATTERN);
+assertEquals("Wrong URI with unkown type", testContextPathUri + "/url/UNKOWN/0", uriToContext);
+assertSame("is same value", value, facade.propertyExistence(arg1, arg2));
+assertFalse(response.isCompassDirectionRequired()); [EOL] assertTrue(response.isCompassDirectionRequired()); [EOL] assertFalse(response.isCompassDirectionRequired());
+assertThat(LexicalIncludePaths.hasHeaderExtension("header")).isTrue(); [EOL] assertThat(LexicalIncludePaths.hasHeaderExtension("header.h")).isTrue(); [EOL] assertThat(LexicalIncludePaths.hasHeaderExtension("header.inl")).isTrue(); [EOL] assertThat(LexicalIncludePaths.hasHeaderExtension("header.cpp")).isFalse();
+assertNotNull("Failure creating data store", dataStore);
+assertTrue(designednetwork == null);
+assertTrue( SpaceModifiers.isUpdateOnly( JSpace.UPDATE_ONLY ) ); [EOL] assertFalse( SpaceModifiers.isUpdateOnly( JSpace.WRITE_ONLY ) ); [EOL] assertFalse( SpaceModifiers.isUpdateOnly( JSpace.WRITE_OR_UPDATE ) );
+Assert.assertEquals("[ In Row 1:the Column name:is missing ]", e.getMessage());
+assertEquals(javaScript, Center.centerBuilder(1, 2, 3).build().asJavascript());
+context.assertTrue(repository.findMatchingKafkaProducer("my.topic.zz").isPresent()); [EOL] context.assertTrue(repository.findMatchingKafkaProducer("my.other.topic.zz").isPresent()); [EOL] context.assertFalse(repository.findMatchingKafkaProducer("my.topic.zz").isPresent()); [EOL] context.assertFalse(repository.findMatchingKafkaProducer("my.other.topic.zz").isPresent());
+Assert.assertEquals(4, p.numberOfElements());
+assertEquals(1, ontology.getAllClassObjectProperties(errorIRI).size());
+assertEquals(stats.getCheckpointId(), checkpointId); [EOL] 		assertEquals(stats.getTriggerTimestamp(), timestamp); [EOL] 		assertEquals(stats.getDuration(), duration); [EOL] 		assertEquals(stats.getStateSize(), size); [EOL] 		assertEquals(subTaskStats.length, parallelism); [EOL] 		assertNotNull(subTasksNode); [EOL] 		assertTrue(subTasksNode.isArray()); [EOL] 			assertEquals(i, node.get("subtask").asInt()); [EOL] 			assertEquals(subTaskStats[i][0], node.get("duration").asLong()); [EOL] 			assertEquals(subTaskStats[i][1], node.get("size").asLong()); [EOL] 		assertFalse(it.hasNext());
+assertThat(array.get(0), instanceOf(Double.class)); [EOL] assertThat(array.get(1), instanceOf(Integer.class)); [EOL] assertThat(array.get(2), instanceOf(String.class)); [EOL] assertThat(array.get(3), instanceOf(JSONObject.class)); [EOL] assertThat(array.get(4), instanceOf(JSONArray.class));
+assertFalse(SignatureVerifier.verify(configSignature, configSignaturePublicKey, configJson + "a"));
+Assertions.assertThat(
+assertEquals("Coordinated Universal Time",
+Assert.assertEquals( 1d, box[0], DELTA ); [EOL] Assert.assertEquals( 1d, box[1], DELTA ); [EOL] Assert.assertEquals( -1d, box[2], DELTA ); [EOL] Assert.assertEquals( -1d, box[3], DELTA ); [EOL] Assert.assertEquals( -52.4, box[0], DELTA ); [EOL] Assert.assertEquals( -70d, box[1], DELTA ); [EOL] Assert.assertEquals( -53.6, box[2], DELTA ); [EOL] Assert.assertEquals( -72d, box[3], DELTA );
+Assert.assertFalse(response.isError()); [EOL] 		Assert.assertNotNull(features); [EOL] 		Assert.assertEquals(expected, actual);
+assertEquals(new SshjClient(null, null, null)
+assertEquals(server.answer("what is your name"), "spark team");
+assertThat(result).isEqualTo("ss##bla##s##bla##s##bla##s%");
+assertEquals("ab/c", TextUtil.toJavaString("ab/c")); //$NON-NLS-1$ //$NON-NLS-2$
+assertThat(valid).isFalse();
+assertThat(TRANSLATION_COMPARATOR.compare( [EOL] assertThat(TRANSLATION_COMPARATOR.compare(
+assertEquals(job, result);
+context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 0)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 1)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 20)); [EOL] context.assertTrue(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 0)); [EOL] context.assertTrue(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 1)); [EOL] context.assertTrue(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 15)); [EOL] context.assertTrue(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 24)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 25)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 26)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 50)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, null)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 0)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 1)); [EOL] context.assertFalse(HttpServerRequestUtil.isRequestHopsLimitExceeded(request, 10));
+assertThat(metaDataUpdater.getOrCreateRelease(queryRelease, false)).isEqualTo(queryRelease); [EOL] assertThat(queryRelease.getExternalIds()).containsKey("id2");
+ts.assertEmpty();
+assertArrayEquals(expected.getAliases(), actual.getAliases());
+assertThrows( [EOL] assertThat(thrown).hasMessageThat().contains(jobHandle.toString()); [EOL] assertThat(thrown).hasCauseThat().isEqualTo(unhandledException); [EOL] assertThat(job).isEqualTo(jobHandle);
+assertEquals(401, e.getResponse().getStatus());
+Assert.assertTrue(valid); [EOL] 		Assert.assertEquals(share, decryptedShare);
+Assert.assertTrue(ex.getMessage().contains("no configured domains"));
+assertThat(permissionModels, notNullValue()); [EOL] assertThat(permissionModels.size(), is(2)); [EOL] assertThat(permissionModel1, notNullValue()); [EOL] assertThat(permissionModel1, instanceOf(PermissionModel.class)); [EOL] assertThat(permissionModel1.permission(), notNullValue()); [EOL] assertThat(permissionModel1.permission(), is("CAMERA")); [EOL] assertThat(permissionModel2, notNullValue()); [EOL] assertThat(permissionModel2, instanceOf(PermissionModel.class)); [EOL] assertThat(permissionModel2.permission(), notNullValue()); [EOL] assertThat(permissionModel2.permission(), is("CONTACTS"));
+assertEquals(ethernetPacket.getEthertype(), KnownEtherType.Ipv4); [EOL] assertNull(ethernetPacket.getEthernetLength()); [EOL] assertNull(ethernetPacket.getHeader8021q()); [EOL] assertEquals(ethernetPacket.getDestinationMac().getValue(), "01:23:45:67:89:ab"); [EOL] assertEquals(ethernetPacket.getSourceMac().getValue(), "cd:ef:01:23:45:67"); [EOL] assertEquals(14, ethernetPacket.getPayloadOffset().intValue()); [EOL] assertEquals(14, ethernetPacket.getPayloadLength().intValue()); [EOL] assertEquals(2566839482L, ethernetPacket.getCrc().longValue()); [EOL] assertTrue(Arrays.equals(packet, notification.getPayload()));
+assertEquals("Business object data storage unit does not have storage information.", e.getMessage());
+assertTrue("Empty list", filterDefinitions.isEmpty());
+FunctionTestUtil.assertResultError(numberFunction.invoke("1 000", "test", null), InvalidParametersEvent.class);
+assertThat(dateInSummerTimeDataObject.isCosemDateFormat()).isTrue(); [EOL] assertThat(dateInSummerTimeDataObject.getValue() instanceof CosemDateTime).isTrue(); [EOL] assertThat(cosemDateTime.encode()).isEqualTo(this.byteArraySummerTime());
+assertEquals(e.getMessage(), "Role Certificates not allowed"); [EOL] assertNull(certId);
+Assert.assertEquals(ModeType.VOICE, result.getMode());
+assertEquals(identityDto.getLastName(), generatedDto.getLastName()); [EOL] 		assertEquals(identityDto.getFirstName(), generatedDto.getFirstName()); [EOL] 		assertNotNull(generatedDto.getUsername()); [EOL] 		assertEquals(firstName.toLowerCase() + lastName.toLowerCase(), generatedDto.getUsername());
+assertFalse(loaded);
+Assert.assertEquals(Collections.emptyList(), EmailAddressTokenizer.tokenize(""));
+assertNotNull(exception); [EOL] assertEquals(Response.Status.NOT_FOUND.getStatusCode(), exception.getResponse().getStatus());
+Assert.assertTrue(count > 0);
+assertEquals(sorted.get(i).candidateScore, i);
+assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Byte.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Short.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Integer.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Long.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Float.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, Double.valueOf("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, new BigInteger("10"))); [EOL] assertEquals(Byte.valueOf("10"), TypeUtils.convertValue(Byte.class, new BigDecimal("10")));
+assertThat(tracingListPresenter.isFormReady(), is(false));
+assertTrue(e.getMessage().contains("No target definition file(s) found in project"));
+Assert.assertNull("thread caught exception", ath.getException()); [EOL] Assert.assertTrue("thread not waiting", ath.isWaiting()); [EOL] Assert.assertEquals("wrong thread", ath, wt.getThread()); [EOL] Assert.assertFalse("thread still waiting", ath.isWaiting()); [EOL] Assert.assertNotNull("thread didn't catch exception", ath.getException()); [EOL] Assert.assertTrue("thread caught wrong exception", [EOL] Assert.assertNull("thread still there", wt.getThread());
+assertThat(result).isEqualTo(Arrays.asList(2));
+assertNull(Resources.getResourceAsStream(null)); [EOL] 			assertNotNull(is); [EOL] 			assertNotNull(is);
+assertThat(writtenMol, containsString(
+assertNull(ModisProductReaderPlugIn.getInputFile(null));
+assertTrue(multiKey.equals(multiKey));
+assertNull(onError.get()); [EOL] assertTrue(e instanceof SafeSubscriberTestException); [EOL] assertEquals("onCompleteFail", e.getMessage());
+assertNotNull(engine); [EOL] 		assertNotNull(result); [EOL] 		assertNotNull(svg); [EOL] 		assertEqualsIgnoreWhitespaces(Misc.streamToString(svg.openStream()), result);
+assertNull(support.getItemDocumentationId()); [EOL] assertNull(support.getItemDocumentationId()); [EOL] assertEquals("foo",support.getItemDocumentationId());
+assertNotNull(range); [EOL] 		assertEpsilonEquals(-10., range.getMin()); [EOL] 		assertTrue(Double.isInfinite(range.getMax()));
+Assert.assertTrue(estimator.batchFitted); [EOL] Assert.assertFalse(estimator.streamFitted);
+assertThat(patterns, is(not(empty())));
+assertEquals(num1, num2); [EOL] assertEquals(num1.getNumber(), num2.getNumber()); [EOL] assertEquals(num1.getFirstDigit(), num2.getFirstDigit()); [EOL] assertEquals(num1.getSecondDigit(), num2.getSecondDigit()); [EOL] assertEquals(num1.getThirdDigit(), num2.getThirdDigit()); [EOL] assertEquals(num1.getFourthDigit(), num2.getFourthDigit()); [EOL] assertArrayEquals(num1.getDigits(), num2.getDigits()); [EOL] assertEquals(num1.stringValue(), num2.stringValue()); [EOL] assertEquals(num1.getSlot(), num2.getSlot()); [EOL] assertEquals(num1.hashCode(), num2.hashCode()); [EOL] assertEquals(num1.toString(), num2.toString());
+assertEquals(2, seriesDataList.size()); [EOL] assertEquals(timestamp, seriesData.x, 0); [EOL] assertEquals(1, (long)seriesData.value); [EOL] assertEquals(TimeUnit.SECONDS.toMicros(11), seriesData.x, 0); [EOL] assertEquals(1, (long)seriesData.value); [EOL] assertEquals(TimeUnit.SECONDS.toMicros(15), seriesData.x, 0); [EOL] assertEquals(0, (long)seriesData.value);
+assertNotNull(certReq); [EOL] assertSame(ztsImpl.validateServiceX509RefreshRequest(principal, certReq, "10.0.0.2"), ServiceX509RefreshRequestStatus.IP_NOT_ALLOWED);
+Assert.assertEquals("127.0.0.2",process);
+assertTrue(data.getKeyIndexes().isEmpty()); [EOL] assertTrue(data.isReturnKeyIndex());
+Assert.assertTrue(certificationRevocationList.isOnCRL(iaCertificate));
+assertThat(BigQueryConfiguration.INPUT_PROJECT_ID.get(conf, conf::get)) [EOL] assertThat(BigQueryConfiguration.INPUT_DATASET_ID.get(conf, conf::get)) [EOL] assertThat(BigQueryConfiguration.INPUT_TABLE_ID.get(conf, conf::get)).isEqualTo(INPUT_TABLE_ID); [EOL] assertThat(BigQueryConfiguration.PROJECT_ID.get(conf, conf::get)).isEqualTo(INPUT_PROJECT_ID);
+assertTrue("expected not to be equal", result != 0);
+assertThat("Should return same list", tracingSearchPresenter.getSearchResult(searchConditions), is(list));
+assertThat(satisfiesConstraints(prop, new Value[] {valueFor("+1945-08-01T01:30:00.001Z", PropertyType.DATE)}), is(false)); [EOL] assertThat(satisfiesConstraints(prop, values), is(false));
+assertTrue(g.isValid()); [EOL] assertTrue(g.isValid()); [EOL] assertEquals(4, g.getCoordinateSequence().size());
+assertNotNull(FstSerializer.create());
+Assert.assertEquals("<not empty string>", MessageBase.logParam(value, SecureParameter.LEVEL_NULL_OR_EMPTY_STRING));
+Assert.assertEquals("EnumTypeInfo<org.apache.flink.api.java.typeutils.TypeInfoParserTest$MyEnum>", ti.toString()); [EOL] 		Assert.assertEquals("EnumTypeInfo<org.apache.flink.api.java.typeutils.TypeInfoParserTest$MyEnum>", ti2.toString());
+assertEquals("Hello World", testObject.getMessage());
+assertEquals(1, result.size()); [EOL] assertEquals("two", result.get(0).get("2")); [EOL] assertEquals("THREE", result.get(0).get("3"));
+assertEquals(16, c.increase());
+assertNull(myGetter.getChecker());
+assertThat(Bowling.play("X|2-|--|--|--|--|--|--|--|--||")).isEqualTo(14);
+assertThat(wrapper.maybeError()).isNull();
+assertEquals(type, defaultTypeDeterminator.determineClass(type, candidates, anno, classLoader));
+assertNotNull(result); [EOL] assertTrue(result.contains(CtxController.INTRO));
+assertNotNull(resource.getRootDirectory());
+assertThat(actual).isEqualTo(KNOWN_JSON);
+Assert.assertTrue("menu topic not found", [EOL] 	Assert.assertNotNull(tname); [EOL] Assert.assertEquals(24, tm.getTopics().size()); [EOL] Assert.assertEquals(6, tm.getAssociations().size()); [EOL] Assert.assertEquals(21, tm.getTopics().size()); [EOL] Assert.assertEquals(1, tm.getAssociations().size()); [EOL] Assert.assertNull(topic.getTopicMap());
+assertThat(result).isEqualTo("ss##bla##s##bla##s##bla##s%");
+Assertions.assertThrows(NvaMonitor.NvaMonitorException.class,
+assertThat(contentOf(f1)).isEqualTo("" [EOL] assertThat(contentOf(f2)).isEqualTo(""
+assertEquals(0, victim.getPageDestinationsForLevel(2).getPages().size()); [EOL] assertEquals(1, victim.getPageDestinationsForLevel(3).getPages().size());
+Assert.assertEquals(Double.valueOf(9999999999.999d), NumberUtils.divideForExchangeRates(1d, 0.0000000001d)); [EOL] Assert.assertEquals(Double.valueOf(0.0000000001d), NumberUtils.divideForExchangeRates(1d, 9999999999.999d)); [EOL] Assert.assertEquals(Double.valueOf(0.0010010010d), NumberUtils.divideForExchangeRates(1d, 999.0000000001d)); [EOL] Assert.assertEquals(Double.valueOf(0.000000001d), NumberUtils.divideForExchangeRates(1d, 1000000000.999d));
+assertNull(uri);
+assertEquals(newArrayList("to", "be", "or", "not", "to", "be"), list);
+assertSame(principal, containerRequest.getUserPrincipal());
+assertEquals("Unexpected default csv strategy", CSVAttributesOnlyStrategy.class,
+assertThat(underTest.toString())
+assertEquals(NullPointerException.class.getName(), errorInformation.getMessage());
+assertClassEquals("fi.jumi.actors.generator.reference.dummyListener.OnOtherEvent", events.get(0)); [EOL] assertClassEquals("fi.jumi.actors.generator.reference.dummyListener.OnSomethingEvent", events.get(1));
+Util.assertMapContent(map.get(UUIDKey.UNIQUE_UUID), [EOL] Util.assertMapContent(map.get(KeyDefinition.newKeyDefinition() [EOL] Util.assertMapContent(map.get(KeyDefinition.newKeyDefinition()
+assertFalse(o.isDisposed()); [EOL] assertTrue(received.toString(), received.isEmpty()); [EOL] assertTrue(o.isDisposed()); [EOL] TestHelper.assertError(errors, 0, CompositeException.class); [EOL] TestHelper.assertError(ce, 0, TestException.class, "Outer"); [EOL] TestHelper.assertError(ce, 1, TestException.class, "Inner");
+assertNotNull(existsBuilder.getDescr()); [EOL] assertNotNull(descrs); [EOL] assertEquals(1, descrs.size()); [EOL] assertTrue(descrs.get(0) instanceof PatternDescr); [EOL] assertEquals(patternType, patternDescr.getObjectType()); [EOL] assertNull(patternDescr.getIdentifier()); [EOL] assertTrue(patternDescr.getConstraint() instanceof AndDescr); [EOL] assertEquals(1, andDescr.getDescrs().size()); [EOL] assertTrue(andDescr.getDescrs().get(0) instanceof ExprConstraintDescr); [EOL] assertFalse(exprConstraintDescr.isNegated()); [EOL] assertEquals(ExprConstraintDescr.Type.NAMED, exprConstraintDescr.getType()); [EOL] assertEquals(constraintsString, exprConstraintDescr.getExpression());
+assertThrows(ConstraintViolationException.class,
+assertEquals(concatWithString(" ", new String[]{"hello", "world"}), "hello world"); [EOL] assertEquals(concatWithString(" ", new String[]{"hello", "world"}), "hello world"); [EOL] assertEquals(concatWithString(" ", new String[]{"", "world"}), " world"); [EOL] assertEquals(concatWithString("-", new String[]{"hello", "world", "!"}), "hello-world-!"); [EOL] assertEquals(concatWithString("-", new String[]{}), ""); [EOL] assertEquals(concatWithString("-", new String[]{"hello"}), "hello");
+Assert.assertEquals(12, numberOfSegments2);
+assertFalse(result);
+assertNotNull(retval); [EOL] assertEquals(3.125f, retval.getX(), 0.0f); [EOL] assertEquals(4.125f, retval.getY(), 0.0f); [EOL] assertEquals(5.875f, retval.getZ(), 0.0f);
+assertEquals(Arrays.asList("a", "b", "c"), actualList);
+assertTrue(cs.get(20.0).equals("Greater")); [EOL] assertTrue(cs.get(Double.NEGATIVE_INFINITY).equals("youhou")); [EOL] assertNull(cs.get(25.0)); [EOL] assertTrue(cs.get(30.0).equals("EvenGreater")); [EOL] assertNull(cs.get(25.0)); [EOL] assertTrue(cs.get(Double.NEGATIVE_INFINITY).equals("yo"));
+assertNegativeElementsAreBeforePositiveOnes(array);
+assertThat(levenshteinMatch("", "haystack").getDistance(), is(Integer.MAX_VALUE)); [EOL] assertThat(levenshteinMatch("", "haystack").getDistance(), is(Integer.MAX_VALUE));
+assertEquals(3, results.size()); [EOL] 		assertFalse(results.containsKey("Q6")); [EOL] 		assertTrue(results.containsKey("Q1")); [EOL] 		assertTrue(results.containsKey("P31")); [EOL] 		assertTrue(results.containsKey("Q42"));
+assertTrue(checker.doCheck().isEmpty());
+Assert.assertEquals(Integer.class, AbstractAttribute.readGenericObjectType(ValidAttribute.class, "foo")); [EOL] Assert.assertEquals(Set.class, AbstractAttribute.readGenericObjectType(ValidAttributeWithParameterizedTypes.class, "foo"));
+assertTrue("NormalizedNode isPresent", readOptional.isPresent()); [EOL] assertTrue("Expect value to be a Collection", normalizedNode.getValue() instanceof Collection); [EOL] assertTrue("Expected " + node + " to be a ContainerNode", node instanceof ContainerNode); [EOL] assertTrue("Child with QName = " + TestModel.TEST_QNAME + " not found", [EOL] assertEquals(expectedNode1, NormalizedNodeAggregatorTest.findChildWithQName(collection, TestModel.TEST_QNAME)); [EOL] assertTrue("Child with QName = " + CarsModel.BASE_QNAME + " not found", [EOL] assertEquals(expectedNode2, NormalizedNodeAggregatorTest.findChildWithQName(collection, CarsModel.BASE_QNAME));
+assertEquals(0, get); [EOL] assertEquals(1, i1.get()); [EOL] assertEquals(127, get); [EOL] assertEquals(128, i2.get()); [EOL] assertEquals(Integer.MAX_VALUE, get); [EOL] assertEquals(0, i3.get());
+assertEquals(Long.valueOf(1L), idx1.findByEntity(e1a)); [EOL] assertEquals(Long.valueOf(1L), idx1.findByEntity(e1b)); [EOL] assertEquals(Long.valueOf(2L), idx1.findByEntity(e2)); [EOL] assertEquals(Long.valueOf(2L), idx1.findByEntity(e2alt)); [EOL] assertEquals(null, idx1.findByEntity(e3)); [EOL] assertEquals(null, idx1.findByEntity(e4)); [EOL] assertEquals(false, idx1.queryByEntity(e3).hasNext()); [EOL] assertEquals(false, idx1.queryByEntity(e3).hasNext()); [EOL] assertEquals(Long.valueOf(1L), idx1.findByEntity(e1a)); [EOL] assertEquals(null, idx1.findByEntity(e1a)); [EOL] assertEquals(Long.valueOf(1L), idx1.findByEntity(e1b)); [EOL] assertEquals(Long.valueOf(2L), idx1.findByEntity(e2)); [EOL] assertEquals(null, idx1.findByEntity(e2)); [EOL] assertEquals(Long.valueOf(1L), idx1.findByEntity(e1b)); [EOL] assertEquals(Long.valueOf(3L), idx2.findByEntity(e3)); [EOL] assertEquals(null, idx2.findByEntity(e3)); [EOL] assertEquals(null, idx2.findByEntity(e4)); [EOL] assertEquals(null, idx2.findByEntity(e4)); [EOL] assertEquals(false, idx3.updateIndex(d1, 1L)); [EOL] assertEquals(true, idx3.updateIndex(d1, 1L));
+assertEquals("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>" //$NON-NLS-1$
+assertThat(underTest.getName()).isEqualTo("filter");
+FunctionTestUtil.assertResultError(meanFunction.invoke((Object[]) null), InvalidParametersEvent.class);
+assertEquals(organization.getName(), dbOrganization.getName()); [EOL] assertEquals(1, dbOrganization.getCorporateGroupIdPrefixes().size()); [EOL] assertEquals(organization.getCorporateGroupIdPrefixes().get(0), dbOrganization.getCorporateGroupIdPrefixes().get(0));
+assertEquals("", result); [EOL] assertTrue(result.equals(ipv4) || result.equals(ipv6));
+assertTrue(verifyMergeResult(mergeResult, new int[] { 1, 10, 2, 3, 4, 5, 6, 7, 8, 9 }));
+assertThat(g.atom(g.order() - 1).label(), is("a holo-[acyl-carrier protein]"));
+assertThat(allStepsPageCollection.getMinimumTimeScenarioIndexFromStep(step), is(0));
+assertEquals(DEFAULT_GRAPHITE_IPPORT, backendAlarm.getGraphiteBaseUrl());
+assertThat(Robolectric.getUiThreadScheduler().enqueuedTaskCount()).isEqualTo(0); [EOL] assertThat(Robolectric.getUiThreadScheduler().enqueuedTaskCount()).isEqualTo(1); [EOL] assertThat(Robolectric.getUiThreadScheduler().enqueuedTaskCount()).isEqualTo(1); [EOL] assertThat(Robolectric.getUiThreadScheduler().enqueuedTaskCount()).isEqualTo(0);
+assertThat(symbs[cycle[1]], is("NPYD")); [EOL] assertThat(symbs[cycle[2]], is("NPYD"));
+assertThat(actualRow).hasDescription(EXPECTED_DESCRIPTION) [EOL] assertThatDetailedColumnContains(actualRow.getFileName(),
+assertThat(name) [EOL] assertThat(timer.getSnapshot().getMax())
+assertThat(cg1Usage).isNotNull(); [EOL] assertThat(cg2Usage).isNotNull(); [EOL] assertThat(cg1Usage.getCpu()).isEqualTo(CONTAINER_RESOURCES.getCpu() * 4); [EOL] assertThat(cg1Usage.getCpu() * 2).isEqualTo(cg2Usage.getCpu()); [EOL] assertThat(cg1Usage.getMemoryMB()).isEqualTo(CONTAINER_RESOURCES.getMemoryMB() * 4); [EOL] assertThat(cg1Usage.getMemoryMB() * 2).isEqualTo(cg2Usage.getMemoryMB()); [EOL] assertThat(cg1Usage.getDiskMB()).isEqualTo(CONTAINER_RESOURCES.getDiskMB() * 4); [EOL] assertThat(cg1Usage.getDiskMB() * 2).isEqualTo(cg2Usage.getDiskMB()); [EOL] assertThat(cg1Usage.getNetworkMbs()).isEqualTo(CONTAINER_RESOURCES.getNetworkMbps() * 4); [EOL] assertThat(cg1Usage.getNetworkMbs() * 2).isEqualTo(cg2Usage.getNetworkMbs());
+assertEquals(chatroom.joinedUsers.get(0), userRef);
+assertNotNull(columnRepository);
+assertArrayEquals(new char[] { 'p', 'e', 'd', 'r', 'o', '%', '2', '0' }, input);
+assertEquals("", translator.and());
+assertNotNull(response); [EOL] assertEquals(HttpStatus.UNAUTHORIZED_401, response.getStatus());
+Assert.assertTrue("event should have been handled", handled);
+assertEquals(zts.getConfiguredRoleCertExpiryTimeMins(data, roles), 120); [EOL] assertEquals(zts.getConfiguredRoleCertExpiryTimeMins(data, roles), 120); [EOL] assertEquals(zts.getConfiguredRoleCertExpiryTimeMins(data, roles), 120);
+assertThat(release.getClearingState()).isEqualTo(TestUtils.RELEASE_CLEARING_STATE); [EOL] assertThat(release.getChangeStatus()).isEqualTo(TestUtils.RELEASE_CHANGESTATUS); [EOL] assertThat(release.getDownloadurl()).isEqualTo(TestUtils.RELEASE_DOWNLOAD_URL); [EOL] assertThat(release.getReleaseTagUrl()).isEqualTo(TestUtils.RELEASE_RELEASE_TAG_URL); [EOL] assertThat(release.getSoftwareHeritageId()).isEqualTo(TestUtils.RELEASE_SOFTWAREHERITGAE_ID); [EOL] assertThat(release.getCoordinates()).containsKeys("maven"); [EOL] assertThat(release.getCoordinates()).hasSize(1); [EOL] assertThat(release.getCoordinates()).containsValue("pkg:maven/org.group.id/artifactIdTest1@" + TestUtils.RELEASE_VERSION1); [EOL] assertThat(release.getHashes()).hasSize(1); [EOL] assertThat(release.getHashes()). [EOL] assertThat(release.getOverriddenLicense()).isNull(); [EOL] assertThat(release.getObservedLicense()).isEqualTo(TestUtils.RELEASE_OBSERVED_LICENSE); [EOL] assertThat(release.getDeclaredLicense()).isEqualTo(TestUtils.RELEASE_DECLEARED_LICENSE); [EOL] assertThat(release.getCopyrights()).isEqualTo(TestUtils.RELEASE_COPYRIGHT); [EOL] assertThat(release.getHomepageUrl()).isEqualTo(TestUtils.HOMEPAGE_URL);
+assertThat(AgentRollupIds.getAgentRollupIds("aaa")).containsExactly("aaa"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("aaa::bbb")).containsExactly("aaa::bbb", [EOL] assertThat(AgentRollupIds.getAgentRollupIds("aaa::bbb::ccc")) [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a")).containsExactly("a"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a::b")).containsExactly("a::b", "a::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a::b::c")).containsExactly("a::b::c", "a::b::", [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a:b:c")).containsExactly("a:b:c"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a:::b")).containsExactly("a:::b", "a:::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a:::b:::c")).containsExactly("a:::b:::c", [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a::::b")).containsExactly("a::::b", "a::::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a::::b::::c")).containsExactly("a::::b::::c", [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a:::::b")).containsExactly("a:::::b", "a:::::", [EOL] assertThat(AgentRollupIds.getAgentRollupIds("a:::::b:::::c")).containsExactly( [EOL] assertThat(AgentRollupIds.getAgentRollupIds(":")).containsExactly(":"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("::")).containsExactly("::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds(":::")).containsExactly(":::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("::::")).containsExactly("::::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds(":::::")).containsExactly(":::::"); [EOL] assertThat(AgentRollupIds.getAgentRollupIds("::::::")).containsExactly("::::::", ":::");
+assertFalse(DeviceRenderer.shouldShowSerialNumbers(devices));
+assertThat(tagStats.size(), is(3)); [EOL] assertThat(tag1Stats.getTotal(), is(1)); [EOL] assertThat(tag1Stats.getPassed(), is(0)); [EOL] assertThat(tag1Stats.getFailed(), is(1)); [EOL] assertThat(tag1Stats.getSkipped(), is(0)); [EOL] assertThat(tag2Stats.getTotal(), is(2)); [EOL] assertThat(tag2Stats.getPassed(), is(1)); [EOL] assertThat(tag2Stats.getFailed(), is(1)); [EOL] assertThat(tag2Stats.getSkipped(), is(0)); [EOL] assertThat(tag3Stats.getTotal(), is(1)); [EOL] assertThat(tag3Stats.getPassed(), is(0)); [EOL] assertThat(tag3Stats.getFailed(), is(0)); [EOL] assertThat(tag3Stats.getSkipped(), is(1));
+Assert.assertArrayEquals(customCipherSuites, sslSocket.getEnabledCipherSuites());
+assertThat(e.getMessage(), containsString("does not exist"));
+List<Assertion> assertions = new ArrayList<>(); [EOL] assertions.add(mAssertion); [EOL] Mockito.when(mPolicy.getAssertions()).thenReturn(assertions); [EOL] assertNotNull(check); [EOL] assertEquals(check,"{\"policies\":[{\"assertions\":[{}]}]}"); [EOL] assertNotNull(check); [EOL] assertEquals(check,"{\"policies\":[{}]}");
+assert(jw.similarity(s,s2) > .8);
+Assert.assertFalse((new File(dirName)).exists());
+assertEquals("String has not been created correctly.", containerNodeBodyMock, topicDOMNotification.getBody());
+Assert.assertTrue(generator.showCarbon(carbon, atomContainer, model));
+assertThat(actualSummary).contains("CheckStyle, PMD"); [EOL] assertThat(actualSummary).contains("No warnings for 2 builds"); [EOL] assertThat(actualSummary).contains("since build <a href=\"../1\" class=\"model-link inside\">1</a>"); [EOL] assertThat(actualSummary).containsPattern( [EOL] assertThat(actualSummary).containsPattern( [EOL] assertThat(actualSummary).contains( [EOL] assertThat(actualSummary).contains("Reference build: <a href=\"absoluteUrl\">Job #15</a>");
+assertThat(people, containsInAnyOrder(otavio, poliana));
+Assert.assertEquals(HEADER1, event1.getHeaders().get(HEADER1)); [EOL] Assert.assertEquals(HEADER2, event1.getHeaders().get(HEADER2)); [EOL] Assert.assertEquals(HEADER3, event1.getHeaders().get(HEADER3)); [EOL] Assert.assertEquals(HEADER4, event1.getHeaders().get(HEADER4)); [EOL] Assert.assertEquals(HEADER5, event1.getHeaders().get(HEADER5)); [EOL] Assert.assertEquals(HEADER1, event1.getHeaders().get(HEADER1)); [EOL] Assert.assertEquals(HEADER2, event1.getHeaders().get(HEADER2)); [EOL] Assert.assertEquals(HEADER3, event1.getHeaders().get(HEADER3)); [EOL] Assert.assertNull(event1.getHeaders().get(HEADER4)); [EOL] Assert.assertEquals(HEADER5, event1.getHeaders().get(HEADER5)); [EOL] Assert.assertTrue(event2.getHeaders().isEmpty()); [EOL] Assert.assertTrue(event2.getHeaders().isEmpty());
+assertNotNull(result); [EOL] 		assertTrue(result.exists()); [EOL] 		assertNotEquals(0, result.length());
+assertThat(testFile.relativePath()).isEqualTo(TEST_RELATIVE_PATH);
+assertThatExceptionOfType(NullPointerException.class)
+assertEquals("Listener was not notified.", 1, listener.getNumberOfNotifications());
+assertEquals(expected, actual);
+assertEquals(zts.logPrincipalAndGetDomain(ctx), "sports");
+assertThat(illegalArgumentException.getMessage(), is(equalTo("Business object data has multiple (2) S3 storage units. Business object data: {" +
+assertTrue(ThingHelper.equals(thingA, thingB)); [EOL] assertFalse(ThingHelper.equals(thingA, thingB));
+assertEquals(null, submissionSet.getAuthor());
+assertThat(tableSize()).isEqualTo(before + 1); [EOL] assertThat(names).contains("newGroup");
+assertDoesNotThrow(() -> secondScreen.light(point2D));
+assertThat(solution.getVisitList()) [EOL] assertThat(lastVisit.getPreviousStandstill()).isEqualTo(firstVisit);
+Assert.assertEquals(1, acSet.getAtomContainerCount()); [EOL] Assert.assertEquals(5, ac1.getAtomCount()); [EOL] Assert.assertEquals(4, ac1.getBondCount());
+assertEquals(oceanColor, oceanColor1); [EOL] assertEquals(oceanColor, oceanColor2); [EOL] assertEquals(oceanColor, oceanColor3); [EOL] assertEquals(firstDefaultColour, oceanColor4);
+Assertions.assertThat(podDeletionGcController.isPodInPendingPhaseWithDeletionTimestamp(pod)).isFalse();
+assertThat(smallIntBytes).hasLength(expectedSize); [EOL] assertThat(new BigInteger(1, smallIntBytes)).isEqualTo(smallInt);
+assertThat( infix, is( instanceOf( InfixOpNode.class ) ) ); [EOL] assertThat( infix.getResultType(), is( BuiltInType.NUMBER ) ); [EOL] assertThat( infix.getText(), is( inputExpression ) ); [EOL] assertThat( sub.getLeft(), is( instanceOf( InfixOpNode.class ) ) ); [EOL] assertThat( sub.getLeft().getText(), is( "y - 5" ) ); [EOL] assertThat( sub.getOperator(), is( InfixOpNode.InfixOperator.POW ) ); [EOL] assertThat( sub.getRight(), is( instanceOf( NumberNode.class ) ) ); [EOL] assertThat( sub.getRight().getText(), is( "3" ) ); [EOL] assertThat( mult.getLeft(), is( instanceOf( NameRefNode.class ) ) ); [EOL] assertThat( mult.getLeft().getText(), is( "y" ) ); [EOL] assertThat( mult.getOperator(), is( InfixOpNode.InfixOperator.SUB ) ); [EOL] assertThat( mult.getRight(), is( instanceOf( NumberNode.class ) ) ); [EOL] assertThat( mult.getRight().getText(), is( "5" ) );
+assertThat(matcher.filterNamespaces("magic, foo, bar", null), hasItems("magic", "foo", "bar"));
+assertEquals(mapper.map(Row.of("1.0, 1.0, 0.0, 1.0")).getField(0), 1); [EOL] 		assertEquals(mapper.getOutputSchema(), new TableSchema(new String[] {"pred"},
+Assert.assertEquals(expected, actual);
+assertEquals(afmPlayerView.getMyPlaylist().size(), playlist.size());
+assertEquals( new DateTime( 2020, 1, 15, 0, 0 ).toDate(), [EOL] assertEquals( new DateTime( 2020, 3, 1, 0, 0 ).toDate(),
+assertSame(tab, this.list.toArray(tab)); [EOL] 		assertEquals(Integer.valueOf(1), tab[0]); [EOL] 		assertEquals(Integer.valueOf(2), tab[1]); [EOL] 		assertEquals(Integer.valueOf(3), tab[2]); [EOL] 		assertEquals(Integer.valueOf(10), tab[3]); [EOL] 		assertEquals(Integer.valueOf(20), tab[4]); [EOL] 		assertEquals(Integer.valueOf(21), tab[5]); [EOL] 		assertEquals(Integer.valueOf(22), tab[6]); [EOL] 		assertEquals(Integer.valueOf(23), tab[7]); [EOL] 		assertEquals(Integer.valueOf(24), tab[8]); [EOL] 		assertEquals(Integer.valueOf(25), tab[9]); [EOL] 		assertNull(tab[10]); [EOL] 		assertNull(tab[11]); [EOL] 		assertNull(tab[12]); [EOL] 		assertNull(tab[13]); [EOL] 		assertNull(tab[14]); [EOL] 		assertNotSame(tab, tab2); [EOL] 		assertEquals(Integer.valueOf(1), tab2[0]); [EOL] 		assertEquals(Integer.valueOf(2), tab2[1]); [EOL] 		assertEquals(Integer.valueOf(3), tab2[2]); [EOL] 		assertEquals(Integer.valueOf(10), tab2[3]); [EOL] 		assertEquals(Integer.valueOf(20), tab2[4]);
+assertTrue(retrievedSourceFuture.isCompleted());
+assertEquals(doc.html(), clone.html()); [EOL] assertEquals("<!DOCTYPE html><html><head><title>Doctype test</title></head><body></body></html>",
+assertEquals(StringValueOfProducer.class, typeProducer.getClass());
+assertThat(subject.isStorePictureSupported(context)).isFalse();
+Assert.assertTrue(result instanceof Collection); [EOL] 		Assert.assertEquals(1, coll.size()); [EOL] 		Assert.assertEquals("result", coll.iterator().next());
+Assert.assertTrue(object instanceof ReadBuffer); [EOL] Assert.assertFalse(buffer.isAscii());
+assertEquals(rc1.equals(rc2), false);
+assertFalse(propertyDescriptor.isPresent());
+topicCaptor.getAllValues().forEach(v -> assertEquals(TEST_TOPIC, v)); [EOL] assertEquals("id", cloudEvent1.getId()); [EOL] assertEquals("id", cloudEvent2.getId());
+assertThat(response.errorCode()).isNull();
+assertNotNull(groups); [EOL] assertEquals(0, groups.size());
+Assertions.assertThat(new Application().hello()).isEqualTo("hello");
+assertEquals(expectedAcceptedLanguageList, acceptedLanguageList);
+assertTrue(ex.toString(), ex.getCause() instanceof TestException); [EOL] assertEquals("One", ex.getCause().getMessage()); [EOL] TestHelper.assertUndeliverable(errors, 0, TestException.class, "Two");
+assertEquals("1.0.0", url.getParameter("version")); [EOL] assertEquals("1.0.0", url.getParameter("default.version")); [EOL] assertTrue(UrlUtils.isMatch(consumerUrl, url)); [EOL] assertTrue(UrlUtils.isMatch(consumerUrl, url));
+assertEquals(e.getErrorCode(), OpenLRProtoStatusCode.INVALID_LOCATION_REFERENCE);
+Assert.assertEquals(testResult[i], result, 0.05);
+assertTrue(repository.deleteAlarm("id"));
+assertEquals(executionResult.getType(), TOExecutionResult.Type.ERROR); [EOL] assertNotNull(executionResult.getException()); [EOL] assertEquals(executionResult.getException().getClass(), TransformationOperationException.class); [EOL] assertNotChangedFile("pom.xml");
+assertEquals(response.getStatus(), 500);
+assertCarsUint64();
+assertThat(entry.getKey(), is(expected[index++]));
+assertThat(updatedRows, hasSize(2)); [EOL] assertThat(updatedRows, contains(
+assertTrue(result.isEmpty());
+assertEquals(container, requestScope.get(TilesAccess.CURRENT_CONTAINER_ATTRIBUTE_NAME));
+assertThat(targetDir.toFile()).exists(); [EOL] assertThat(targetDir.resolve("test").toFile()).exists().hasContent("test"); [EOL] assertThat(targetDir.resolve("subfolder/test2").toFile()).exists().hasContent("test2");
+assertThat(actual.getYear(), is(equalTo(2011))); [EOL] 		assertThat(actual.getMonth(), is(equalTo(11))); [EOL] 		assertThat(actual.getDay(), is(equalTo(30))); [EOL] 		assertThat(actual.getHour(), is(equalTo(23))); [EOL] 		assertThat(actual.getMinute(), is(equalTo(59))); [EOL] 		assertThat(actual.getSecond(), is(equalTo(59)));
+assertEquals(1, authorizedNamespaces.size()); [EOL] assertTrue(authorizedNamespaces.contains("namespace"));
+assertEquals(la.latitude, moved.latitude, 0.01); [EOL] assertEquals(la.longitude, moved.longitude, 0.01);
+.assertTrue(sb
+assertThat(value, instanceOf(Long.class)); [EOL] assertThat(value, equalTo(10l));
+assertEquals("mypath", adapter.getRealPath("whatever"));
+assertEquals(1, inputItems.size()); [EOL] assertEquals(fileItem.getFieldName(), inputItems.get(fileItem.getFieldName()).getName());
+assertTrue(exception.getMessage().equals("Producer is closed forcefully.")); [EOL] assertEquals("No nodes should be ready.", 0, result.readyNodes.size()); [EOL] assertEquals(numExceptionReceivedInCallback.get(), 100); [EOL] assertFalse(accum.hasUnsent());
+assertEquals(expected,result);
+assertNull(webApp.getJspConfigDescriptor());
+Assert.assertEquals("Hello, haha context, 123", result);
+testObserver.assertNoValues(); [EOL] testObserver.assertNotComplete(); [EOL] testObserver.assertError(Exception.class);
+assertEquals(o1, o2);
+assertThat(resp.getStatus(), equalTo(201)); [EOL] assertThat(resp.getHeaders().get("Location"), contains(expectedRedirect));
+Assert.assertTrue(validator.run());
+assertThatExceptionOfType(ProtocolAdapterException.class).isThrownBy(() -> {
+Assert.assertFalse(result);
+assertEquals(ImmutableList.of(category1, category2), categories.getCategories());
+Assertions.assertEquals(-53, PolynomialRootUtils.getMaximumNegativeRealRoot(roots));
+assertThat(underTest.ne(ACME))
+assertThat(tokens.matches("select"), is(false)); [EOL] assertThat(tokens.matches("SElect"), is(false)); [EOL] assertThat(tokens.matches("Select"), is(true));
+assertEquals(2, services.size()); [EOL] assertEquals(service.getExecutable(), "/usr/bin/java"); [EOL] assertEquals(service.getUser(), "root"); [EOL] assertEquals(service.getPublicKeys().size(), 2); [EOL] assertEquals(service.getHosts().size(), 1); [EOL] assertEquals(service.getHosts().get(0), "host1"); [EOL] assertEquals(service.getExecutable(), "/usr/bin/java"); [EOL] assertEquals(service.getUser(), "yahoo"); [EOL] assertEquals(service.getPublicKeys().size(), 2); [EOL] assertEquals(service.getHosts().size(), 1); [EOL] assertEquals(service.getHosts().get(0), "host2"); [EOL] assertTrue(service1Check); [EOL] assertTrue(service2Check);
+Assert.assertTrue(d0.onViewRecycledCalled); [EOL] Assert.assertFalse(d1.onViewRecycledCalled); [EOL] Assert.assertFalse(d2.onViewRecycledCalled); [EOL] Assert.assertTrue(d1.onViewRecycledCalled); [EOL] Assert.assertFalse(d0.onViewRecycledCalled); [EOL] Assert.assertFalse(d2.onViewRecycledCalled); [EOL] Assert.assertTrue(d2.onViewRecycledCalled); [EOL] Assert.assertFalse(d1.onViewRecycledCalled); [EOL] Assert.assertFalse(d0.onViewRecycledCalled);
+assertEquals("athenz.syncer", cn);
+softly.assertThat(underTest.get()).as("first start").isPresent(); [EOL] softly.assertThat(underTest.get()).as("second start").isNotPresent(); [EOL] softly.assertThat(firstNack).isEqualTo(expectedNack);
+assertThat("a").isEqualTo(root.getKey());
+assertThat(ret.isExit()).isTrue(); [EOL] assertThat(ret.getExitCode()).isEqualTo(ExitCode.USAGE); [EOL] assertThat(ret.getOptions()).isNull();
+assertThat(scores.get(new EntityPair(nanoentity1a, nanoentity1b)), is(equalTo(PREMIUM))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2a, nanoentity2b)), is(equalTo(PREMIUM))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity3a, nanoentity3b)), is(equalTo(PREMIUM))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1a, nanoentity2b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1a, nanoentity2a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1a, nanoentity3b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1a, nanoentity3a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1b, nanoentity2a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1b, nanoentity2b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1b, nanoentity3a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1b, nanoentity3b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2a, nanoentity3a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2a, nanoentity3b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2b, nanoentity3a)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2b, nanoentity3b)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1a, other)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity1b, other)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2a, other)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity2b, other)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity3a, other)), is(equalTo(PENALTY))); [EOL] 		assertThat(scores.get(new EntityPair(nanoentity3b, other)), is(equalTo(PENALTY)));
+Assert.assertEquals(false, thrown);
+assertAll( [EOL] () -> assertTrue(recorder.isRunning(), "Recorder should be running"), [EOL] () -> assertEquals(format, recorder.getFileNameFormat(), "File name format should have been set")
+assertEquals("https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0123/0000012345", imageServiceContext);
+assertNotNull(anomalyModels); [EOL] assertTrue(anomalyModels.size() == 0);
+assertEquals(presenter.getValue(), "entry2"); [EOL] assertNull(presenter.getValue());
+assertThat(mappingResult.get(0).getTopicPath().getId())
+assertThat(SpanCustomizingApplicationEventListener.route(request))
+Assert.assertEquals("5px", values.get("pre-right-post")); [EOL] 		Assert.assertEquals("5px", values.get("pre-left-post")); [EOL] 		Assert.assertEquals("2px", values.get("pre-bottom-post")); [EOL] 		Assert.assertEquals("2px", values.get("pre-top-post"));
+assertThat(formatter.format(DayOfWeek.MONDAY).toString(), is("Mon"));
+assertNotNull("result cannot be null", [EOL] assertEquals("Created resource with name john", [EOL] assertNotNull(responseCode); [EOL] assertEquals(200, [EOL] assertNotNull(responseMsg); [EOL] assertEquals("request to endpoint " + workItem.getParameter("Url") + " successfully completed OK",
+assertThat(issue.getType()).isEqualTo("Dead Entity"); [EOL] assertThat(issue.getFileName()).isEqualTo("src/pointmodel.cpp"); [EOL] assertThat(issue.getOrigin()).isEqualTo(""); [EOL] assertThat(issue.getBaseName()).isEqualTo("pointmodel.cpp"); [EOL] assertThat(issue.getCategory()).isEqualTo("DE"); [EOL] assertThat(issue.getFingerprint()).isEqualTo("DE7"); [EOL] assertThat(issue.getReference()).isEqualTo(""); [EOL] assertThat(issue.getFolder()).isEqualTo("src"); [EOL] assertThat(issue.getPackageName()).isEqualTo("-"); [EOL] assertThat(issue.getModuleName()).isEqualTo("-"); [EOL] assertThat(issue.getDescription()).isEqualTo(
+assertThat(bundle.getNextImage()).isEqualTo(imageA); [EOL] assertThat(bundle.getNextImage()).isEqualTo(imageB);
+assertNotNull(certReq); [EOL] assertTrue(certReq.validatePublicKeys(ztsPublicKey));
+Assert.assertEquals("xxx", SystemInfo.parseHostMachine()); [EOL] Assert.assertTrue(StringUtils.isEmpty(SystemInfo.getHostMachine()));
+assertThat(mols.getAtomContainerCount(), is(3)); [EOL] assertThat(mols.getAtomContainer(0).getAtomCount(), is(1)); [EOL] assertThat(mols.getAtomContainer(0).getProperty(IteratingSMILESReader.BAD_SMILES_INPUT), [EOL] assertThat(mols.getAtomContainer(1).getAtomCount(), is(0)); [EOL] assertThat(mols.getAtomContainer(1).getProperty(IteratingSMILESReader.BAD_SMILES_INPUT), [EOL] assertThat(mols.getAtomContainer(2).getAtomCount(), is(6)); [EOL] assertThat(mols.getAtomContainer(2).getProperty(IteratingSMILESReader.BAD_SMILES_INPUT),
+assertNotNull(qbcBuilder); [EOL] assertTrue(lessThanEqual instanceof LessThanOrEqualPredicate); [EOL] assertEquals(((LessThanOrEqualPredicate) lessThanEqual).getValue().getValue(), date.plusDays(1));
+assertThat(getInheritedClasses(void.class)).isEmpty(); [EOL] 		assertThat(getInheritedClasses(int.class)).isEmpty(); [EOL] 		assertThat(getInheritedClasses(double.class)).isEmpty();
+assertEquals(o(property, -1), translator.order(property, Order.DESCENDING));
+assertThat(path.getParent(), is(sameInstance(parent)));
+assertTrue(lteP.test(v)); [EOL] assertFalse(lteP.test(v + 1)); [EOL] assertTrue(lteP.test(v - 1)); [EOL] assertEquals(lte(v), lteP); [EOL] assertEquals(lte(v).hashCode(), lteP.hashCode()); [EOL] assertNotEquals(lt(v), lteP); [EOL] assertNotEquals(lte(v + 1), lteP); [EOL] assertEquals(lteP.toString(), "<= 100");
+Assert.assertNull(results[0]); [EOL] Assert.assertNotEquals(results[1], results[2]);
+assertTrue(OresHelper.isOfType(oLATResourceable, classInstance)); [EOL] assertFalse(OresHelper.isOfType(oLATResourceable, ICourse.class));
+assertTrue(itemUpdateRunnable.shouldDownload()); [EOL] assertEquals(0, downloadCount.numCalls); [EOL] assertEquals(1, mockTask.done.size()); [EOL] assertTrue(itemUpdateRunnable.shouldDownload()); [EOL] assertEquals(1, downloadCount.numCalls); [EOL] assertEquals(2, mockTask.done.size()); [EOL] assertTrue(itemUpdateRunnable.shouldDownload()); [EOL] assertEquals(1, downloadExceptionCount.numCalls); [EOL] assertEquals(1, mockTask.errors.size()); [EOL] assertEquals(3, mockTask.done.size()); [EOL] assertTrue("http-title in" + mockTask.errors.get(0), mockTask.errors.get(0).matches(".*http-title.*"));
+Assert.assertEquals(1L, cookie.longValue());
+assertEquals(res, factory.getConfiguration()); [EOL] assertEquals(".", factory.getHomeDir().getFilename());
+assertFalse(ptrn.matches(smi("C"))); [EOL] assertTrue(ptrn.matches(smi("[12C]"))); [EOL] assertTrue(ptrn.matches(smi("[13C]")));
+assertTrue(params.isEmpty()); [EOL] assertTrue(params.isEmpty());
+assertThat(request.headers.get(b3Key)).isEqualTo("1");
+Assert.assertEquals(9, css.parsePxInCmMmPcToPt("12"), 0); [EOL] 		Assert.assertEquals(576, css.parsePxInCmMmPcToPt("8inch"), 0); [EOL] 		Assert.assertEquals(576, css.parsePxInCmMmPcToPt("8", CSS.Value.IN), 0);
+assertThat(periodicMeterReads.size()).isEqualTo(2); [EOL] assertThat(periodicMeterReads.stream().anyMatch(r -> r.getConsumption() == meterValue1)).isEqualTo(true); [EOL] assertThat(periodicMeterReads.stream().anyMatch(r -> r.getConsumption() == meterValue2)).isEqualTo(true); [EOL] assertThat(periodicMeterReads.stream().allMatch(r -> this.areDatesEqual(r.getLogTime(), cosemDateTime))) [EOL] assertThat(periodicMeterReads.stream().allMatch(r -> this.areDatesEqual(r.getCaptureTime(), cosemDateTime)))
+assertEquals("foo bar", lineParser.parseLine("foo\\ bar", 8).selectedWordToCursor().word()); [EOL] assertEquals("foo ba", lineParser.parseLine("foo\\ bar", 7).selectedWordToCursor().word()); [EOL] assertEquals("foo bar", lineParser.parseLine("ls foo\\ bar", 12).selectedWordToCursor().word());
+assertThat(target.getCustomRegistrationValidators()).contains(customRegistrationValidator);
+assertTrue(o instanceof Map); [EOL] assertEquals(SharedName.class.getName(), m.get("$class")); [EOL] assertTrue(o2 instanceof Map); [EOL] assertEquals(UnambiguousClassName.class.getSimpleName(), m2.get("$class"));
+assertEquals(numericPredictors.size(), retrieved.size());
+assertEquals( 4, queryEngine.query( query ).size() ); [EOL] assertEquals( 2, queryEngine.query( query ).size() );
+assertFalse(sub1.isCancelled()); [EOL] assertFalse(sub1.isCancelled()); [EOL] assertTrue(sub2.isCancelled()); [EOL] TestHelper.assertError(errors, 0, ProtocolViolationException.class); [EOL] assertEquals(EndConsumerHelper.composeMessage("io.reactivex.internal.util.EndConsumerHelperTest$EndDefaultSubscriber"), errors.get(0).getMessage()); [EOL] assertEquals(errors.toString(), 1, errors.size());
+assertThat(UNDER_TEST.resolve(THING_ID, "namespace")).contains(NAMESPACE);
+assertThat(parameters.size(), is(4)); [EOL] assertThat(parameters.get("param1"), is("ABCD1")); [EOL] assertThat(parameters.get("param2"), is("ABCD2")); [EOL] assertThat(parameters.get("param3"), is("ABC=DEF")); [EOL] assertThat(parameters.get("param4"), is("A B = % *"));
+assertThat(underTest.getSize()).isEqualTo(SIZE);
+.assertValue(destination) [EOL] .assertComplete(); [EOL] assertNotNull(bitmap); [EOL] assertEquals(1100, bitmap.getWidth()); [EOL] assertEquals(800, bitmap.getHeight());
+assertThat(errorMessage, notNullValue()); [EOL] assertThat(errorMessage, is("This cannot possibly happen."));
+assertWithMessage("G5 1").that((int) RawScaling.scale(10000, RawScaling.DType.G5, false)).isEqualTo(10000); [EOL] assertWithMessage("G6v1 1").that((int) RawScaling.scale(294, RawScaling.DType.G6v1, false)).isEqualTo(9996); [EOL] assertWithMessage("G6v2 1").that((int) RawScaling.scale(1168582904, RawScaling.DType.G6v2, false)).isEqualTo(155299);
+assertEquals(3, joined.columnCount()); [EOL] assertEquals(4, joined.rowCount());
+assertThat(FutureUtils.block(future)).isEqualTo(RESULT);
+assertEquals(br.readLine(), "Line1"); [EOL] 		assertNull(br.readLine()); [EOL] 		assertTrue(dump.isAvailable()); [EOL] 		assertTrue(dump.isAvailable()); // second time should use cached entry [EOL] 		assertEquals(dateStamp, dump.getDateStamp()); [EOL] 		assertEquals("wikidatawiki", dump.getProjectName()); [EOL] 		assertEquals("wikidatawiki-daily-" + dateStamp, dump.toString()); [EOL] 		assertEquals(DumpContentType.DAILY, dump.getDumpContentType());
+Assert.assertEquals(expect[i], predict[i], 0.01);
+assertNotNull(time); [EOL] assertEquals("2013-03-01T00:00:00.000Z", df.format(time));
+Predicate<ChronoPeriod> assertion = i -> i.get(ChronoUnit.YEARS) == 1 && i.get(ChronoUnit.MONTHS) == 0; [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Collections.singletonList(p1Period)), ChronoPeriod.class, assertion); [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Collections.singletonList(p1Comparable)), ChronoPeriod.class, assertion); [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Arrays.asList(p1Period, p2Period)), ChronoPeriod.class, assertion); [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Arrays.asList(p1Comparable, p2Period)), ChronoPeriod.class, assertion); [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Arrays.asList(p1Period, p2Comparable)), ChronoPeriod.class, assertion); [EOL] FunctionTestUtil.assertPredicateOnResult(maxFunction.invoke(Arrays.asList(p1Comparable, p2Comparable)), ChronoPeriod.class, assertion);
+assert myFileSystem != null; [EOL] assert myMockDevice != null;
+Assert.assertEquals("u.user_id,u.creation_date", ctx.getSqlStatement()); [EOL] Assert.assertEquals(2, ctx.getOutSubObjectNames().size()); [EOL] Assert.assertEquals(null, ctx.getOutSubObjectNames().get(0)); [EOL] Assert.assertEquals(2, ctx.getOutFields().size()); [EOL] Assert.assertEquals(UserEntity.USER_ID, ctx.getOutFields().get(0)); [EOL] Assert.assertEquals(UserEntity.CREATION_DATE, ctx.getOutFields().get(1)); [EOL] Assert.assertEquals("[user-id, creation-date]", ctx.getOutFields().toString());
+Assertions.assertEquals("on-throw-object", builder.build().getOnthrow());
+assertTrue(Transaction.execute(new TransactionCallbackWithExceptionNoReturn<FileNotFoundException>() { [EOL] assertEquals(1, i.get());
+assertEquals(0.55f, shapeTable.getWinRate(hash), 0.01); [EOL] 		assertEquals((1.0 + (BIAS * 0.5)) / (2.0 + BIAS), node.getWinRate(coords.at("a1")), 0.01); [EOL] 		assertEquals((1.0 + (BIAS * 0.55)) / (2.0 + BIAS), node.getWinRate(p), 0.01);
+assertEquals(ContentMode.HTML, htmlModeLabel.getContentMode());
+assertThat(MatrixUtils.computeSparseness(sparse)).isEqualTo(0);
+assertThat(b).isTrue();
+assertThat(keyStr, is("transformation_prep1_dataset1_b6aa01425c31e1eed71d0c3cbc7763aad865d1b1"));
+assertEquals(2, result.rowCount());
+assertEquals(expectedDate, formatDate("yyyy-MM-dd HH:mm:ss", result));
+assertEquals(addr1, result.get(0)); [EOL] assertEquals(addr2, result.get(1));
+assertEquals( new DateTime( 2019, 4, 6, 19, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 19, now1 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 6, 21, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 21, now1 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 7, 4, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 4, now1 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 7, 15, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 15, now1 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 8, 2, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 2, now2 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 7, 5, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 5, now2 ) ); [EOL] assertEquals( new DateTime( 2019, 4, 7, 17, 0, 0, 0 ).toDate(), DateUtils.getNextDate( 17, now2 ) ); [EOL] assertNotNull( DateUtils.getNextDate( 4, null ) );
+Assert.assertEquals("Invalid SAAJ version", SaajUtils.SAAJ_13, SaajUtils.getSaajVersion());
+assertTrue(true);
+assertArrayEquals(sma5, result.asObjectArray());
+Assert.assertEquals(actCondition.getConditionChecker(), conditionChecker);
+assertEquals("", expectFinalFile, mojo.assembleOpear()); [EOL] assertTrue(String.format("should have entry %s in %s", expectEntry, allEntries), [EOL] assertTrue(String.format("should not have entry %s in %s", noExpectEntry, allEntries), [EOL] assertEquals("expect bsn", Collections.singletonList(expectArtifactId), [EOL] assertEquals("expect bcp", Arrays.asList("lib/classes", "lib/" + compileDepFile.getName()), [EOL] assertEquals("expect oakpal version", Collections.singletonList(expectOakpalVersion), [EOL] assertEquals("expect oakpal plan", Collections.singletonList(expectFilename),
+assertTrue(processor.isMessageFromRateLimiter(slackMessage));
+assertTrue("audit should contain change of tcsMails",msgs.get(0).getMessage().contains(expectedTestOfMessage));
+Assert.assertEquals(resultAccordingNIST, result, 0.8); [EOL] //		assertEquals(5, reactionSet.getReactionCount());
+assertNotNull(lastUpdate); [EOL] assertEquals(ZonedDateTime.of(2012, 1, 1, 0, 0, 0, 0, ZoneId.systemDefault()), lastUpdate); [EOL] assertNull(lastUpdate);
+Assert.assertEquals(0,
+assertEquals(0, patientInfo.getIds().size());
+assertEquals(response.getStatus(), 200);
+assertThat(binary.getSize(), is((long)validByteArrayContent.length)); [EOL] assertThat(binary, hasContent(validByteArrayContent));
+assertNull("this is ok, because the 0 argument is present in both cases",getFixture().review(null, master, slave));
+Assertions.assertThat(underTest).isNotNull(); [EOL] Assertions.assertThat((CharSequence) underTest.getEntityId()).isEqualTo(CONNECTION_ID); [EOL] Assertions.assertThat(underTest.getRevision()).isEqualTo(REVISION);
+assertThat(testSubscriber.getOnErrorEvents()).isEmpty(); [EOL] assertThat(testSubscriber.isUnsubscribed()).isFalse(); [EOL] assertThat(testSubscriber.getCompletions()).isEqualTo(0); [EOL] assertThat(testSubscriber.getOnErrorEvents()).hasSize(1); [EOL] assertThat(testSubscriber.isUnsubscribed()).isTrue(); [EOL] assertThat(testSubscriber.getCompletions()).isEqualTo(0);
+assertTrue(resolver.resolve(input).isPresent());
+assertTrue( table.editCellAt( 0, 0 ) ); [EOL] assertTrue( table.editCellAt( 0, 3 ) ); [EOL] assertTrue( table.editCellAt( 0, 4 ) );
+assertFalse("IPv6 full nonmatch succeeds", ip6FullMatcher
+assertEquals("A",result.getId()); [EOL] assertEquals("B",result.getAgendaId()); [EOL] assertEquals("C",result.getRuleId()); [EOL] assertEquals("G",result.getSubAgendaId()); [EOL] assertEquals("J",result.getWhenTrueId()); [EOL] assertEquals("Q",result.getWhenFalseId()); [EOL] assertEquals("X",result.getAlwaysId()); [EOL] assertEquals(0L,(long)result.getVersionNumber()); [EOL] assertNotNull(result.getRule()); [EOL] assertNotNull(result.getWhenTrue()); [EOL] assertNotNull(result.getWhenFalse()); [EOL] assertNotNull(result.getAlways());
+assertThat(result, is(notNullValue())); [EOL] assertThat(result, is(instanceOf(Conjunction.class))); [EOL] assertHasSimpleTerms(conjunction, "term%", "term_", "%term_");
+Assert.assertTrue(firstAlsoCalled.get()); [EOL] Assert.assertTrue(secondAlsoCalled.get());
+assertEquals("Leader", successResult.getResult().getRole()); [EOL] assertEquals("Leader", prefixSuccessResult.getResult().getRole());
+assertThat(headers.get(b3Key)).isEqualTo("d");
+Assertions.assertThatExceptionOfType(ServiceException.class) [EOL] 		Assertions.assertThatExceptionOfType(ServiceException.class)
+assertEquals(ResponseType.SUCCESS, resp.getType()); [EOL] 		assertEquals(0, feed.getEntries().size());
+assertThat(tracer.currentSpan().context().shared()).isFalse();
+Assert.assertTrue(actual);
+assertNull(Str.trim(null)); [EOL] assertNull(Str.trim("")); [EOL] assertNull(Str.trim(" ")); [EOL] assertNull(Str.trim(" \t\n ")); [EOL] assertNotNull(Str.trim(".")); [EOL] assertNotNull(Str.trim(" . "));
+Assert.assertTrue(CommonUtils.isEmpty(parameterNames)); [EOL] Assert.assertEquals("a", parameterNames[0]); [EOL] Assert.assertEquals("a", parameterNames[0]); [EOL] Assert.assertEquals("b", parameterNames[1]);
+assertEquals( [EOL] assertEquals( [EOL] assertEquals( [EOL] assertEquals( [EOL] assertEquals( [EOL] assertEquals( [EOL] assertEquals(
+assertThatIllegalStateException().isThrownBy(
+assertThat(list).containsExactly("1", "1", "2", "2", "3", "3");
+Assert.assertEquals(20.00f, bmiValue.toFloat());
+assertThatExceptionOfType(NullPointerException.class)
+Assert.assertEquals(newStart, EntityUtil.getNextStartTime(start,
+assertError(stanzas, StanzaErrorCondition.ITEM_NOT_FOUND);
+assertFalse("Theme glif_pixel should be dark theme", [EOL] assertFalse("Theme glif_pixel should be dark theme",
+assertThat(result.getColorSpace(), is(PDDeviceRGB.INSTANCE)); [EOL] assertThat(result.getHeight(), is(103));
+assertEquals(actual.getClass(), expectedClass);
+assertTrue("new modification not of type PruningDataTreeModification",
+assertEquals(Collections.singletonList(LOCAL_TIME), actual);
+assertThat(map.remove(5), is((Boolean) null)); [EOL] assertThat(map, is(mapOf(1, 2, 3, 4)));
+assertNotNull(graph); [EOL] assertEquals(1, graph.getElements().size()); [EOL] assertEquals(TC01_ModuleWithOneArtifactWithoutDependency.MODULE_NAME, graph.getElements().get(0).getValue()); [EOL] assertEquals(TC01_ModuleWithOneArtifactWithoutDependency.MODULE_VERSION, graph.getElements().get(0).getVersion()); [EOL] assertEquals(true, graph.getElements().get(0).isRoot()); [EOL] assertEquals(0, graph.getDependencies().size());
+Assert.assertFalse(actual);
+Assert.assertTrue(CommonUtils.isFalse("false")); [EOL] Assert.assertTrue(CommonUtils.isFalse("False")); [EOL] Assert.assertFalse(CommonUtils.isFalse("null")); [EOL] Assert.assertFalse(CommonUtils.isFalse("")); [EOL] Assert.assertFalse(CommonUtils.isFalse("xxx")); [EOL] Assert.assertFalse(CommonUtils.isFalse((Boolean) null)); [EOL] Assert.assertFalse(CommonUtils.isFalse(Boolean.TRUE)); [EOL] Assert.assertTrue(CommonUtils.isFalse(Boolean.FALSE));
+assertEquals(400, mPopUpCoachMarkPresenter.getActualTopMargin(400, mCoachMarkPixelInfo)); [EOL] assertEquals(800, mPopUpCoachMarkPresenter.getActualTopMargin(800, mCoachMarkPixelInfo));
+assertEquals(expectedRoots, roots);
+assertEquals(now, statusReport.getFailedDate()); [EOL] 		assertEquals(State.FAILED, statusReport.getState());
+assertNotNull(cmd); [EOL] 		assertSame(Action._new, cmd.getAction()); [EOL] 		assertEquals("client",cmd.getRootClientAlias()); [EOL] 		assertEquals("app", cmd.getAppAlias()); [EOL] 		assertEquals("/flow_client-user", cmd.getAbsoluteDomainAlias()); [EOL] 		assertTrue(cmd.isRootDomainOnly());
+assertClassEquals("fi.jumi.actors.generator.reference.dummyListener.DummyListenerToEvent", generator.getFrontend());
+assertIterableDenseInput(list, len, size, vectorList);
+assertEquals(68, StandardPseudoComponentFactory.getAll().size());
+assertEquals("Invalid deliveryMode", DeliveryMode.NON_PERSISTENT, deliveryMode); [EOL] 		assertEquals("Invalid deliveryMode", DeliveryMode.PERSISTENT, deliveryMode); [EOL] 		assertEquals("Invalid deliveryMode", Message.DEFAULT_DELIVERY_MODE, deliveryMode);
+assertThat(searchResult) //
+assertEquals(ItemStateEvent.class, event.getClass()); [EOL] assertEquals(ITEM_STATE_EVENT_TYPE, itemStateEvent.getType()); [EOL] assertEquals(ITEM_STATE_EVENT_TOPIC, itemStateEvent.getTopic()); [EOL] assertEquals(ITEM_UNDEF_STATE_EVENT_PAYLOAD, itemStateEvent.getPayload()); [EOL] assertEquals(ITEM_NAME, itemStateEvent.getItemName()); [EOL] assertEquals(SOURCE, itemStateEvent.getSource()); [EOL] assertEquals(UnDefType.UNDEF, itemStateEvent.getItemState());
+assertEquals(privateKeyStore.getKMS(), kms);
+assertEquals(response.getStatus(), 400);
+Assert.assertEquals("TABLE1.NAME = 1", result.get(FilterType.IndexQueryKeyFilter).toString()); [EOL] Assert.assertEquals(null, result.get(FilterType.IndexQueryValueFilter)); [EOL] Assert.assertEquals(null, result.get(FilterType.ResultFilter));
+assertThat(stats.length, is(not(0))); [EOL] assertThat(history.getTotalDuration(TimeUnit.SECONDS), is(60L));
+assertThat(cache.getCapacity(), equalTo(1000));
+assertThat(actual).isEqualTo(expected);
+Assert.assertEquals(paymentType, transactionResponse.getPaymentType());
+assertEquals("hello", o.pagename); [EOL] assertEquals(12345678901234L, o.cid); [EOL] assertEquals(new Long(22345678901234L), o.tid); [EOL] assertNull(o.c); [EOL] assertEquals("oof", o.bar);
+Assert.assertNotNull(input); [EOL] Assert.assertTrue(input.isRecognitionStarted());
+context.assertNotNull(ex.getValidationDetails()); [EOL] context.assertEquals(1, ex.getValidationDetails().size()); [EOL] context.assertEquals("required", jsonObject.getString("type")); [EOL] context.assertEquals("pattern", jsonObject.getJsonArray("arguments").getString(0));

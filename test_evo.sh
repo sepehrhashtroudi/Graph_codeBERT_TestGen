@@ -1,24 +1,25 @@
 #!/bin/bash
 #SBATCH --gres=gpu:4       # Request GPU "generic resources"
-#SBATCH --cpus-per-task=8  # Refer to cluster's documentation for the right CPU/GPU ratio
-#SBATCH --mem=32000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
-#SBATCH --time=1-8:00     # DD-HH:MM:SS
+#SBATCH --cpus-per-task=10  # Refer to cluster's documentation for the right CPU/GPU ratio
+#SBATCH --mem=100000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
+#SBATCH --time=3-03:00     # DD-HH:MM:SS
 
 source ./Env/bin/activate
+source ./ENV/bin/activate
 
 
 source=methods
 target=tests
 lr=1e-4
 beam_size=10
-source_length=512
-target_length=320
+source_length=510
+target_length=240
 batch_size=64
-output_dir=saved_models/dec_10_fulldata_graphcodebert/$source-$target/
-# dev_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
+output_dir=saved_models/dec_6_evosuite_last_data_contex_Assert_graphcodebert_510_240/$source-$target/
+test_file=dataset/evosuit/Evosuit_Assert.$source,dataset/evosuit/Evosuit_Assert.$target
 # test_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
 # test_file=dataset/combined/eval_combined.$source,dataset/combined/eval_combined.$target
-test_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
+# test_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
 
 # test_file=dataset/combined/Evosuit_train.$source,dataset/combined/Evosuit_train.$target
 load_model_path=$output_dir/checkpoint-best-bleu/pytorch_model.bin #checkpoint for test
@@ -38,4 +39,5 @@ python run.py \
 --max_source_length $source_length \
 --max_target_length $target_length \
 --beam_size $beam_size \
+--cal_blue 0 \
 --eval_batch_size $batch_size 2>&1| tee $output_dir/test.log

@@ -1,0 +1,1000 @@
+[EOL]       assertEquals(0, (int)mutableInt0.toInteger())
+
+
+
+
+[EOL] assertThat(content)
+
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder3.capacity())  [EOL]    
+[EOL]       assertEquals('U', charRange1.getEnd())  [EOL]       assertEquals('~', charRange0.getEnd())
+
+[EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int1))  [EOL]       assertFalse(integer0.equals((Object)int2))  [EOL]       assertFalse(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+
+[EOL] assertNotNull(response)
+
+
+[EOL] assertThat(result.size(), is(2))
+[EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder2.size())  [EOL]       assertEquals(18, strBuilder3.size())  [EOL]    
+[EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("0.0", stringBuilder0.toString())  [EOL]       assertEquals("0.0", stringBuilder1.toString())  [EOL]       assertEquals("0", stringBuilder0.toString())  [EOL]       assertEquals("0", stringBuilder1.toString())  [EOL]       assertEquals("0", stringBuilder0.toString())  [EOL]       assertEquals("0", stringBuilder1.toString())  [EOL]       assertEquals("0", stringBuilder2.toString())  [EOL]       assertEquals("0", stringBuilder0.toString())  [EOL]       assertEquals("0", stringBuilder0
+
+[EOL]       assertEquals("\"", string0)
+
+[EOL]       assertEquals(0.0, double0, 0.01)
+[EOL]       assertEquals(8, shortArray1.length)
+[EOL]       assertEquals((short)1, mutableShort0.shortValue())
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]   
+[EOL]       assertEquals((byte) (-71), byte0)
+
+
+[EOL] assertFalse(feature.isEnabled())
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder_StrBuilderTokenizer0.isEmptyTokenAsNull())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder_StrBuilderTokenizer0.isEmptyTokenAsNull())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder_StrBuilderTokenizer0.isEmptyTokenAsNull())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder_StrBuilderTokenizer0.isEmptyToken
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder3.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+
+
+
+[EOL]       assertFalse(set0.isEmpty())
+
+[EOL]       assertTrue(boolean0)
+
+[EOL]       assertEquals(7, byteArray0.length)  [EOL]       assertEquals(7, byteArray0.length)
+
+[EOL]       assertEquals("class", class0.toString())
+
+
+[EOL]       assertEquals(2, charSequenceArray0.length)  [EOL]       assertEquals(9, stringArray0.length)  [EOL]       assertEquals(2, charSequenceArray0.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())
+
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string0))  [EOL]       assertTrue(string2.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string1))  [EOL]       assertTrue(string3.equals((Object)string0))  [EOL]       assertTrue(string3.equals((Object)string2))  [EOL]       assertTrue(string4.equals((Object)string2))  [EOL]       assertTrue(string4.equals((Object)string1))  [EOL]       assertTrue(string4.equals((Object)string0))  [EOL]       assertTrue(
+[EOL]       assertEquals(1, strBuilder0.length())
+[EOL]       assertSame(strTokenizer0, strTokenizer1)
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(416, strBuilder0.length())  [EOL]       assertEquals(416, strBuilder1.length())
+[EOL]       assertEquals("java.util.ServiceLoader[java.lang.Integer]", serviceLoader0.toString())  [EOL]       assertEquals("java.util.ServiceLoader[java.nio.CharBuffer]", serviceLoader0.toString())  [EOL]       assertEquals("java.util.ServiceLoader[java.lang.CharBuffer]", serviceLoader0.toString())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.get
+
+[EOL] assertThat(console.getLink(), is(0))
+
+
+[EOL]       assertEquals((-1693551291), (int)hashCodeBuilder0.build())
+
+
+
+[EOL]       assertTrue(equalsBuilder1.build())  [EOL]       assertFalse(equalsBuilder4.build())
+
+[EOL]       assertEquals(3225.013, fraction0.doubleValue(), 0.01)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(3, strBuilder0.size())  [EOL]       assertEquals(3, strBuilder1.size())  [EOL]       assertEquals(7, strBuilder0.size())  [EOL]       assertEquals(7, strBuilder2.size())  [EOL]       assertEquals(13, strBuilder0.size())  [EOL]       assertEquals(13, strBuilder3.size())  [EOL]       assertEquals(65, strBuilder0.size())  [EOL]       assertEquals(65, strBuilder1.size())  [EOL]       assertEquals(65, strBuilder3.size())  [EOL]    
+[EOL]       assertTrue(equalsBuilder4.isEquals())  [EOL]       assertFalse(equalsBuilder4.isEquals())
+[EOL]       assertEquals(0.0, fraction1.doubleValue(), 0.01)
+[EOL]       assertNull(string0)
+[EOL] assertTrue(feature.isEnabled())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder1.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder3.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]    
+[EOL]       assertEquals("-", string0)
+
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())
+
+[EOL]       assertEquals("n", charBuffer0.toString())  [EOL]       assertEquals("", charBuffer0.toString())  [EOL]       assertEquals("", charBuffer1.toString())  [EOL]       assertEquals("en_CA", locale0.toString())  [EOL]       assertEquals("en_CA", locale0.toString())  [EOL]       assertEquals("en_CA", locale0.toString())
+[EOL]       assertEquals(12, strBuilder0.length())  [EOL]       assertEquals(12, strBuilder0.length())  [EOL]       assertEquals(12, strBuilder0.length())
+
+[EOL]       assertEquals(10, strBuilder0.length())  [EOL]       assertEquals(10, strBuilder0.length())  [EOL]       assertEquals(21, strBuilder0.length())  [EOL]       assertEquals(21, strBuilder1.length())  [EOL]       assertEquals(21, strBuilder0.length())  [EOL]       assertEquals(21, strBuilder2.length())  [EOL]       assertEquals(21, strBuilder0.length())  [EOL]       assertEquals(21, strBuilder2.length())
+[EOL]       assertFalse(string0.equals((Object)string0))
+[EOL] assertFalse(manager.isEmpty())
+[EOL]       assertEquals(Double.NaN, double0, 0.01)
+[EOL]       assertEquals((byte) (-1), byte0)
+
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL] [EOL] assertNotNull(actual); [EOL] assertNotNull(actual.getGuid())
+
+
+
+[EOL]       assertTrue(equalsBuilder2.isEquals())  [EOL]       assertFalse(equalsBuilder1.isEquals())
+
+[EOL]       assertEquals(3, objectArray0.length)
+
+
+[EOL] assertEquals(expected, actual)
+[EOL]       assertSame(equalsBuilder2, equalsBuilder4)
+
+[EOL] assertThat(result.size(), is(2))
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.get
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+[EOL]       assertTrue(boolean0)
+[EOL] [EOL] Assert.assertFalse(result)
+
+[EOL]       assertTrue(boolean0)
+
+[EOL]       assertEquals('U', charRange1.getStart())  [EOL]       assertEquals('{', charRange0.getStart())
+[EOL]       assertFalse(class1.isEnum())
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertEquals(89, compareToBuilder0.toComparison())
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL]       assertEquals(0, hashCodeBuilder0.toHashCode())
+[EOL]       assertTrue(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())  [EOL]       assertFalse(linkedHashSet0.isEmpty())
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.get
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]   
+
+
+[EOL] [EOL] assertTrue(isRunning())
+
+[EOL]       assertEquals("V", string0)
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL]       assertEquals("java", string0)
+
+[EOL]       assertEquals(10, strBuilder0.size())  [EOL]       assertEquals(10, strBuilder0.size())  [EOL]       assertEquals(10, strBuilder1.size())  [EOL]       assertEquals(114, strBuilder0.size())  [EOL]       assertEquals(114, strBuilder0.size())
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertEquals((-1), int0)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder0.size())  [EOL]       assertEquals(29, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder0.size())  [EOL]       assertEquals(81, strBuilder1.size())  [EOL]       assertEquals(81, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder3.size())  [EOL]    
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())
+
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder3.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder4.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]    
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]    
+
+[EOL]       assertEquals(416, strBuilder0.capacity())  [EOL]       assertEquals(416, strBuilder0.capacity())  [EOL]       assertEquals(416, strBuilder1.capacity())
+
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder1.length())  [EOL]       assertEquals(51, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder1.length())  [EOL]       assertEquals(51, strBuilder2.length())  [EOL]       assertEquals(51, strBuilder0.length())  [EOL]    
+
+[EOL]       assertFalse(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder2.equals((Object)strBuilder2))  [EOL]       assertFalse(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder2.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder0.equals((Object)strBuilder2))  [EOL]       assertFalse(strBuilder2.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder2.equals((Object)
+
+
+[EOL]       assertEquals(1, fraction1.getDenominator())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]    
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder4.getNullText())  [EOL]       assertNull(strBuilder4.get
+[EOL]       assertEquals('\', char0)
+
+[EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0.contains("*aKUDx7dwU3mi-y:{"))  [EOL]       assertFalse(arrayList0
+[EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())
+
+[EOL]       assertFalse(strMatcher1.equals((Object)strMatcher0))  [EOL]       assertFalse(strMatcher0.equals((Object)strMatcher1))
+
+[EOL]       assertEquals(4, booleanArray0.length)
+
+[EOL] assertThat(get).isEqualTo(1)
+[EOL]       assertEquals(0.0, double0, 0.01)
+
+[EOL] 		assertTrue(2.containsKey("1"))
+
+
+[EOL]       assertEquals(2, standardToStringStyle0.getArrayStart())
+[EOL]       assertTrue(hashSet0.contains(sQLInvalidAuthorizationSpecException0))
+[EOL] [EOL] Assert.assertEquals(1, result.getAll().size())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder1.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder2.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder2.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder2.length())  [EOL]    
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+
+
+[EOL]       assertEquals(",", string0)
+[EOL]       assertEquals((-129L), long0)
+[EOL] assertThat(lastSyncTime.getApiName(), is(0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder4.getNewLineText())  [EOL]       assertNull(strBuilder4.getNewLineText())  [EOL]    
+[EOL]       assertEquals(9, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder2.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]    
+[EOL]       assertEquals(5, floatArray1.length)
+[EOL]       assertEquals((-1), mutableDouble0.intValue())
+[EOL] [EOL] assertThat(formController.getAllForms(), is(1))
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder1.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder3.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]    
+[EOL] assertThat(response.getApiName(), is(0))
+
+[EOL]       assertEquals(41, strBuilder0.capacity())  [EOL]       assertEquals(212, strBuilder0.capacity())  [EOL]       assertEquals(212, strBuilder1.capacity())  [EOL]       assertEquals(212, strBuilder0.capacity())  [EOL]       assertEquals(212, strBuilder2.capacity())  [EOL]       assertEquals(212, strBuilder0.capacity())  [EOL]       assertEquals(212, strBuilder2.capacity())  [EOL]       assertEquals(212, strBuilder3.capacity())  [EOL]       assertEquals(212, strBuilder0.capacity())  [EOL]       assertEquals(212, strBuilder1.capacity())  [EOL]    
+[EOL]       assertTrue(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+[EOL]       assertEquals("\"Kr^K5)xi3M!@H]nX\"'Z", string0)
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray1.length)
+
+
+[EOL] [EOL] assertTrue(controller.containsKey(expected))
+[EOL] [EOL] assertEquals(expectedResult, actualResponse)
+
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(9, strBuilder0.length())  [EOL]       assertEquals(9, strBuilder2.length())  [EOL]       assertEquals(9, strBuilder0.length())  [EOL]       assertEquals(9, strBuilder3.length())
+[EOL]       assertEquals("-", string0)
+
+
+
+
+
+[EOL] [EOL] assertThat(response.getHeaders().size(), is(1))
+
+[EOL]       assertNull(format0)
+[EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder1.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder1.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder2.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]       assertEquals("", stringBuilder0.toString())  [EOL]    
+
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, stack0.size())  [EOL]       assertEquals(0, stack0.size())  [EOL]       assertEquals(0, stack0.size())  [EOL]       assertEquals(0, stack0.size())  [EOL]       assertEquals(0, stack0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder2.size())  [EOL]       assertEquals
+
+[EOL]       assertEquals((-129L), long0)
+
+[EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder1.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, charArray0.length)  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder1.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]    
+[EOL]       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0}, doubleArray1, 0.01)
+[EOL]       assertEquals('4', char0)
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())
+[EOL]       assertEquals(1771439486, int0)
+[EOL] assertThat(result.getA(), is(1))
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder4.getNullText())  [EOL]       assertNull(strBuilder1.get
+[EOL]       assertTrue(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder2.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder2))  [EOL]       assertFalse(strBuilder3.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder4.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder4.equals((Object)
+[EOL]       assertNull(mutablePair1)
+[EOL]       assertEquals('X', charRange0.getEnd())
+[EOL]       assertEquals("//", charBuffer0.toString())  [EOL]       assertEquals("", charBuffer0.toString())  [EOL]       assertEquals("", charBuffer1.toString())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(2822, strBuilder0.size())  [EOL]       assertEquals(29, strBuilder2.size())  [EOL]       assertEquals(2975, strBuilder0.size())  [EOL]       assertEquals(2975, strBuilder2.size())  [EOL]       assertEquals(2975, strBuilder3.size())
+
+[EOL]       assertFalse(boolean0)
+
+[EOL]       assertEquals(1, int0)
+
+[EOL] assertEquals(expected, actual)
+
+
+[EOL]       assertNull(integer0)
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray1.length)  [EOL]       assertEquals(1, charArray0.length)  [EOL]       assertEquals(1, stringArray1.length)
+[EOL]       assertEquals(45, strBuilder0.capacity())  [EOL]       assertEquals(45, strBuilder0.capacity())  [EOL]       assertEquals(45, strBuilder1.capacity())
+
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray1.length)
+[EOL] assertEquals(2, arrayList.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))
+
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder1.size())
+[EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(stringArray1.equals((Object)stringArray0))
+
+
+[EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(102, strBuilder0.capacity())  [EOL]       assertEquals(102, strBuilder1.capacity())  [EOL]       assertEquals(102, strBuilder0.capacity())  [EOL]       assertEquals(102, strBuilder1.capacity())  [EOL]       assertEquals(102, strBuilder2.capacity())  [EOL]       assertEquals(102, strBuilder0.capacity())  [EOL]       assertEquals(102, strBuilder1.capacity())  [EOL]       assertEquals(102, strBuilder2.capacity())  [EOL]       assertEquals(102, strBuilder3.capacity())  [EOL]    
+[EOL] [EOL] assertThat(result.getCause()).isTrue()
+
+[EOL]       assertFalse(equalsBuilder4.build())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())
+[EOL]       assertEquals("MockThrowable: : ", string0)
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder1.size())
+[EOL] [EOL] assertFalse(url.isEmpty())
+[EOL]       assertFalse(arrayDeque0.contains(strBuilder0))  [EOL]       assertFalse(arrayDeque0.contains(strBuilder0))  [EOL]       assertFalse(arrayDeque0.contains(strBuilder1))
+
+[EOL]       assertNull(string0)
+
+[EOL]       assertEquals(0, charArray0.length)  [EOL]       assertEquals(0, stringArray0.length)  [EOL]       assertEquals(0, charArray0.length)
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())
+[EOL]       assertEquals('6', charRange1.getStart())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())
+[EOL] assertTrue(result.isEmpty())
+
+
+[EOL] assertFalse(result)
+
+[EOL]       assertTrue(Arrays.equals(new boolean[] {true, true, true, true}, booleanArray0))
+[EOL]       assertEquals((short)0, (short)mutableShort0.toShort())
+
+
+
+[EOL]       assertNotSame(doubleArray1, doubleArray0)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder4.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder4.get
+
+
+[EOL]       assertFalse(stringArray1.equals((Object)stringArray0))  [EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(stringArray0.equals((Object)stringArray1))  [EOL]       assertFalse(stringArray1.equals((Object)stringArray0))  [EOL]       assertFalse(stringArray2.equals((Object)stringArray0))  [EOL]       assertFalse(stringArray1.equals((Object)stringArray0))  [EOL]       assertFalse(stringArray0.equals((Object)stringArray1))
+[EOL]       assertEquals(1, strBuilder0.length())
+[EOL] assertThat(data.getStatus(), is(0))
+
+
+
+[EOL]       assertSame(shortArray1, shortArray0)
+
+
+
+
+[EOL]       assertEquals((-414), fraction1.getNumerator())
+[EOL]       assertEquals(0L, long0)
+
+
+[EOL] assertThat(console.getLink(), is(0))
+
+
+[EOL]       assertEquals(39, fraction2.getDenominator())
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertEquals(1, strBuilder0.length())
+
+[EOL]       assertTrue(boolean0)
+[EOL]       assertEquals("", string0)
+
+
+[EOL]       assertEquals(0, int0)
+
+
+[EOL]       assertNotSame(stringArray1, stringArray0)
+
+[EOL]       assertEquals(0, objectArray1.length)
+[EOL]       assertEquals(34, strBuilder0.capacity())  [EOL]       assertEquals(34, strBuilder0.capacity())
+
+
+[EOL]       assertEquals('J', strSubstitutor1.getEscapeChar())
+
+[EOL]       assertEquals(21, strBuilder0.size())  [EOL]       assertEquals(21, strBuilder0.size())  [EOL]       assertEquals(21, strBuilder1.size())  [EOL]       assertEquals(21, strBuilder0.size())  [EOL]       assertEquals(21, strBuilder2.size())  [EOL]       assertEquals(21, strBuilder0.size())  [EOL]       assertEquals(21, strBuilder3.size())  [EOL]       assertEquals(21, strBuilder0.size())  [EOL]       assertEquals(21, strBuilder4.size())  [EOL]       assertEquals(21, strBuilder0.size())  [EOL]    
+
+[EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer1.toString())  [EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())
+[EOL]       assertEquals(0, (int)integer1)
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder2.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder3.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder3.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]    
+
+
+
+
+[EOL]       assertTrue(equalsBuilder3.isEquals())  [EOL]       assertFalse(equalsBuilder1.isEquals())
+
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+
+
+
+
+[EOL] assertEquals(expected, actual)
+[EOL] assertThat(response.getStatus(), is(0))
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray1.length)  [EOL]       assertEquals(1, stringArray2.length)  [EOL]       assertEquals(8, charArray0.length)
+[EOL]       assertEquals(">", standardToStringStyle0.getContentStart())
+[EOL]       assertEquals((short) (-697), short0)
+
+[EOL]       assertEquals("5", string0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]    
+[EOL] assertThat(get).isEqualTo(0)
+
+
+
+
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertSame(typeArray0, typeArray0)
+[EOL]       assertEquals((byte) (-18), (byte)byte0)
+[EOL]       assertEquals("FastDateParser0.getPattern())
+[EOL]       assertEquals((-520), hashCodeBuilder0.toHashCode())
+
+[EOL] assertThat(controller.getAllCohorts(), is(0))
+
+[EOL]       assertNull(long0)
+[EOL] [EOL] assertThat(muzimaSyncService.size(), is(0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder4.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())
+[EOL]       assertEquals(0, strBuilder0.getStart())
+
+
+[EOL]       assertSame(sQLNonTransientConnectionExceptionArray0, sQLNonTransientConnectionException1)
+[EOL]       assertTrue(linkedHashSet0.isEmpty())  [EOL]       assertTrue(linkedHashSet0.isEmpty())  [EOL]       assertTrue(linkedHashSet0.isEmpty())  [EOL]       assertTrue(linkedHashSet0.isEmpty())  [EOL]       assertTrue(linkedHashSet0.isEmpty())
+[EOL]       assertTrue(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder2.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder3.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertTrue(strBuilder2.equals((Object)strBuilder0))  [EOL]       assertTrue(strBuilder0.equals((Object)
+
+[EOL]       assertEquals(0, int0)
+
+[EOL]       assertEquals(7, longArray0.length)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]    
+
+[EOL]       assertEquals(6, stringArray0.length)
+
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))
+
+
+
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())
+
+[EOL]       assertEquals('3', char0)
+[EOL]       assertFalse(string2.equals((Object)string1))
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+
+[EOL]       assertNull(concurrentRuntimeException0)
+[EOL] [EOL] assertEquals(expectedTime, actualResponse)
+[EOL] assertThat(data.getStatus(), is("foo"))
+[EOL]       assertEquals("6cG]", string0)
+[EOL]       assertEquals(0, charBuffer0.length())  [EOL]       assertEquals(0, stringArray0.length)  [EOL]       assertEquals(0, charBuffer0.length())  [EOL]       assertEquals(0, charBuffer0.length())
+
+[EOL]       assertTrue(boolean0)
+[EOL]       assertEquals(7, charArray0.length)  [EOL]       assertEquals(7, charBuffer0.length())  [EOL]       assertEquals(7, charArray0.length)  [EOL]       assertEquals(7, charBuffer0.length())  [EOL]       assertEquals(7, charBuffer0.length())  [EOL]       assertEquals(7, charArray0.length)  [EOL]       assertEquals(7, charArray0.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer
+
+[EOL]       assertEquals((byte)1, (byte)byte0)
+
+
+
+[EOL]       assertEquals((-17), int0)
+[EOL] assertNull(result.getValue())
+[EOL]       assertEquals('.', charRange0.getEnd())  [EOL]       assertEquals('.', charRange1.getEnd())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder2.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(6, strBuilder2.size())  [EOL]       assertEquals(6, strBuilder3.size())  [EOL]    
+
+[EOL]       assertFalse(standardToStringStyle0.isFieldSeparator())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder1.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder1.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder1.size())  [EOL]       assertEquals(6, strBuilder2.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]    
+[EOL]       assertEquals(1, charSequenceArray0.length)  [EOL]       assertEquals(1, charSequenceArray0.length)  [EOL]       assertEquals(1, charSequenceArray0.length)  [EOL]       assertEquals(1, charSequenceArray0.length)
+
+
+
+[EOL] assertFalse(result)
+
+[EOL]       assertEquals("4", string0)
+@Test [EOL] public void testRange() { [EOL] assertThat(range).isNotNull()
+[EOL] [EOL] assertFalse(muzimaSyncService.isEmpty())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder2.length())  [EOL]       assertEquals(13, strBuilder0.length())  [EOL]       assertEquals(13, strBuilder3.length())  [EOL]       assertEquals(65, strBuilder0.length())  [EOL]       assertEquals(65, strBuilder1.length())  [EOL]       assertEquals(65, strBuilder3.length())  [EOL]    
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]    
+[EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)  [EOL]       assertEquals(0, charSequenceArray0.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer
+[EOL]       assertEquals("]", string0)
+
+
+[EOL]       assertTrue(boolean0)
+[EOL]       assertEquals(0, compareToBuilder1.toComparison())
+[EOL]       assertEquals(7, charArray0.length)  [EOL]       assertEquals(7, charArray0.length)
+
+
+
+
+[EOL]       assertEquals("", stringWriter0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder2.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder2.length())  [EOL]       assertEquals(0, strBuilder3.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]    
+
+[EOL] [EOL] assertThat(date.getTime(), is(0))
+
+
+[EOL]       assertEquals(39, fraction1.getDenominator())
+
+[EOL]       assertEquals(9, strBuilder0.size())
+
+[EOL] [EOL] assertEquals(1, actual.size())
+
+
+[EOL]       assertEquals(9, strBuilder0.length())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder4.get
+
+[EOL]       assertEquals(0.0F, float0, 0.01F)
+[EOL]       assertEquals((-2091), (int)integer1)
+
+
+[EOL]       assertNull(locale0)
+[EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))  [EOL]       assertFalse(treeSet0.contains(""))
+[EOL]       assertNull(object0)
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL] [EOL] assertThat(controller.getLastSyncTime(), is(uuid))
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertTrue(vector0.isEmpty())  [EOL]       assertTrue(vector0.isEmpty())  [EOL]       assertTrue(vector1.isEmpty())  [EOL]       assertTrue(vector0.isEmpty())  [EOL]       assertTrue(vector2.isEmpty())  [EOL]       assertTrue(vector2.isEmpty())  [EOL]       assertTrue(vector0.isEmpty())  [EOL]       assertTrue(vector2.isEmpty())
+[EOL]       assertEquals('%', charRange0.getEnd())
+[EOL]       assertTrue(equalsBuilder2.isEquals())
+[EOL]       assertEquals(0, serviceLoader0.size())
+[EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray0.length)  [EOL]       assertEquals(1, stringArray1.length)  [EOL]       assertEquals(8, shortArray0.length)
+
+[EOL]       assertEquals("\"0", string0)
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())
+[EOL]       assertEquals(0, int0)
+
+
+[EOL]       assertEquals((short) (-445), short0)
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder_StrBuilderTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder_StrBuilderTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())
+[EOL]       assertEquals(0, int0)
+
+
+
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+[EOL] assertThat(get).isEqualTo(0)
+[EOL]       assertEquals(0, charBuffer0.length())  [EOL]       assertEquals(0, charBuffer0.length())  [EOL]       assertEquals(0, charBuffer0.length())
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer0.isEmptyTokenAsNull())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strTokenizer
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))
+
+[EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertFalse(strBuilder_StrBuilderReader0.ready())  [EOL]       assertFalse(strBuilder_StrBuilderReader0.ready())  [EOL]       assertFalse(strBuilder_StrBuilderReader0.ready())  [EOL]       assertFalse(strBuilder_StrBuilderReader0.ready())
+[EOL]       assertEquals(0, stringArray0.length)
+[EOL]       assertEquals(0, hashCodeBuilder0.toHashCode())
+
+[EOL] 		assertEquals(1, count.get())
+
+[EOL] assertThat(result).isNotNull()
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder2.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder2.length())
+[EOL] [EOL] assertNotNull(result); [EOL] assertTrue(result.isCompletedExceptionally())
+
+
+[EOL] [EOL] assertEquals(1, config.getValue())
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))
+[EOL]       assertEquals(0, strTokenizer0.previousIndex())
+
+
+@Test [EOL] public void getRange() { [EOL] assertThat(range).isEqualTo(0)
+
+[EOL]       assertEquals(41, strBuilder0.length())  [EOL]       assertEquals(41, strBuilder0.length())  [EOL]       assertEquals(41, strBuilder1.length())  [EOL]       assertEquals(41, strBuilder0.length())  [EOL]       assertEquals(41, strBuilder2.length())  [EOL]       assertEquals(41, strBuilder0.length())  [EOL]       assertEquals(41, strBuilder3.length())
+
+[EOL]       assertEquals(0.0F, (float)float0, 0.01F)
+
+
+[EOL]       assertEquals("1", string0)
+[EOL]       assertEquals((-129L), long0)
+[EOL]       assertEquals(0, byteArray1.length)
+[EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string3))
+[EOL]       assertEquals(9, stringBuilder0.length())
+
+
+
+
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder1.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder2.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder3.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]       assertEquals(4, strBuilder0.size())  [EOL]    
+
+
+
+
+[EOL]       assertEquals(4, longArray1.length)
+[EOL]       assertEquals(2743, stringBuffer0.length())
+
+
+[EOL]       assertEquals("V", string0)
+
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())
+
+[EOL]       assertEquals(45, strBuilder0.capacity())  [EOL]       assertEquals(45, strBuilder0.capacity())  [EOL]       assertEquals(45, strBuilder0.capacity())
+
+[EOL] assertThat(actual).isNotNull()
+
+
+[EOL]       assertArrayEquals(new short[] {}, shortArray1)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque1.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.isEmpty())  [EOL]       assertTrue(arrayDeque0.is
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(651, strBuilder0.length())  [EOL]       assertEquals(651, strBuilder2.length())  [EOL]       assertEquals(651, strBuilder0.length())  [EOL]       assertEquals(651, strBuilder3.length())  [EOL]       assertEquals(651, objectArray0.length)  [EOL]       assertEquals(651, strBuilder0.length())  [EOL]       assertEquals(651, strBuilder4.length())  [EOL]    
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(117, strBuilder0.size())  [EOL]       assertEquals(117, strBuilder1.size())  [EOL]       assertEquals(117, strBuilder0.size())  [EOL]       assertEquals(117, strBuilder0.size())  [EOL]       assertEquals(117, strBuilder0.size())
+
+[EOL]       assertSame(shortArray0, shortArray1)
+
+
+[EOL]       assertFalse(standardToStringStyle0.isFieldSeparatorAtStart())  [EOL]       assertFalse(standardToStringStyle0.isFieldSeparatorAtEnd())
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.get
+
+[EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)
+
+
+
+[EOL]       assertEquals((-1), compareToBuilder0.toComparison())
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(1, strBuilder2.size())  [EOL]       assertEquals(1, strBuilder3.size())  [EOL]    
+[EOL]       assertEquals(85.0F, float0, 0.01F)
+
+[EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.ready())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]       assertEquals(16, strBuilder3.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]    
+[EOL]       assertEquals(4, doubleArray1.length)
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())
+
+
+
+[EOL]       assertFalse(linkedHashSet0.contains(string0))  [EOL]       assertFalse(linkedHashSet0.contains(string0))  [EOL]       assertFalse(linkedHashSet0.contains(string1))  [EOL]       assertFalse(linkedHashSet0.contains(string1))  [EOL]       assertFalse(linkedHashSet0.contains(string1))  [EOL]       assertFalse(linkedHashSet0.contains(string2))  [EOL]       assertFalse(linkedHashSet0.contains(string0))  [EOL]       assertFalse(linkedHashSet0.contains(string1))  [EOL]       assertFalse(linkedHashSet0.contains(string2))  [EOL]       assertFalse(
+[EOL]       assertEquals(1, fraction1.getNumerator())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder3.get
+
+
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertFalse(linkedHashSet0.contains(strBuilder0))  [EOL]       assertFalse(vector0.contains(strBuilder0))  [EOL]       assertFalse(vector0.contains(strBuilder1))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder0))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder1))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder2))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder0))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder1))  [EOL]       assertFalse(linkedHashSet0.contains(strBuilder2))  [EOL]    
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertEquals(0, stringBuffer0.length())
+
+
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder2.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder2.isEmpty())
+[EOL] assertThat(s.size(), is(2)); [EOL] assertThat(res).isTrue()
+
+[EOL]       assertEquals(0.75F, fraction2.floatValue(), 0.01F)
+[EOL] assertEquals(2, future.get())
+[EOL]       assertEquals(6, charSequenceArray0.length)  [EOL]       assertEquals(6, charSequenceArray0.length)
+[EOL]       assertNull(charArray1)
+
+
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())
+
+[EOL]       assertEquals((short)0, short0)
+
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder2.size())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(8, strBuilder0.size())
+[EOL]       assertEquals(')', charRange0.getEnd())
+
+
+
+
+[EOL] [EOL] Assert.assertFalse(result)
+
+[EOL]       assertTrue(charRange1.isNegated())  [EOL]       assertTrue(charRange0.isNegated())
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())
+[EOL]       assertFalse(mutableFloat1.equals((Object)mutableFloat0))
+[EOL]       assertEquals(0, stringArray1.length)
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())
+[EOL]       assertEquals(72, strBuilder0.capacity())  [EOL]       assertEquals(72, strBuilder0.capacity())  [EOL]       assertEquals(72, strBuilder1.capacity())  [EOL]       assertEquals(72, strBuilder0.capacity())  [EOL]       assertEquals(72, strBuilder2.capacity())  [EOL]       assertEquals(72, strBuilder0.capacity())  [EOL]       assertEquals(72, strBuilder3.capacity())
+
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(8, strBuilder1.length())  [EOL]       assertEquals(8, strBuilder0.length())  [EOL]       assertEquals(8, strBuilder1.length())  [EOL]       assertEquals(8, strBuilder2.length())  [EOL]       assertEquals(8, strBuilder0.length())  [EOL]       assertEquals(8, strBuilder1.length())  [EOL]       assertEquals(8, strBuilder2.length())  [EOL]    
+[EOL]       assertTrue(equalsBuilder1.isEquals())  [EOL]       assertFalse(equalsBuilder0.isEquals())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder1.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder2.size())  [EOL]       assertEquals(6, strBuilder0.size())  [EOL]       assertEquals(6, strBuilder3.size())
+[EOL]       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01)
+
+
+[EOL]       assertFalse(equalsBuilder1.build())  [EOL]       assertFalse(equalsBuilder0.build())
+[EOL]       assertEquals("", string0)
+[EOL]       assertSame(defaultExceptionContext2, defaultExceptionContext0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+[EOL] [EOL] assertThat(muzimaSyncService.size(), is(0))
+[EOL]       assertEquals(1392409281320L, long0)
+[EOL] assertThat(m).isEqualTo(1)
+
+
+
+[EOL] assertThat(get).isEqualTo(0)
+[EOL]       assertEquals('a', char0)
+[EOL] assertTrue(result)
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]   
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder0.length())  [EOL]       assertEquals(7, strBuilder1.length())
+[EOL]       assertNull(string0)
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]    
+[EOL] assertThat(intent.getAction()).isEqualTo(progress)
+[EOL]       assertSame(intArray0, intArray1)
+[EOL]       assertEquals(1, list0.size())
+[EOL] [EOL] assertThat(muzimaSyncService.size(), is(0))
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]   
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))
+[EOL]       assertArrayEquals(new float[] {1.2F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray1, 0.01F)
+[EOL]       assertEquals(2, longArray1.length)
+
+
+[EOL] assertThat(length)
+
+[EOL]       assertEquals(9, strBuilder0.size())  [EOL]       assertEquals(106, strBuilder0.size())  [EOL]       assertEquals(106, strBuilder1.size())  [EOL]       assertEquals(110, strBuilder0.size())  [EOL]       assertEquals(110, strBuilder2.size())  [EOL]       assertEquals(114, strBuilder0.size())  [EOL]       assertEquals(114, strBuilder2.size())  [EOL]       assertEquals(114, strBuilder3.size())  [EOL]       assertEquals(109, strBuilder0.size())  [EOL]       assertEquals(109, strBuilder1.size())  [EOL]    
+
+[EOL]       assertFalse(equalsBuilder2.build())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder1.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder2.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]       assertEquals(6, strBuilder3.length())  [EOL]       assertEquals(6, strBuilder0.length())  [EOL]    
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())
+[EOL] [EOL] assertEquals(expectedUser, actualUser)
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))
+
+[EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder2.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder0.equals((Object)strBuilder1))  [EOL]       assertFalse(strBuilder1.equals((Object)strBuilder0))  [EOL]       assertFalse(strBuilder3.equals((Object)strBuilder1))
+
+
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())
+
+[EOL]       assertTrue(boolean0)
+
+[EOL] [EOL] assertTrue(controller.contains(expected))
+[EOL] assertEquals(2, future.get())
+[EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())  [EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())
+
+[EOL]       assertEquals((short)6, short0)
+[EOL]       assertEquals(10000.0F, fraction0.floatValue(), 0.01F)
+
+[EOL]       assertEquals((byte) (-44), byte0)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())
+[EOL] [EOL] assertTrue(result.isEmpty())
+[EOL]       assertEquals("java", string0)
+[EOL]       assertEquals("\"", string0)
+
+[EOL]       assertEquals(0, strTokenizer1.nextIndex())
+[EOL] assertThat(content) [EOL] .isNotNull()
+[EOL]       assertEquals(1, strBuilder0.length())
+
+[EOL]       assertEquals(JavaVersion.JAVA_1_4, javaVersion0)
+
+[EOL]       assertTrue(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int1))  [EOL]       assertFalse(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int2))  [EOL]       assertFalse(integer0.equals((Object)int1))  [EOL]       assertFalse(integer0.equals((Object)int0))  [EOL]       assertFalse(integer0.equals((Object)int2))  [EOL]       assertFalse(integer0.equals((Object)int1))  [EOL]       assertFalse(integer0.equals((Object)int0))  [EOL]       assertFalse(
+[EOL] [EOL] Assert.assertFalse(result)
+[EOL]       assertEquals("0", string0)
+[EOL] assertEquals(1, trail.size())
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder0.size())  [EOL]       assertEquals(29, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder0.size())  [EOL]       assertEquals(81, strBuilder1.size())  [EOL]       assertEquals(81, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder3.size())  [EOL]    
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.get
+[EOL]       assertFalse(list0.isEmpty())
+
+
+[EOL]       assertEquals(1444, short0)
+
+[EOL] assertNotNull(response)
+
+
+
+[EOL]       assertFalse(arrayList0.contains(0))  [EOL]       assertFalse(arrayList0.contains(0))  [EOL]       assertFalse(arrayList0.contains(0))  [EOL]       assertFalse(arrayList0.contains(0))
+[EOL]       assertEquals(1764.0, double0, 0.01)
+[EOL]       assertSame(integerArray1, integerArray0)
+
+[EOL]       assertEquals(4, byteArray1.length)
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque1.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque0.isEmpty())  [EOL]       assertFalse(arrayDeque1.isEmpty())  [EOL]       assertFalse(arrayDeque0.is
+
+[EOL]       assertNull(double0)
+
+[EOL]       assertEquals((-37), hashCodeBuilder0.toHashCode())
+[EOL]       assertEquals(6L, long0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder0.size())  [EOL]       assertEquals(29, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder0.size())  [EOL]       assertEquals(81, strBuilder1.size())  [EOL]       assertEquals(81, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder3.size())  [EOL]    
+[EOL]       assertFalse(arrayDeque0.contains(int0))  [EOL]       assertFalse(arrayDeque0.contains(int0))
+
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder0.size())  [EOL]       assertEquals(27, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder0.size())  [EOL]       assertEquals(29, strBuilder1.size())  [EOL]       assertEquals(29, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder0.size())  [EOL]       assertEquals(81, strBuilder1.size())  [EOL]       assertEquals(81, strBuilder2.size())  [EOL]       assertEquals(81, strBuilder3.size())  [EOL]    
+[EOL]       assertNull(locale0)
+
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())
+[EOL]       assertTrue(integer0.isDone())
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())
+
+
+[EOL]       assertEquals(3, strBuilder0.size())
+
+[EOL] assertThat(result).isNotNull()
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.get
+
+[EOL]       assertEquals(629, hashCodeBuilder0.toHashCode())
+[EOL]       assertTrue(equalsBuilder3.build())
+[EOL] assertThat(get).isEqualTo(0)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(1, strBuilder2.size())  [EOL]       assertEquals(1, strBuilder0.size())  [EOL]    
+[EOL]       assertTrue(strBuilder_StrBuilderReader0.markSupported())
+[EOL]       assertArrayEquals(new float[] {1.2F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray1, 0.01F)
+
+
+
+
+
+[EOL]       assertEquals("float", class0.toString())
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder4.get
+
+[EOL]       assertEquals(1, longArray1.length)
+[EOL] assertFalse(result)
+
+[EOL]       assertEquals("", stringBuffer0.toString())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, strBuilder2.length())  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]    
+
+
+[EOL] assertThat(result.size(), is(2))
+
+
+
+[EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string4.equals((Object)string2))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))
+[EOL]       assertEquals(2, (int)integer2)
+[EOL] [EOL] Assert.assertFalse(result)
+[EOL]       assertEquals(8, stringArray0.length)  [EOL]       assertEquals(8, stringArray0.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+
+
+[EOL]       assertEquals(2, charArray0.length)  [EOL]       assertEquals(2, stringArray0.length)  [EOL]       assertEquals(2, charArray0.length)  [EOL]       assertEquals(2, stringArray1.length)
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(3, strBuilder0.size())  [EOL]       assertEquals(3, strBuilder1.size())  [EOL]       assertEquals(7, strBuilder0.size())  [EOL]       assertEquals(7, strBuilder2.size())  [EOL]       assertEquals(13, strBuilder0.size())  [EOL]       assertEquals(13, strBuilder3.size())  [EOL]       assertEquals(65, strBuilder0.size())  [EOL]       assertEquals(65, strBuilder1.size())  [EOL]       assertEquals(65, strBuilder3.size())  [EOL]    
+
+[EOL]       assertEquals(4, booleanArray0.length)
+
+[EOL]       assertEquals(9, stringArray0.length)  [EOL]       assertEquals(9, stringArray1.length)
+[EOL]       assertEquals(8, booleanArray1.length)
+
+[EOL]       assertFalse(linkedList0.contains(0))  [EOL]       assertFalse(linkedList0.contains(0))  [EOL]       assertFalse(linkedList0.contains(0))  [EOL]       assertFalse(linkedList0.contains(0))
+[EOL]       assertEquals("t", string0)
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+
+[EOL]       assertArrayEquals(new byte[] {(byte)0}, byteArray1)
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())
+[EOL]       assertNull(method1)
+[EOL]       assertEquals(">", standardToStringStyle0.getArraySeparator())
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(4, strBuilder2.length())  [EOL]       assertEquals(4, strBuilder0.length())  [EOL]       assertEquals(4, strBuilder1.length())  [EOL]       assertEquals(4, strBuilder3.length())  [EOL]       assertEquals(4, charArray0.length)  [EOL]       assertEquals(4, strBuilder0.length())  [EOL]       assertEquals(4, strBuilder1.length())  [EOL]    
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(hashSet0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+[EOL] [EOL] assertThat(muzimaSyncService.size(), is(0))
+
+[EOL] assertTrue(result)
+
+[EOL]       assertEquals((-17), hashCodeBuilder0.toHashCode())
+[EOL] assertThat(config.getAttributes()).isNull()
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+
+
+
+
+[EOL]       assertEquals(1.0, double0, 0.01)
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.get
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.get
+
+[EOL] assertEquals(expected, actual)
+[EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())
+
+[EOL] [EOL] assertFalse(muzimaSyncService.isEmpty())
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder1.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder1.length())
+
+
+[EOL]       assertTrue(string1.equals((Object)string0))  [EOL]       assertFalse(string2.equals((Object)string1))  [EOL]       assertFalse(string2.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string0))
+[EOL]       assertEquals((-1693551291), hashCodeBuilder0.toHashCode())  [EOL]       assertEquals((-1693551291), hashCode())
+[EOL]       assertEquals("\\u0080", string0)
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder2.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder3.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]    
+[EOL]       assertEquals("", string0)
+[EOL]       assertEquals(2, strBuilder0.size())  [EOL]       assertEquals(2, strBuilder0.size())
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())
+
+[EOL]       assertEquals('6', charRange0.getStart())  [EOL]       assertEquals('6', charRange1.getStart())
+[EOL]       assertEquals('$', strSubstitutor0.getEscapeChar())
+[EOL]       assertEquals(1817.0, double0, 0.01)
+[EOL]       assertEquals((-205.12820512820514), fraction2.doubleValue(), 0.01)
+
+[EOL] [EOL] Assert.assertFalse(result)
+[EOL]       assertEquals('6', charRange1.getEnd())
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())
+[EOL]       assertEquals((-160.0), fraction1.doubleValue(), 0.01)
+
+[EOL]       assertEquals("Fri Feb 14 20:21:21 GMT 2014", date0.toString())
+[EOL]       assertNull(executionException0.getMessage())
+
+[EOL]       assertEquals("The charBuffer0.toString())  [EOL]       assertEquals("", charBuffer0.toString())
+[EOL]       assertTrue(boolean0)
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder3.capacity())  [EOL]    
+[EOL]       assertEquals(0.0, double0, 0.01)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder0.length())  [EOL]       assertEquals(1, strBuilder1.length())  [EOL]       assertEquals(1, strBuilder2.length())
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]   
+
+[EOL] [EOL] Assert.assertFalse(result)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]   
+[EOL]       assertEquals(5, charArray0.length)  [EOL]       assertEquals(5, charSequenceArray0.length)  [EOL]       assertEquals(5, charArray0.length)
+[EOL]       assertNull(string0)
+
+[EOL] [EOL] assertFalse(user.isEmpty())
+
+[EOL] assertTrue(result)
+[EOL]       assertFalse(set0.contains(string0))  [EOL]       assertFalse(set0.contains(string0))
+[EOL]       assertEquals(2, stringArray0.length)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder1.isEmpty())  [EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertTrue(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+
+
+
+
+
+
+
+
+[EOL] [EOL] Assert.assertFalse(result)
+
+[EOL]       assertTrue(boolean0)
+[EOL]       assertEquals((-560.0F), float0, 0.01F)
+
+[EOL] [EOL] Assert.assertNull(result)
+
+[EOL]       assertEquals(1, int0)
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder0.size())  [EOL]       assertEquals(5, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]       assertEquals(16, strBuilder3.size())  [EOL]       assertEquals(16, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]    
+
+
+
+
+[EOL]       assertFalse(strBuilder_StrBuilderTokenizer1.equals((Object)strBuilder_StrBuilderTokenizer0))  [EOL]       assertFalse(strBuilder_StrBuilderTokenizer1.equals((Object)strBuilder_StrBuilderTokenizer0))  [EOL]       assertFalse(strBuilder_StrBuilderTokenizer1.equals((Object)strBuilder_StrBuilderTokenizer0))
+
+
+[EOL]       assertEquals((byte)1, byte0)
+
+[EOL]       assertEquals(1, strBuilder0.length())
+
+[EOL] assertTrue(result)
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]   
+[EOL]       assertFalse(boolean0)
+
+[EOL] [EOL] assertThat(content)
+[EOL] assertThat(response.getBodyAsString(), is("response"))
+[EOL]       assertEquals('*', char0)
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder0.length())  [EOL]       assertEquals(5, strBuilder1.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]       assertEquals(16, strBuilder3.length())  [EOL]       assertEquals(16, strBuilder0.length())  [EOL]       assertEquals(16, strBuilder2.length())  [EOL]    
+[EOL]       assertSame(equalsBuilder5, equalsBuilder4)
+[EOL]       assertEquals((-1.0), fraction1.doubleValue(), 0.01)
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]   
+
+[EOL]       assertEquals(0L, long0)
+
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())  [EOL]       assertNull(strBuilder3.getNullText())  [EOL]       assertNull(strBuilder0.get
+
+[EOL]       assertEquals(938L, fraction2.longValue())
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(7, strBuilder1.size())  [EOL]       assertEquals(7, strBuilder0.size())  [EOL]       assertEquals(7, strBuilder2.size())  [EOL]       assertEquals(7, strBuilder0.size())  [EOL]       assertEquals(7, strBuilder2.size())  [EOL]       assertEquals(7, strBuilder3.size())  [EOL]    
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]   
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder2.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder3.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]       assertEquals(16, strBuilder4.size())  [EOL]       assertEquals(16, strBuilder1.size())  [EOL]    
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder1.size())  [EOL]       assertEquals(18, strBuilder0.size())  [EOL]       assertEquals(18, strBuilder2.size())  [EOL]       assertEquals(18, strBuilder3.size())  [EOL]    
+
+
+
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]    
+[EOL]       assertFalse(boolean0)
+[EOL]       assertEquals("", stringBuffer0.toString())  [EOL]       assertEquals("", stringBuffer0.toString())
+
+
+[EOL]       assertFalse(hashMap1.isEmpty())
+
+[EOL]       assertEquals(43, strBuilder0.capacity())
+[EOL]       assertEquals(0, objectArray1.length)
+
+[EOL] [EOL] assertFalse(url.isEmpty())
+
+
+[EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]    
+
+
+
+[EOL]       assertFalse(string1.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string3.equals((Object)string2))  [EOL]       assertFalse(string3.equals((Object)string0))  [EOL]       assertFalse(string3.equals((Object)string1))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string3))  [EOL]       assertFalse(string4.equals((Object)string0))  [EOL]       assertFalse(
+[EOL] assertThat(expected).isEqualTo(actual)
+[EOL] Assert.assertEquals("bar", result)
+[EOL]       assertEquals(0, int0)
+[EOL]       assertEquals(7, shortArray0.length)  [EOL]       assertEquals(7, shortArray0.length)  [EOL]       assertEquals(7, shortArray0.length)
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder0.length())  [EOL]       assertEquals(3, strBuilder1.length())  [EOL]       assertEquals(9, strBuilder0.length())  [EOL]       assertEquals(9, strBuilder2.length())  [EOL]       assertEquals(14, strBuilder0.length())  [EOL]       assertEquals(14, strBuilder3.length())  [EOL]       assertEquals(66, strBuilder0.length())  [EOL]       assertEquals(66, strBuilder1.length())  [EOL]       assertEquals(66, strBuilder3.length())  [EOL]    
+
+
+
+[EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder0.getNullText())  [EOL]       assertNull(strBuilder1.getNullText())  [EOL]       assertNull(strBuilder2.getNullText())
+
+
+
+
+
+[EOL] assertFalse(feature.isEnabled())
+
+[EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder0.length())  [EOL]       assertEquals(0, strBuilder1.length())  [EOL]       assertEquals(0, strBuilder2.length())  [EOL]       assertEquals(0, strBuilder0.length())
+[EOL]       assertNotSame(longArray1, longArray0)
+[EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder2.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]       assertNull(strBuilder0.getNewLineText())  [EOL]       assertNull(strBuilder1.getNewLineText())  [EOL]       assertNull(strBuilder3.getNewLineText())  [EOL]    
+
+[EOL]       assertEquals(42, strBuilder0.capacity())  [EOL]       assertEquals(42, strBuilder0.capacity())  [EOL]       assertEquals(42, strBuilder0.capacity())  [EOL]       assertEquals(228, strBuilder0.capacity())  [EOL]       assertEquals(228, strBuilder1.capacity())  [EOL]       assertEquals(228, strBuilder0.capacity())  [EOL]       assertEquals(228, strBuilder1.capacity())  [EOL]       assertEquals(228, strBuilder2.capacity())  [EOL]       assertEquals(228, strBuilder0.capacity())  [EOL]       assertEquals(228, strBuilder1.capacity())  [EOL]    
+[EOL]       assertEquals(4, booleanArray1.length)
+[EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder1.capacity())  [EOL]       assertEquals(32, strBuilder0.capacity())  [EOL]       assertEquals(32, strBuilder2.capacity())  [EOL]       assertEquals(4048, strBuilder0.capacity())  [EOL]       assertEquals(4048, strBuilder2.capacity())  [EOL]       assertEquals(4048, strBuilder3.capacity())  [EOL]       assertEquals(4048, strBuilder0.capacity())  [EOL]       assertEquals(4048, strBuilder2.capacity())  [EOL
+[EOL]       assertEquals((-3157.652F), float0, 0.01F)
+[EOL]       assertEquals("org.apache.commons.lang3.StringUtils", string0)
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]       assertFalse(strBuilder4.isEmpty())  [EOL]   
+
+[EOL]       assertNull(shortArray0)
+
+[EOL] [EOL] assertThat(res.size(), is(2))
+
+
+
+
+[EOL] assertEquals(2, future.get())
+
+[EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())  [EOL]       assertEquals(0, strBuilder1.size())  [EOL]       assertEquals(0, strBuilder0.size())
+[EOL]       assertEquals("<size=", string0)
+[EOL]       assertSame(stackArray0, stringArray1)
+[EOL]       assertEquals(16, fieldArray0.length)
+
+[EOL]       assertTrue(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder1.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder2.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]       assertFalse(strBuilder0.isEmpty())  [EOL]       assertFalse(strBuilder3.isEmpty())  [EOL]   
+@Test [EOL] public void testGetClassName() { [EOL] assertEquals(String.fromString(""))
+[EOL] assertEquals(expected, actual)
+
+
+[EOL] assertEquals(1, eventListener.getCause())
+[EOL] assertThat(length)
+
+@Test [EOL] public void testGetClassName() { [EOL] assertEquals(String, Utils.decode(String(""))
+
+
+
