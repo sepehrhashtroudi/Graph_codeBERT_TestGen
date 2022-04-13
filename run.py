@@ -612,7 +612,7 @@ def main():
                             if 0 in t:
                                 t=t[:t.index(0)]
                             text = tokenizer.decode(t,clean_up_tokenization_spaces=False)
-                            beams = beams + " ########## " + text
+                            beams = beams + " [#####beam#####] " + text
                         p.append(beams)
             model.train()
             predictions=[]
