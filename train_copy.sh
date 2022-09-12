@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --gres=gpu:4       # Request GPU "generic resources"
 #SBATCH --cpus-per-task=10  # Refer to cluster's documentation for the right CPU/GPU ratio
-#SBATCH --mem=100000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
-#SBATCH --time=3-03:00     # DD-HH:MM:SS
+#SBATCH --mem=80000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
+#SBATCH --time=2-03:00     # DD-HH:MM:SS
 
 source ./Env/bin/activate
 source ./ENV/bin/activate

@@ -15,9 +15,9 @@ batch_size=16
 beam_size=10
 source_length=510
 target_length=240
-output_dir=saved_models/dec_6_evosuite_last_data_contex_Assert_graphcodebert_510_240/$source-$target/
-train_file=dataset/evosuit/Evosuit_train_Assert.$source,dataset/evosuit/Evosuit_train_Assert.$target
-dev_file=dataset/evosuit/Evosuit_test_Assert.$source,dataset/evosuit/Evosuit_test_Assert.$target
+output_dir=saved_models/dec_6_evosuite_last_3_data_contex_graphcodebert_510_240/$source-$target/
+train_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
+dev_file=dataset/evosuit/Evosuit_test.$source,dataset/evosuit/Evosuit_test.$target
 # train_file=dataset/small/train_evo_80.$source,dataset/small/train_evo_80.$target
 # dev_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
 epochs=20
@@ -41,6 +41,6 @@ python run.py \
 --train_batch_size $batch_size \
 --eval_batch_size $batch_size \
 --learning_rate $lr \
---cal_blue 0 \
+--cal_blue 1 \
 --num_train_epochs $epochs 2>&1| tee $output_dir/train.log 
 

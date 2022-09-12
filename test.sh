@@ -5,7 +5,7 @@
 #SBATCH --time=1-8:00     # DD-HH:MM:SS
 
 source ./Env/bin/activate
-
+source ./ENV/bin/activate
 
 source=methods
 target=tests
@@ -14,9 +14,9 @@ beam_size=10
 source_length=512
 target_length=320
 batch_size=64
-output_dir=saved_models/dec_10_fulldata_graphcodebert/$source-$target/
-dev_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
-test_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
+output_dir=saved_models/dec_6_line2test_data_graphcodebert_500_400/$source-$target/
+dev_file=dataset/line2test/test_sorted.$source,dataset/line2test/test_sorted.$target
+test_file=dataset/line2test/test_sorted.$source,dataset/line2test/test_sorted.$target
 # dev_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
 # test_file=dataset/evosuit/Evosuit_train.$source,dataset/evosuit/Evosuit_train.$target
 load_model_path=$output_dir/checkpoint-best-bleu/pytorch_model.bin #checkpoint for test

@@ -15,8 +15,8 @@ beam_size=10
 source_length=510
 target_length=240
 batch_size=64
-output_dir=saved_models/dec_6_evosuite_last_data_contex_Assert_graphcodebert_510_240/$source-$target/
-test_file=dataset/evosuit/Evosuit_Assert.$source,dataset/evosuit/Evosuit_Assert.$target
+output_dir=saved_models/dec_6_evosuite_last_3_data_contex_graphcodebert_510_240/$source-$target/
+test_file=dataset/evosuit/Evosuit_small.$source,dataset/evosuit/Evosuit_small.$target
 # test_file=dataset/evosuit/Evosuit_test_lang3.$source,dataset/evosuit/Evosuit_test_lang3.$target
 # test_file=dataset/combined/eval_combined.$source,dataset/combined/eval_combined.$target
 # test_file=dataset/small/eval_evo_80.$source,dataset/small/eval_evo_80.$target
@@ -39,5 +39,5 @@ python run.py \
 --max_source_length $source_length \
 --max_target_length $target_length \
 --beam_size $beam_size \
---cal_blue 0 \
+--cal_blue 1 \
 --eval_batch_size $batch_size 2>&1| tee $output_dir/test.log
