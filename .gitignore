@@ -3,4 +3,4 @@
 *.bin
 /graphcodebert-base
 /dataset
-
+/__pycache__
