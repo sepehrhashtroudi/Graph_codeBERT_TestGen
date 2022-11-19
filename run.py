@@ -420,7 +420,7 @@ def main():
     if args.do_train:
         # Prepare training data loader
         train_examples = read_examples(args.train_filename)
-        train_examples = random.sample(train_examples,min(1000,len(train_examples)))
+        # train_examples = random.sample(train_examples,min(1000,len(train_examples)))
         train_features = convert_examples_to_features(train_examples, tokenizer,args,stage='train')
         train_data = TextDataset(train_features,args)
         train_sampler = RandomSampler(train_data)

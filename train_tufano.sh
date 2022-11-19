@@ -4,8 +4,8 @@
 #SBATCH --mem=100000M       # Memory proportional to GPUs: 32000 Cedar, 47000 Béluga, 64000 Graham.
 #SBATCH --time=3-03:00     # DD-HH:MM:SS
 
-source ./Env/bin/activate
-source ./ENV/bin/activate
+# source ./Env/bin/activate
+source ./ENV_T5/bin/activate
 
 
 source=methods
