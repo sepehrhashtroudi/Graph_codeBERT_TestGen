@@ -420,6 +420,7 @@ def main():
     if args.do_train:
         # Prepare training data loader
         train_examples = read_examples(args.train_filename)
+        train_examples = random.sample(train_examples,min(1000,len(train_examples)))
         train_features = convert_examples_to_features(train_examples, tokenizer,args,stage='train')
         train_data = TextDataset(train_features,args)
         train_sampler = RandomSampler(train_data)
@@ -472,7 +473,7 @@ def main():
                     scheduler.step()
                     global_step += 1
 
-            if args.do_eval and epoch in [ int(args.num_train_epochs*(i+1)//20) for i in range(20)]:
+            if args.do_eval:
                 #Eval model with dev dataset
                 tr_loss = 0
                 nb_tr_examples, nb_tr_steps = 0, 0                     
